@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Multiple JSON Data Sources for AngularJS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+    <meta name="author" content="Brian Cribb">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  </head>
+  <body class="position-relative">
+    <div class="skippy visually-hidden-focusable overflow-hidden">
+      <div class="container">
+        <a class="d-inline-flex p-2 m-1" href="#main-content">Skip to main content</a>
+      </div>
+    </div>
+    <div id="content" class="content mb-0">
+      <header class="main-header sticky-top">
+  <nav class="navbar-wrap bg-primary">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="/">The Mighty Cribb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/webdev/">
+                  Webdev
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/races/">
+                  Races
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">
+                  Blog
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">
+                  Contact
+                </a>
+              </li>
+            
+          
+        </ul>
+        <div class="d-flex navbar-search-form ps-sm-3">
+          <div class="input-group">
+            <input disabled id="tmc-search-input" type="text" class="form-control tmc-search" placeholder="Search..." aria-label="Search input" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+              <button disabled id="tmc-search-button" class="tmc-search btn btn-outline-light my-sm-0 btn-top-search" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+
+      <main id="main-content" role="main">
+        <div class="container py-3">
+	<h1>Multiple JSON Data Sources for AngularJS</h1>
+
+
+	<div class="d-sm-flex">
+
+		<small class="d-block flex-sm-grow-1 mb-3">
+			<time class="d-block text-muted" datetime="">November 17, 2015</time>
+
+			
+
+			
+
+		</small>
+
+		
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+
+
+<div class="flex-sm-shrink-0">
+  <div class="btn-group btn-group mb-3">
+    
+      <a title="Event Delegation without jQuery" class="btn btn-primary text-white border border-white" rel="prev" href="/event-delegation-without-jquery/">
+        <i class="fas fa-chevron-left"></i>
+        <span class="d-md-none">Previous</span>
+      </a>
+    
+
+    
+      <a title="Document Fragments and jQuery and Star Trek" class="btn btn-primary text-white border border-white" rel="next" href="/document-fragments-jquery-star-trek/">
+        <span class="d-md-none">Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+	</div>
+	<figure class="aligncenter">
+  <img alt="AngularJS full logo" src="/generated/assets/img/posts/2015/AngularJS-logo-wide-695-79e8aab06.png" srcset="/generated/assets/img/posts/2015/AngularJS-logo-wide-400-79e8aab06.png 400w, /generated/assets/img/posts/2015/AngularJS-logo-wide-695-79e8aab06.png 695w" />
+
+</figure>
+
+<div class="alert alert-primary" role="note">
+  <p><strong>Edit -</strong> This was written before Google announced that they were going to build the next version of Angular differently from the ground up, it wouldn&#8217;t be backward-compatible, and anyone who built big apps with the first version were suckers.</p>
+
+  <p>I would delete this post entirely, but there are companies out there who already have apps that they can&#8217;t abandon the way Google abandoned them. If this post helps anyone learn how to work on those legacy apps, then it&#8217;s worth leaving it up.</p>
+</div>
+
+<p>If you have more than one data source for your AngularJS app, then you’ll need them all completed before the thing runs. Although this is a common problem, solutions can be hard to find on the Unhelpful Interwebs. But don’t worry, I <strong>promise</strong> we can solve it. <em>(See what I did there?)</em></p>
+
+<h3 id="the-problem-is-data">The Problem is Data</h3>
+
+<p>There are plenty of places where people ask about this, but there never seems to be an answer that fits my use case or works without first writing other code that no one will specify. And of course, there are people who seem to delight in missing the point of a Stack Overflow post and repeatedly answer a question that the original poster didn’t ask. So I’m just going to tell you my use case right now, and hopefully it matches up with what you’re doing.</p>
+
+<p>I have two different data sources that I want to pull before AngularJS does anything. I want to pull them from the Intertubes, do some stuff with them and then present them as one big data object which I will store in a service. The data doesn’t change often, so I don’t want to bother the server every time I change views or something.</p>
+
+<p>I also don’t want to use jQuery because it’s bad for early AngularJS users. You can end up doing things the jQuery way, and that will send you down a rabbit hole of errors to solve which have nothing to do with your goals. This can be avoided if you start with just AngularJS and then add the jQuery stuff later when you’re more comfortable.</p>
+
+<p>It took me a bit of digging, but I finally worked out a solution. I have a way to get multiple data sources loaded before your AngularJS app runs away without you and slings errors all over the place like an angry toddler.</p>
+
+<h3 id="promises-promises">Promises, Promises…</h3>
+
+<p>Much of this depends upon promises, which are kind of hard to explain without going deep into geekspeak. The general idea is that you promise to do something later. You tell the browser to run a function, but only after some data comes back from the server. This sort of happens in jQuery’s success() callback for it’s ajax() method, but deferred objects are a better example.</p>
+
+<p>So anyway, you might have an init() function that should only kick off when two AJAX calls return data from the server. Except that the server is going to give you JSON in whatever format it wants, which is different from what you need. You don’t get to change this. For the purpose of this example, you do not control the data. Does everyone hear that? <em>You do not control the data. At all.</em> <strong>Not even a bit.</strong></p>
+
+<p>I say this because there’s always (at least) one jackass on Stack Overflow who reads “I don’t control the data” and then tells people to change the server-side code so the data will be better. Then the original poster has to repeat “I don’t control the data” over and over, and the guy still doesn’t listen. People like this will go to the <strong>Special Hell</strong>.</p>
+
+<figure class="aligncenter">
+  <img alt="Shepherd Book from the Firefly TV Show" src="/generated/assets/img/posts/2015/firefly-our-mrs-reynolds-book-the-special-hell-800-6e3ed46cf.jpg" srcset="/generated/assets/img/posts/2015/firefly-our-mrs-reynolds-book-the-special-hell-400-6e3ed46cf.jpg 400w, /generated/assets/img/posts/2015/firefly-our-mrs-reynolds-book-the-special-hell-800-6e3ed46cf.jpg 800w, /generated/assets/img/posts/2015/firefly-our-mrs-reynolds-book-the-special-hell-1000-6e3ed46cf.jpg 1000w" />
+
+  <figcaption>You can also go there for talking at the theater.</figcaption>
+</figure>
+
+<p>But I digress. The point is that you have to pull in two different AJAX calls and transform/combine the data into what you need for your app. If you want to skip the explanation and just see the results then you can <a href="https://jsfiddle.net/briancribb/ov165dvc/" target="_blank" rel="noopener">check out this fiddle</a>. Otherwise, let’s talk about the code.</p>
+
+<h3 id="not-for-first-day-beginners">Not for First-Day Beginners</h3>
+
+<p>This is not for beginning AngularJS developers. I’m just showing you how I got past a particular problem. To follow it,  need to be familiar enough to make sense of the online documentation, which I managed by taking courses from Code School. The <a rel="noopener" href="https://www.codeschool.com/courses/shaping-up-with-angular-js" target="_blank">first course is free</a>, but I strongly recommend taking the second course as well. One month of membership costs less than many of the books I’ve bought over the years.</p>
+
+<h3 id="starting-the-app">Starting the App</h3>
+
+<p>There’s plenty of documentation in the comments for <a href="https://jsfiddle.net/briancribb/ov165dvc/" target="_blank" rel="noopener">this fiddle</a>, but I’ll go over the high points here.First I’ll start by declaring my module. Nothing fancy here. A larger application might have stuff going on in this first bit, but I’m just doing a couple of little things with a service and a controller.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="dl">"</span><span class="s2">myApp</span><span class="dl">"</span><span class="p">,</span> <span class="p">[]);</span></code></pre></figure>
+
+<p>After declaring the module, I made a service factory and a controller. The service factory is a bit different from the basic service because you can do stuff before returning the final object. I didn’t in this case, but I still used a factory because I want to become more familiar with their use.</p>
+
+<h3 id="the-service">The Service</h3>
+
+<p>I’m writing the service and controller as if they’re in separate files, which is why you can see me declaring the module again. But this doesn’t create a duplicate. The module already exists at this point, so this is just a reference to it.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/* Service: This would normally be in another file. */</span>
+<span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="dl">'</span><span class="s1">myApp</span><span class="dl">'</span><span class="p">)</span>
+<span class="p">.</span><span class="nx">factory</span><span class="p">(</span><span class="dl">'</span><span class="s1">myService</span><span class="dl">'</span><span class="p">,</span> <span class="p">[</span><span class="dl">'</span><span class="s1">$http</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">$q</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span> <span class="nx">myServiceFactory</span><span class="p">(</span><span class="nx">$http</span><span class="p">,</span> <span class="nx">$q</span><span class="p">)</span> <span class="p">{</span>
+  <span class="cm">/* Because this is a factory, you can do code stuff here before you return. */</span>
+  <span class="k">return</span> <span class="p">{</span>
+    <span class="na">getData</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+      <span class="kd">var</span> <span class="nx">BostonURL</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">http://maps.googleapis.com/maps/api/geocode/json?address=Boston%20MA</span><span class="dl">"</span><span class="p">;</span>
+      <span class="kd">var</span> <span class="nx">NewYorkURL</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">http://maps.googleapis.com/maps/api/geocode/json?address=New%20York%20NY</span><span class="dl">"</span><span class="p">;</span>
+ 
+      <span class="kd">var</span> <span class="nx">defer</span> <span class="o">=</span> <span class="nx">$q</span><span class="p">.</span><span class="nx">defer</span><span class="p">();</span> 
+      <span class="kd">var</span> <span class="nx">BostonData</span> <span class="o">=</span> <span class="nx">$http</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">BostonURL</span><span class="p">,</span> <span class="p">{</span> <span class="na">cache</span><span class="p">:</span> <span class="dl">'</span><span class="s1">true</span><span class="dl">'</span><span class="p">});</span>
+      <span class="kd">var</span> <span class="nx">NewYorkData</span> <span class="o">=</span> <span class="nx">$http</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="nx">NewYorkURL</span><span class="p">,</span> <span class="p">{</span> <span class="na">cache</span><span class="p">:</span> <span class="dl">'</span><span class="s1">true</span><span class="dl">'</span><span class="p">});</span>
+ 
+      <span class="nx">$q</span><span class="p">.</span><span class="nx">when</span><span class="p">(</span> <span class="nx">$q</span><span class="p">.</span><span class="nx">all</span><span class="p">([</span><span class="nx">BostonData</span><span class="p">,</span> <span class="nx">NewYorkData</span><span class="p">])</span> <span class="p">).</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">finalData</span> <span class="o">=</span> <span class="p">[</span><span class="nx">data</span><span class="p">[</span><span class="mi">0</span><span class="p">].</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="nx">data</span><span class="p">[</span><span class="mi">1</span><span class="p">].</span><span class="nx">data</span><span class="p">.</span><span class="nx">results</span><span class="p">[</span><span class="mi">0</span><span class="p">]];</span>
+        <span class="nx">defer</span><span class="p">.</span><span class="nx">resolve</span><span class="p">(</span><span class="nx">finalData</span><span class="p">);</span>
+      <span class="p">});</span>
+      <span class="k">return</span> <span class="nx">defer</span><span class="p">.</span><span class="nx">promise</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}]);</span></code></pre></figure>
+
+<p>This is where the magic happens. I have two different URL’s going to Google for some simple city information. Those are both being used by the <code class="highlighter-rouge">$http</code> service with <code class="highlighter-rouge">cache</code> enabled. Any subsequent calls to the service with the exact same url (including parameters) will be pulled from a cache object instead of going to the Internet to retrieve the exact same information again. Either way, the <code class="highlighter-rouge">$http</code> service returns a promise rather than a set result. For details on this, go to the <a href="https://docs.angularjs.org/api/ng/service/$http" target="_blank" rel="noopener">docs page for <code>cache</code></a> and do a Find for “Caching”.</p>
+
+<p>The next bit is the <code class="highlighter-rouge">.when()</code> method of the <code class="highlighter-rouge">$q</code> service.</p>
+
+<figure class="aligncenter">
+  <img alt="Picard and Q in the Ready Room" src="/generated/assets/img/posts/2015/Picard_Q_Ready_Room-800-3698af9cf.jpg" srcset="/generated/assets/img/posts/2015/Picard_Q_Ready_Room-400-3698af9cf.jpg 400w, /generated/assets/img/posts/2015/Picard_Q_Ready_Room-800-3698af9cf.jpg 800w, /generated/assets/img/posts/2015/Picard_Q_Ready_Room-1000-3698af9cf.jpg 1000w" />
+
+  <figcaption>No, not this one. He didn&#8217;t provide much service.</figcaption>
+</figure>
+
+<p>This is where promises and deferred things come into play, so it’s worth a trip to the docs page for the <code class="highlighter-rouge">$q</code> service to see how things are put together. Do a Find for “when(” to see the method and its arguments. The <code class="highlighter-rouge">when().then()</code> combo sets up a promise and a function to run when it resolves. Inside that, I use the <code class="highlighter-rouge">all()</code> method to list my url promises. <code class="highlighter-rouge">BostonData</code> doesn’t represent the data for Boston. It represents a promise for that data. The <code class="highlighter-rouge">all()</code> method will resolve when everything it’s waiting for has completed on way or another. When that’s done, the <code class="highlighter-rouge">when()</code> will resolve, and that in turn will fire the function for <code class="highlighter-rouge">then()</code>.</p>
+
+<p>This is confusing stuff, but it’s worth learning. The general idea is that I have a bunch of promises that only resolve when other, previous promises resolve. I could have any number of data calls inside that <code class="highlighter-rouge">all()</code> method, and it wouldn’t resolve until all of them are completed or rejected.</p>
+
+<p>So after all of this crazy stuff is done, I’m left inside the <code class="highlighter-rouge">then()</code> function. By this point, everything is done and I just need to dress up the data and return it. For that, I need one last promise. It’s the one I declared at the top, like so:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript">  <span class="kd">var</span> <span class="nx">defer</span> <span class="o">=</span> <span class="nx">$q</span><span class="p">.</span><span class="nx">defer</span><span class="p">();</span></code></pre></figure>
+
+<p>This is a generic deferred object, and it doesn’t rely upon any data. I’m going to set this one to resolve on my own once I get into that <code class="highlighter-rouge">then()</code> function. After I turn the data from both url’s into an array of two city names, I tell the <code class="highlighter-rouge">defer</code> variable to resolve. I’m going to tell my controller to wait for this, and to do its stuff only after this is finished.</p>
+
+<h3 id="the-controller">The Controller</h3>
+
+<p>The controller uses the array syntax so I can reference the <code class="highlighter-rouge">$scope</code> object and my service. The array syntax looks weird, but it’s useful because not using it can sometimes cause things to go wacky when your code is minified. There might be other reasons, but I didn’t research that any further because I know that the syntax always works and some of the experts I’ve read from prefer it. I’ve decided to make it a standard for my AngularJS work.</p>
+
+<p>To sum up the syntax, you add all of your dependencies as strings, and then you put in a function as the last thing in the array. That function gets all of the other stuff you’ve named as regular variable arguments. You can see below that “myService” is a string at first, and then it’s not in quotes when used as an argument. Oh, and don’t forget the closing square bracket at the end.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="cm">/* Controller */</span>
+<span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="dl">'</span><span class="s1">myApp</span><span class="dl">'</span><span class="p">)</span>
+<span class="p">.</span><span class="nx">controller</span><span class="p">(</span><span class="dl">'</span><span class="s1">MyCtrl</span><span class="dl">'</span><span class="p">,</span> <span class="p">[</span><span class="dl">'</span><span class="s1">$scope</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">myService</span><span class="dl">'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">myService</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">that</span> <span class="o">=</span> <span class="k">this</span><span class="p">;</span>
+  <span class="nx">myService</span><span class="p">.</span><span class="nx">getData</span><span class="p">().</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
+    <span class="nx">that</span><span class="p">.</span><span class="nx">cities</span> <span class="o">=</span> <span class="nx">data</span><span class="p">;</span>
+  <span class="p">});</span>
+<span class="p">}]);</span></code></pre></figure>
+
+<p>I’ve set a single property for this controller called <code class="highlighter-rouge">cities</code>, because I know that I’m going to serve up some city names. I’ve cached “this” to a variable called <code class="highlighter-rouge">that</code> because I don’t want to worry about JavaScript scope. You don’t always have to do this, but it doesn’t hurt anything and I’m not writing something so massive that the sky will fall if I have one extra line. I like to know that I’m still referencing the controller, and I like to be able to set properties for it even if I’m inside a function within its scope.</p>
+
+<p>I hate to even use the word “scope” here, because AngularJS has a property called <code class="highlighter-rouge">$scope</code> and sometimes it’s referred to as <code class="highlighter-rouge">scope</code> and if you get them confused in an explanation then the reader is screwed. Just to be clear, in the previous paragraph I was just talking about JavaScript scope. That’s what governs what <code class="highlighter-rouge">this</code> will reference in a particular situation.</p>
+
+<p>The controller waits for the data to come back because all of its functionality lives inside the <code class="highlighter-rouge">then()</code> function. This is why that confusing heap of promises were important. Nothing in this controller will cause any trouble until that <code class="highlighter-rouge">defer</code> object resolves.</p>
+
+<h3 id="the-markup">The Markup</h3>
+
+<p>So now I just need some HTML to tie all of this together. There isn’t much to it, really. I have my app, my controller and a basic use of the <code class="highlighter-rouge">ng-repreat</code> directive.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">ng-app=</span><span class="s">"myApp"</span> <span class="na">class=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;ul</span> <span class="na">ng-controller=</span><span class="s">"MyCtrl as ctrl"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">ng-repeat=</span><span class="s">"city in ctrl.cities"</span><span class="nt">&gt;&lt;/li&gt;</span>
+  <span class="nt">&lt;/ul&gt;</span>
+<span class="nt">&lt;/div&gt;</span></code></pre></figure>
+
+<p>And voila! Assuming that I haven’t completely screwed up my explanations, you should be able to figure out how I did this.</p>
+
+<div class="alert alert-primary" role="note">
+  Or you can just <a href="https://jsfiddle.net/briancribb/ov165dvc/" target="_blank">look at the fiddle</a>. As I mentioned, I put a bunch of documenting comments into that thing.
+</div>
+
+<p>Hopefully this will match up with someone else’s use case. Remember to read those docs about the <code class="highlighter-rouge">$q</code> service.</p>
+
+
+	
+	
+
+	<div class="btn-group btn-group mb-3 d-flex">
+		
+		<a title="Event Delegation without jQuery" class="btn btn-primary text-white border border-white w-50" rel="prev" href="/event-delegation-without-jquery/">
+			<div class="d-flex">
+				<div class="align-self-center">
+					<i class="fas fa-chevron-left me-2 d-md-none"></i>
+					<i class="fas fa-chevron-left me-2 d-none d-md-inline fa-2x"></i>
+				</div>
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Event Delegation without jQuery</span>
+					<span class="d-md-none">Previous</span>
+				</div>
+			</div>
+		</a>
+		
+
+		
+		<a title="Document Fragments and jQuery and Star Trek" class="btn btn-primary text-white border border-white w-50" rel="next" href="/document-fragments-jquery-star-trek/">
+			<div class="d-flex justify-content-end">
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Document Fragments and jQuery and Star Trek</span>
+					<span class="d-md-none">Next</span>
+				</div>
+				<div class="align-self-center">
+					<i class="fas fa-chevron-right ms-2 d-md-none"></i>
+					<i class="fas fa-chevron-right ms-2 d-none d-md-inline fa-2x"></i>
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+    <footer id="main-footer" class="main-footer py-3 bg-primary text-white">
+      <div class="container">
+        <p class="mb-0"><small><em>&copy; Brian Cribb 2020</em></small></p>
+      </div>
+    </footer>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/javascript" src="/assets/js/scripts.js" charset="utf-8"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" ></script>
+  </body>
+</html>

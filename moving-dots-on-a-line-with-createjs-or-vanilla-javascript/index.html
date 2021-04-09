@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moving Dots on a Line with CreateJS or Vanilla JavaScript</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+    <meta name="author" content="Brian Cribb">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  </head>
+  <body class="position-relative">
+    <div class="skippy visually-hidden-focusable overflow-hidden">
+      <div class="container">
+        <a class="d-inline-flex p-2 m-1" href="#main-content">Skip to main content</a>
+      </div>
+    </div>
+    <div id="content" class="content mb-0">
+      <header class="main-header sticky-top">
+  <nav class="navbar-wrap bg-primary">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="/">The Mighty Cribb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/webdev/">
+                  Webdev
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/races/">
+                  Races
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">
+                  Blog
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">
+                  Contact
+                </a>
+              </li>
+            
+          
+        </ul>
+        <div class="d-flex navbar-search-form ps-sm-3">
+          <div class="input-group">
+            <input disabled id="tmc-search-input" type="text" class="form-control tmc-search" placeholder="Search..." aria-label="Search input" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+              <button disabled id="tmc-search-button" class="tmc-search btn btn-outline-light my-sm-0 btn-top-search" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+
+      <main id="main-content" role="main">
+        <div class="container py-3">
+	<h1>Moving Dots on a Line with CreateJS or Vanilla JavaScript</h1>
+
+
+	<div class="d-sm-flex">
+
+		<small class="d-block flex-sm-grow-1 mb-3">
+			<time class="d-block text-muted" datetime="">March 13, 2015</time>
+
+			
+
+			
+
+		</small>
+
+		
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+
+
+<div class="flex-sm-shrink-0">
+  <div class="btn-group btn-group mb-3">
+    
+      <a title="Star Trek Warp Distance Calculator" class="btn btn-primary text-white border border-white" rel="prev" href="/star-trek-warp-distance-calculator/">
+        <i class="fas fa-chevron-left"></i>
+        <span class="d-md-none">Previous</span>
+      </a>
+    
+
+    
+      <a title="Spider-Man Knows When You Leave His Browser Tab" class="btn btn-primary text-white border border-white" rel="next" href="/spider-man-knows-when-you-leave-his-browser-tab/">
+        <span class="d-md-none">Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+	</div>
+	<p>Recently I spent a rather large amount of time working on a silly star map that no one is likely to ever look at until after I’m famous and long dead, when it will be uncovered by digital archaeologists and mistaken for primitive astronomy.</p>
+
+<p>I have a point, I swear. Just give me a moment to process my thoughts.</p>
+
+<p>The map is based upon the old <a href="http://en.wikipedia.org/wiki/Star_Trek:_The_Role_Playing_Game" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">Star Trek Role-Playing Game by FASA</a>. I punched in the coordinates for the various systems and wound up with a nifty map powered by the HTML5 canvas. It’s part of an app I’m making for practice. I’m currently making it with jQuery and CreateJS, but I might try to make it again in React once it’s finished. The idea is to use fun (for me) subject matter as a motivator. So far, that’s working pretty well.</p>
+
+<h3 id="get-to-the-damned-point">Get to the Damned Point</h3>
+
+<p>Okay, okay. I wound up with a desire to draw a line between two points on the thing, and I decided that little arrows should flow down the line from the origin to the destination. So how would I do that, exactly? This is a specific problem, so I thought it was a good candidate for a fiddle.</p>
+
+<p>First, I started with regular old vanilla JavaScript. I didn’t have to do so since the app uses CreateJS, but I felt a moral imperative to do it “the right way” before doing it “the easy way”. That’s not really a fair assessment, however. This was really more about knowing rules before breaking them. I don’t want to become dependent upon CreateJS for all animations, in the same way that I don’t want to be completely dependent upon jQuery.</p>
+
+<figure class="aligncenter max-width-medium">
+	<img alt="JSfiddle logo" src="/generated/assets/img/posts/2015/JSfiddle-blue-w-type-530-fe3e62ea3.png" srcset="/generated/assets/img/posts/2015/JSfiddle-blue-w-type-400-fe3e62ea3.png 400w, /generated/assets/img/posts/2015/JSfiddle-blue-w-type-530-fe3e62ea3.png 530w" />
+
+</figure>
+
+<p>So anyway, I made <a title="Moving dots on a line." href="http://jsfiddle.net/briancribb/zkxe7sp9/" target="_blank" rel="noopener">this fiddle</a> first. The idea isn’t too crazy. Calculate where the line is going to be, with rotation, movemenet and everything. Then use the two end points of the line to determine where some equadistant dots will go. Calculate the position of the line and the dots upon it, make any changes or position updates while you’re doing that, and then render everything to the canvas. The result should be a line moving around with dots moving along that in a repeating pattern. I ran the script and rejoiced, for my goal had been achieved.</p>
+
+<p>Except that it was shakey. The dots were shaking on the line. Watch the fiddle closely, especially as it nears the edge of its movement. My first guess is that sin waves get some weird decimals, and that the solution would be <strong>More Math</strong>. Only I didn’t want to do <strong>More Math. </strong>It was time to switch to CreateJS and see if it was any better there.</p>
+
+<figure class="aligncenter">
+	<a href="http://createjs.com/" target="_blank" rel="noopener">
+		<img loading="lazy" src="/assets/img/posts/2015/createjs-logo-horizontal-gray-darker.png" alt="CreateJS logo" />
+	</a>
+</figure>
+
+<p>I have to say, <a title="CreateJS moving dots on a line" href="http://jsfiddle.net/briancribb/fp3vd5ks/" target="_blank" rel="noopener">this fiddle</a> turned out much better. The approach is different with CreateJS (or really just <a title="EaselJS" href="http://createjs.com/EaselJS" target="_blank" rel="noopener">EaselJS</a> since I wasn’t really using the other components. You don’t have to worry about saving and restoring the canvas context stack, or translating to a location before you rotate, or any of a number of things that you would do if you were programming this with straight-up JavaScript. It’s a personal view, but I feel like it’s a bit like cheating if you use a tool like this without knowing how to do those other things first. EaselJS creates a wonderful abstraction layer and does a ton of chores for you, but you can’t appreciate that unless you’ve saved, restored and translated a few times. I’ve done that stuff, however, so for me this was a welcome relief.</p>
+
+<p>It’s especially helpful for folks who have ever messed with Flash. You can declare a registration point just as you would with a Flash graphic symbol, and you can rotate whenever you like without having to convert back and forth between degrees and radians. It was easier and simpler overall, and I loved it. It was so much easier that I opted to rotate the line instead of just moving it, because the dots remained nice and stable in this version.</p>
+
+<h3 id="wheres-the-ticker">Where’s the Ticker?</h3>
+
+<p>One thing that’s missing from the CreateJS fiddle is the useRAF property on the Ticker. In fact, you won’t see a Ticker at all. This is mostly because I threw the thing together after making the other one. I’m just using a regular vanilla polyfill to drive the animation frames. That’s okay, because I really just need to make sure I call <code class="highlighter-rouge">stage.update()</code> on a regular basis. Even though I wasn’t using CreateJS to drive the frames, it still works just fine.</p>
+
+<p>That being said, the Ticker is a better option for calling animation frames. It already has code for running this stuff, and it’s a waste not to take advantage of that. I could make this thing smaller if I did that, and I would have if I wasn’t just trying to see if the dots looked any better.</p>
+
+<p>Another thing I didn’t use is proper time-based animation. I just increment the rotation a bit on each frame. This is okay for tests like this, but it isn’t the best way to go for a real project. You’ll want to calculate how many pixels or degrees or whatever per second you would like to go, and move things based upon how long it’s been since the last tick. That way, if the frame rate drops then your stuff will still end up where it’s supposed to be.</p>
+
+<p>But that’s a can of worms that belongs in it’s own post. The take-away for today is that EaselJS can save you a bunch of time and effort. I’m still going to make vanilla JavaScript animations, of course, but just for the small stuff. Medium to large projects (and most things that require assets to be loaded) will use CreateJS.</p>
+
+
+	
+	
+
+	<div class="btn-group btn-group mb-3 d-flex">
+		
+		<a title="Star Trek Warp Distance Calculator" class="btn btn-primary text-white border border-white w-50" rel="prev" href="/star-trek-warp-distance-calculator/">
+			<div class="d-flex">
+				<div class="align-self-center">
+					<i class="fas fa-chevron-left me-2 d-md-none"></i>
+					<i class="fas fa-chevron-left me-2 d-none d-md-inline fa-2x"></i>
+				</div>
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Star Trek Warp Distance Calculator</span>
+					<span class="d-md-none">Previous</span>
+				</div>
+			</div>
+		</a>
+		
+
+		
+		<a title="Spider-Man Knows When You Leave His Browser Tab" class="btn btn-primary text-white border border-white w-50" rel="next" href="/spider-man-knows-when-you-leave-his-browser-tab/">
+			<div class="d-flex justify-content-end">
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Spider-Man Knows When You Leave His Browser Tab</span>
+					<span class="d-md-none">Next</span>
+				</div>
+				<div class="align-self-center">
+					<i class="fas fa-chevron-right ms-2 d-md-none"></i>
+					<i class="fas fa-chevron-right ms-2 d-none d-md-inline fa-2x"></i>
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+    <footer id="main-footer" class="main-footer py-3 bg-primary text-white">
+      <div class="container">
+        <p class="mb-0"><small><em>&copy; Brian Cribb 2020</em></small></p>
+      </div>
+    </footer>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/javascript" src="/assets/js/scripts.js" charset="utf-8"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" ></script>
+  </body>
+</html>

@@ -1,0 +1,2736 @@
+{
+  "posts" : [
+    
+      {
+        "title"       : "PoliticianList: Playing with Congressional Data",
+        "url"         : "/politicianlist-playing-with-congressional-data/",
+        "categories"  : "Webdev",
+        "tags"        : "politics,React",
+        "excerpt"     : "I&#39;ve often found myself wondering when a particular senator is up for re-election, or what party an obscure member of the House is from. So I looked around and found an API from ProPublica. Then I made a list.",
+        
+        "date"        : "2020-07-01 08:34:05 -0400",
+        "dateString"        : "July 1, 2020"
+      },
+    
+      {
+        "title"       : "95. ZombiesRun Virtual Race, Spring 2020, 5K",
+        "url"         : "/zombiesrun-virtual-race-spring-2020-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "If you can believe it, this is the tenth virtual race for &quot;Zombies, Run!&quot; and the quality has been consistent all the way. With COVID-19 locking us down, this format is far better than having a bunch of people gather in one place and send their perspiration everywhere.",
+        "distance"   : "5K",
+        "date"        : "2020-05-04 15:51:49 -0400",
+        "dateString"        : "May 4, 2020"
+      },
+    
+      {
+        "title"       : "94. ZombiesRun Virtual Race, Halloween 2019, 5K",
+        "url"         : "/zombiesrun-virtual-race-halloween-2019-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "Another hit from Six to Start and their Zombies Run app. This time, Runner 5 goes into a cursed carnival. Acting and writing are fantastic, as always.",
+        "distance"   : "5K",
+        "date"        : "2019-11-03 18:00:44 -0500",
+        "dateString"        : "November 3, 2019"
+      },
+    
+      {
+        "title"       : "93. ZombiesRun Virtual Race, Spring 2019, 5K",
+        "url"         : "/zombiesrun-virtual-race-spring-2019-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "How can you not love zombies on a train? This one is about a fancy new super-fast train that was taking its first batch of passengers as the Zombie Apocalypse begins. It&amp;#8217;s a bit of a bummer in a way, because it shows a society that was making some really cool advances in science and sustainability just before it was snuffed out.",
+        "distance"   : "5K",
+        "date"        : "2019-05-05 19:00:50 -0400",
+        "dateString"        : "May 5, 2019"
+      },
+    
+      {
+        "title"       : "92. ZombiesRun Virtual Race, Halloween 2018, 5K",
+        "url"         : "/zombiesrun-virtual-race-halloween-2018-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "This one takes place on Tomorrow Island, and it&amp;#8217;s kind of a sci-fi twist on &lt;em&gt;The Most Dangerous Game&lt;/em&gt;, which I think every series needs to do at least once. As usual, the acting and writing are fantastic. The whole thing is well worth the entry fee.",
+        "distance"   : "5K",
+        "date"        : "2018-10-26 19:00:54 -0400",
+        "dateString"        : "October 26, 2018"
+      },
+    
+      {
+        "title"       : "Making a Promise Chain",
+        "url"         : "/making-a-promise-chain/",
+        "categories"  : "Webdev",
+        "tags"        : "JavaScript,promises",
+        "excerpt"     : "I was late to the game with JavaScript promises, but I&#39;m onboard now. Let&#39;s talk about promises a little bit and see if we can make things clearer for future reference.",
+        
+        "date"        : "2018-09-06 21:14:27 -0400",
+        "dateString"        : "September 6, 2018"
+      },
+    
+      {
+        "title"       : "91. ZombiesRun Virtual Race, Spring 2018, 5K",
+        "url"         : "/zombiesrun-virtual-race-spring-2018-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "I try to write these just after a race, but lately we&amp;#8217;ve been trying to sell our house and that&amp;#8217;s been a hell of a ride which will require its own book one day. The end result has been me on a commuter train without much free time.",
+        "distance"   : "5K",
+        "date"        : "2018-08-27 19:44:56 -0400",
+        "dateString"        : "August 27, 2018"
+      },
+    
+      {
+        "title"       : "90. ZombiesRun Virtual Race, Halloween 2017, 5K",
+        "url"         : "/zombiesrun-virtual-race-halloween-2017-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "Okay, so... it&#39;s been a while since I&#39;ve written anything. That&#39;s a cliche and I&#39;m sorry to the four of you who still read these posts, but I gots reasons.",
+        "distance"   : "5K",
+        "date"        : "2017-10-29 09:25:50 -0400",
+        "dateString"        : "October 29, 2017"
+      },
+    
+      {
+        "title"       : "89. ZombiesRun Virtual Race, Spring 2017, 10K",
+        "url"         : "/zombiesrun-virtual-race-spring-2017-10k/",
+        "categories"  : "Races",
+        "tags"        : "10K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "This one was tough. I haven&#39;t done much over the winter, so 10K is a large number for me right now. Still, I have enough leftover fitness to knock it out, even though it&#39;ll cost me later.",
+        "distance"   : "10K",
+        "date"        : "2017-04-17 08:00:53 -0400",
+        "dateString"        : "April 17, 2017"
+      },
+    
+      {
+        "title"       : "88. ZombiesRun Virtual Race, Spring 2017, 5K",
+        "url"         : "/zombiesrun-virtual-race-spring-2017-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "I&#39;m tempted to just count these as one event now, but I run them on different days in different weather, so I suppose I&#39;ll keep going with separate posts. This one will be a bit short, though.",
+        "distance"   : "5K",
+        "date"        : "2017-04-15 16:56:27 -0400",
+        "dateString"        : "April 15, 2017"
+      },
+    
+      {
+        "title"       : "Using Deferred Objects to Counter Threading Problems",
+        "url"         : "/using-deferred-objects-to-counter-threading-problems/",
+        "categories"  : "Webdev",
+        "tags"        : "Deferred,JavaScript,promises",
+        "excerpt"     : "Recently at work I had to work out some logic to make absolutely sure that some code didn&#39;t run until all of the JavaScript files were loaded. I&#39;d like to share the solution with you just in case you need it, or more likely when I need it as a reference down the road. However it lands, here we go...",
+        
+        "date"        : "2017-01-08 15:00:30 -0500",
+        "dateString"        : "January 8, 2017"
+      },
+    
+      {
+        "title"       : "87. ZombiesRun Virtual Race, Fall 2016, 10K",
+        "url"         : "/zombiesrun-virtual-race-fall-2016-10k/",
+        "categories"  : "Races",
+        "tags"        : "10K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "Time for the 10K event in the ZombiesRun Fall 2016 Race! Just like last time, there are two leaderboards and two sets of results. There&#39;s access to Rofflenet and training missions and everything else that we had last time, plus a few improvements to the website.",
+        "distance"   : "10K",
+        "date"        : "2016-11-03 06:56:34 -0400",
+        "dateString"        : "November 3, 2016"
+      },
+    
+      {
+        "title"       : "86. ZombiesRun Virtual Race, Fall 2016, 5K",
+        "url"         : "/zombiesrun-virtual-race-fall-2016-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "Here we are again, and I&#39;m doing yet another virtual zombie race from Six to Start. These are a mixed bag for me, but I&#39;m still happy to register for them. The ZombiesRun! app continues to improve, and so do these races.",
+        "distance"   : "5K",
+        "date"        : "2016-10-26 06:52:40 -0400",
+        "dateString"        : "October 26, 2016"
+      },
+    
+      {
+        "title"       : "85. Bath Rotary 4-Way 5K, 2016",
+        "url"         : "/bath-rotary-4-way-5k-2016/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME",
+        "excerpt"     : "Between farmers&#39; markets and overtime at my day job, I&#39;ve almost given up on doing races. Sometimes we get lucky, though. I happened to have a Saturday free, and there was a race just a few blocks from my house. If I could get home to change and register within a half-hour, I was good to go. ",
+        "distance"   : "5K",
+        "date"        : "2016-10-10 21:15:44 -0400",
+        "dateString"        : "October 10, 2016"
+      },
+    
+      {
+        "title"       : "How I Got Started with Gulp",
+        "url"         : "/how-i-got-started-with-gulp/",
+        "categories"  : "Webdev",
+        "tags"        : "Gulp,terminal",
+        "excerpt"     : "Recently I decided to start the inevitable move from (extremely useful) apps like Codekit and MAMP to Gulp. I&#39;m not an expert yet, but I managed to find some good resources for setting things up as well as some solutions for common troubles. I&#39;m posting this as a reference rather than a tutorial.",
+        
+        "date"        : "2016-08-22 09:00:18 -0400",
+        "dateString"        : "August 22, 2016"
+      },
+    
+      {
+        "title"       : "Document Fragments and jQuery and Star Trek",
+        "url"         : "/document-fragments-jquery-star-trek/",
+        "categories"  : "Webdev",
+        "tags"        : "Deferred,JavaScript,Star Trek",
+        "excerpt"     : "For those of you who don&#39;t already know, I&#39;m a big-time Star Trek fan. I&#39;m especially interested in the original series, and some of my favorite content comes from an old role-playing game from a company called FASA in the 1980&#39;s. The game had an extensive timeline of events, and I&#39;ve always wanted an easier way to read through it. Since I grew up to be a web developer, the obvious choice is to build an app!",
+        
+        "date"        : "2016-05-14 16:36:47 -0400",
+        "dateString"        : "May 14, 2016"
+      },
+    
+      {
+        "title"       : "84. ZombiesRun Virtual Race, Spring 2016, 10K",
+        "url"         : "/zombiesrun-virtual-race-spring-2016-10k/",
+        "categories"  : "Races",
+        "tags"        : "10K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "Here we go with the 10K event in the Zombies Run Spring Virtual Race! I knew I was too out of shape to be competitive, so I just did a steady cruise with my favorite puggle. It was her first time going that far, so we took it easy.",
+        "distance"   : "10K",
+        "date"        : "2016-04-10 16:11:25 -0400",
+        "dateString"        : "April 10, 2016"
+      },
+    
+      {
+        "title"       : "83. ZombiesRun Virtual Race, Spring 2016, 5K",
+        "url"         : "/zombiesrun-virtual-race-spring-2016-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "It&#39;s that time again! I&#39;ve been hard up for races since we started the bakery, so I was excited when Six to Start announced another virtual race for the Spring. Naturally, I caught a frustrating cold just before the race window opened.",
+        "distance"   : "5K",
+        "date"        : "2016-04-02 18:15:17 -0400",
+        "dateString"        : "April 2, 2016"
+      },
+    
+      {
+        "title"       : "82. Portland Thanksgiving Day 4-Miler, 2015",
+        "url"         : "/portland-thanksgiving-day-4-miler-2015/",
+        "categories"  : "Races",
+        "tags"        : "4-mile,ME,Portland,Thanksgiving",
+        "excerpt"     : "It&#39;s Thanksgiving again, so it&#39;s time for a couple thousand people to go running through the streets of Portland, Maine. Haven&#39;t done this one since 2012, and I was glad to be back.",
+        "distance"   : "4 miles",
+        "date"        : "2015-11-26 15:05:48 -0500",
+        "dateString"        : "November 26, 2015"
+      },
+    
+      {
+        "title"       : "Multiple JSON Data Sources for AngularJS",
+        "url"         : "/multiple-json-data-sources-for-angularjs/",
+        "categories"  : "Webdev",
+        "tags"        : "AngularJS,JavaScript",
+        "excerpt"     : "If you have more than one data source for your AngularJS app, then you&#39;ll need them all completed before the thing runs. Although this is a common problem, solutions can be hard to find on the Unhelpful Interwebs. But don&#39;t worry, I promise we can solve it.",
+        
+        "date"        : "2015-11-17 05:38:19 -0500",
+        "dateString"        : "November 17, 2015"
+      },
+    
+      {
+        "title"       : "81. ZombiesRun Virtual Race, Fall 2015, 10K",
+        "url"         : "/zombiesrun-virtual-race-fall-2015-10k/",
+        "categories"  : "Races",
+        "tags"        : "10K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "My previous post already covered the basics of the ZombiesRun Virtual Race, so this post will dive right in to cover the 10K race, leader boards and a couple of minor glitches in an otherwise fantastic event.",
+        "distance"   : "10K",
+        "date"        : "2015-11-05 10:34:48 -0500",
+        "dateString"        : "November 5, 2015"
+      },
+    
+      {
+        "title"       : "80. ZombiesRun Virtual Race, Fall 2015, 5K",
+        "url"         : "/zombiesrun-virtual-race-fall-2015-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,Bath,ME,virtual race,zombies,ZombiesRunGame",
+        "excerpt"     : "After dismissing them as silly wastes of money for a long time, I finally wound up doing a virtual race. This one was special, though. This one had goodies, zombies and a real way to track the times of the runners involved. It was from Six to Start, and it was fantastic.",
+        "distance"   : "5K",
+        "date"        : "2015-11-04 06:13:18 -0500",
+        "dateString"        : "November 4, 2015"
+      },
+    
+      {
+        "title"       : "Great Northeastern War, 2015",
+        "url"         : "/great-northeastern-war-2015/",
+        "categories"  : "Blog,SCA",
+        "tags"        : "GNEW,SCA",
+        "excerpt"     : "Lots of my friends are at Pennsic right now, or are perhaps stuck at Troll with no hope of getting in before they starve. (Yes, even though they got there early.) It&#39;s a bummer that I can&#39;t go this year, so I&#39;m going to cheer myself up by sharing some photos from Great Northeastern War. I was a merchant for the very first time!",
+        
+        "date"        : "2015-07-26 05:51:04 -0400",
+        "dateString"        : "July 26, 2015"
+      },
+    
+      {
+        "title"       : "Event Delegation without jQuery",
+        "url"         : "/event-delegation-without-jquery/",
+        "categories"  : "Webdev",
+        "tags"        : "JavaScript",
+        "excerpt"     : "Today we&#39;re going to listen to some buttons from a parent element, and we&#39;re not going to use jQuery. We&#39;re going to use vanilla JavaScript. I still love me some jQuery, of course, but we don&#39;t gain a deeper understanding of JavaScript unless we dig into it a little bit and let go of our favorite tools.",
+        
+        "date"        : "2015-05-21 21:33:24 -0400",
+        "dateString"        : "May 21, 2015"
+      },
+    
+      {
+        "title"       : "Managing JavaScript on Resize",
+        "url"         : "/managing-javascript-on-resize/",
+        "categories"  : "Webdev",
+        "tags"        : "HTML5,JavaScript",
+        "excerpt"     : "For the past good long while, I&#39;ve been using a throttled function to do various JavaScript chores when the browser fires a resize event. It&#39;s a good way to correct the heights of things or add a class when the window hits a certain size. That&#39;s been fine for a while, but recently I found a need to upgrade things.",
+        
+        "date"        : "2015-05-13 06:34:15 -0400",
+        "dateString"        : "May 13, 2015"
+      },
+    
+      {
+        "title"       : "Understanding Flickr Photo Size Suffixes",
+        "url"         : "/understanding-flickr-photo-size-suffixes/",
+        "categories"  : "Webdev",
+        "tags"        : "Flickr",
+        "excerpt"     : "When I built the image galleries for this site, I had to get cozy with Flickr&#39;s developer API. There are a few gotchas in there, so I thought it would be nice to save someone else a few minutes of headache and just post some answers. Today&#39;s gotcha involves the way Flickr&#39;s image suffixes work.",
+        
+        "date"        : "2015-05-10 07:02:57 -0400",
+        "dateString"        : "May 10, 2015"
+      },
+    
+      {
+        "title"       : "79. Jimmy the Greek&amp;#8217;s Maine Mall 5K, 2015",
+        "url"         : "/jimmy-the-greeks-maine-mall-5k-2015/",
+        "categories"  : "Races",
+        "tags"        : "5K,ME,South Portland",
+        "excerpt"     : "This race is kind of special, because it&#39;s the only one in New England that I&#39;ve done three times. In Charleston this was common, but since then I&#39;ve moved a bunch of times and just didn&#39;t have the roots required to be a regular anywhere. This lovely race is a confirmation that I am now a permanent Mainer.",
+        "distance"   : "5K",
+        "date"        : "2015-05-04 21:47:55 -0400",
+        "dateString"        : "May 4, 2015"
+      },
+    
+      {
+        "title"       : "Puggle in Spring",
+        "url"         : "/puggle-in-spring/",
+        "categories"  : "Blog",
+        "tags"        : "",
+        "excerpt"     : "Spring was slow to take hold, but the snow banks have finally accepted the fact that they are unwanted and unloved. They’re melting away and it’s almost time to start running with my puggle every day.",
+        
+        "date"        : "2015-04-11 15:36:51 -0400",
+        "dateString"        : "April 11, 2015"
+      },
+    
+      {
+        "title"       : "Spider-Man Knows When You Leave His Browser Tab",
+        "url"         : "/spider-man-knows-when-you-leave-his-browser-tab/",
+        "categories"  : "Webdev",
+        "tags"        : "canvas,HTML5,JavaScript,Page-Visibility",
+        "excerpt"     : "I&#39;ve been playing around with Ye Olde Canvas again. This time I wanted to use several techniques in one animation, including the Page Visibility API, and combine those with some behaviors outside of the canvas itself. I also wanted to put an Easter egg into my site. Because Spider-Man.",
+        
+        "date"        : "2015-03-27 06:52:20 -0400",
+        "dateString"        : "March 27, 2015"
+      },
+    
+      {
+        "title"       : "Moving Dots on a Line with CreateJS or Vanilla JavaScript",
+        "url"         : "/moving-dots-on-a-line-with-createjs-or-vanilla-javascript/",
+        "categories"  : "Webdev",
+        "tags"        : "animation,canvas,CreateJS,EaselJS,JavaScript",
+        "excerpt"     : "Recently I spent a rather large amount of time working on a silly star map that no one is likely to ever look at until after I’m famous and long dead, when it will be uncovered by digital archaeologists and mistaken for primitive astronomy. I have a point, I swear. Just give me a moment to process my thoughts.",
+        
+        "date"        : "2015-03-13 17:56:20 -0400",
+        "dateString"        : "March 13, 2015"
+      },
+    
+      {
+        "title"       : "Throwing Shoes",
+        "url"         : "/throwing-shoes/",
+        "categories"  : "Blog",
+        "tags"        : "ME,running,snow",
+        "excerpt"     : "I&amp;#8217;m not a stranger to running in the snow, but this year the weekly blizzards have kept me shoveling instead of running. And it&amp;#8217;s been really cold. But I&amp;#8217;m back now, and apparently my gear is all worn out. My jackets and shirts and things are okay, but my shoe spikes are apparently fed up with me and yearning for retirement.",
+        
+        "date"        : "2015-03-02 07:04:52 -0500",
+        "dateString"        : "March 2, 2015"
+      },
+    
+      {
+        "title"       : "Our New House of Snow",
+        "url"         : "/our-new-house-snow/",
+        "categories"  : "Blog",
+        "tags"        : "Bath,house,ME,snow",
+        "excerpt"     : "Lately my wife and I found our dream house in winter, and got nice and settled just before being magically transported to &lt;em&gt;Jotunheim&lt;/em&gt;. Winter has been especially grumpy this year, and has dropped three giant snow storms on us in the space of a week.",
+        
+        "date"        : "2015-02-07 07:44:31 -0500",
+        "dateString"        : "February 7, 2015"
+      },
+    
+      {
+        "title"       : "Creating a Monster",
+        "url"         : "/creating-a-monster/",
+        "categories"  : "Blog",
+        "tags"        : "Back Cove,Finnea,puggle,running",
+        "excerpt"     : "When we decided to get another dog, I asked for a breed that could run with me. I&#39;ve seen other people run with their pups, and it looked like fun. I didn&#39;t realize at the time that it would lead to a bit of... well... insanity.",
+        
+        "date"        : "2014-09-05 07:03:43 -0400",
+        "dateString"        : "September 5, 2014"
+      },
+    
+      {
+        "title"       : "Birthday Escape",
+        "url"         : "/birthday-escape/",
+        "categories"  : "Blog",
+        "tags"        : "birthday,running",
+        "excerpt"     : "My 41st birthday included a movie, the beach, Captain America and a loose dog running in circles around me. It also left me a bit tired and ready to crash at the end of it, which I suppose is normal.",
+        
+        "date"        : "2014-08-06 07:02:33 -0400",
+        "dateString"        : "August 6, 2014"
+      },
+    
+      {
+        "title"       : "Puggles and Bicycles and Farmers Markets",
+        "url"         : "/puggles-and-bicycles-and-farmers-markets/",
+        "categories"  : "Blog",
+        "tags"        : "bicycle,farmers market,Finnea,gluten free,puggle,running",
+        "excerpt"     : "Oh, dear. Where to begin? The primary focus of this site is supposed to be running events, but I&#39;ve done fewer and fewer of them since I left Charleston for New England. It&#39;s time to explain that, and to start writing again in general.",
+        
+        "date"        : "2014-06-15 08:17:21 -0400",
+        "dateString"        : "June 15, 2014"
+      },
+    
+      {
+        "title"       : "78. Snowy Egret 5K, 2014",
+        "url"         : "/snowy-egret-5k-2014/",
+        "categories"  : "Races",
+        "tags"        : "5K,ME,Memorial Day,Scarborough",
+        "excerpt"     : "This one was a bit odd. The website had the name of the race, the date... and that&#39;s it. The Active.com page had an address for the Starting Line, but that was a mile from the registration desk. I guess they thought only local people would show up.",
+        "distance"   : "5K",
+        "date"        : "2014-05-26 17:11:42 -0400",
+        "dateString"        : "May 26, 2014"
+      },
+    
+      {
+        "title"       : "We have a robot",
+        "url"         : "/we-have-a-robot/",
+        "categories"  : "Blog",
+        "tags"        : "",
+        "excerpt"     : "My mother-in-law recently went a little crazy and bought Roombas for several family members, including us. So it&#39;s official. We now have our very first robot. We are now completely vulnerable when Skynet takes over, because one of the machines is living in our house.",
+        
+        "date"        : "2014-05-13 08:00:43 -0400",
+        "dateString"        : "May 13, 2014"
+      },
+    
+      {
+        "title"       : "77. Jimmy the Greeks Maine Mall 5K, 2014",
+        "url"         : "/jimmy-the-greeks-maine-mall-5k-2014/",
+        "categories"  : "Races",
+        "tags"        : "5K,ME,South Portland",
+        "excerpt"     : "My wife and I did this race last year, and it had some problems. In fact, I called it a mess. I wanted to try it again because it&#39;s a newer race and the organizers seem to have been hit with a stroke of bad luck. I wanted to see what the next race would be like, and I wasn&#39;t disappointed.",
+        "distance"   : "5K - 5K",
+        "date"        : "2014-04-27 14:28:31 -0400",
+        "dateString"        : "April 27, 2014"
+      },
+    
+      {
+        "title"       : "Star Trek Warp Distance Calculator",
+        "url"         : "/star-trek-warp-distance-calculator/",
+        "categories"  : "Webdev",
+        "tags"        : "JavaScript",
+        "excerpt"     : "If you remember the Star Trek Role-playing Game from FASA, then you&#39;ll remember how good the writing was. The game developers had everything figured out, right down to the coordinates for different planets and the actual speeds of the various warp factors. I&#39;ve made a cute little utility to work out the time it takes to go from here to there at a given speed.",
+        
+        "date"        : "2013-09-05 07:23:10 -0400",
+        "dateString"        : "September 5, 2013"
+      },
+    
+      {
+        "title"       : "MS Harborfest Shoreside 5K, 2013",
+        "url"         : "/ms-harborfest-shoreside-5k-2013/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Portland,spectator,zombies",
+        "excerpt"     : "I didn&amp;#8217;t run this one, so I managed to get some pics of the winners. I also got to help Cara promote her new gluten free home bakery. We showed off the food, answered questions, met some nice folks and saw a 5K from another perspective.",
+        
+        "date"        : "2013-08-18 05:00:15 -0400",
+        "dateString"        : "August 18, 2013"
+      },
+    
+      {
+        "title"       : "Does 40 Mean Anything?",
+        "url"         : "/40-mean-anything/",
+        "categories"  : "Blog",
+        "tags"        : "birthday,ME,Portland",
+        "excerpt"     : "I woke up Monday morning, and I was 40 years old. My phone already had updates from insomniac friends wishing me a happy birthday, and our new puppy was already trying to eat my wife&amp;#8217;s hair. So far, aside from the Facebook stuff, it&amp;#8217;s just like yesterday. But is there anything else to it? Should I have special feelings about today?",
+        
+        "date"        : "2013-08-07 20:40:03 -0400",
+        "dateString"        : "August 7, 2013"
+      },
+    
+      {
+        "title"       : "Great Northeastern War, 2013",
+        "url"         : "/great-northeastern-war-2013/",
+        "categories"  : "Blog,SCA",
+        "tags"        : "",
+        "excerpt"     : "With all the moving, it was hard to stay involved in the SCA. I couldn&amp;#8217;t hold onto all of my gear, and I didn&amp;#8217;t know the folks in my local areas during my Economic Walkabout. But since I&amp;#8217;m now a permanent resident of Portland, it was easy to make the short drive to Hebron, Maine for GNEW. And it didn&amp;#8217;t hurt that I&amp;#8217;ve made a bunch of new friends.",
+        
+        "date"        : "2013-07-15 08:02:12 -0400",
+        "dateString"        : "July 15, 2013"
+      },
+    
+      {
+        "title"       : "Cold Showers Required",
+        "url"         : "/cold-showers-required/",
+        "categories"  : "Blog",
+        "tags"        : "ME",
+        "excerpt"     : "Although I didn&#39;t think it was possible, summer has finally arrived in Portland, Maine. I&#39;ve been taking advantage of the weather by cranking up my morning distance, but picking up my pace has led to the return of a summer problem: extra-sweaty-yuckiness.",
+        
+        "date"        : "2013-06-25 06:58:45 -0400",
+        "dateString"        : "June 25, 2013"
+      },
+    
+      {
+        "title"       : "Tinkering with CreateJS",
+        "url"         : "/tinkerin-with-createjs/",
+        "categories"  : "Webdev",
+        "tags"        : "canvas,CreateJS,JavaScript",
+        "excerpt"     : "I&#39;ve been wanting to make some little something with CreateJS for a while now, but I was always studying things that related to my day-job. Now that the contract is over and I&#39;m looking for a new position, I had a little time to try a little coding exercise. I created a sub-class for the framework&#39;s Shape() class, and I&#39;ve played around with the animation a bit. The results are actually very promising. Have a look at the source code for some details on how it works.",
+        
+        "date"        : "2013-05-19 17:34:32 -0400",
+        "dateString"        : "May 19, 2013"
+      },
+    
+      {
+        "title"       : "Big Recon Around Portland",
+        "url"         : "/big-recon-around-portland/",
+        "categories"  : "Blog",
+        "tags"        : "boats,ME,Portland",
+        "excerpt"     : "I&#39;ve been running around Portland for a while now, and I&#39;ve noticed all sorts of little trails that go around the peninsula. It&#39;s hard to see exactly where they meet each other from a Google map, so I decided to just wander around the edge of town until I figured it out. The weather was nice, and I took lots of pictures.",
+        
+        "date"        : "2013-05-18 18:31:41 -0400",
+        "dateString"        : "May 18, 2013"
+      },
+    
+      {
+        "title"       : "76. Jimmy the Greeks Maine Mall 5K, 2013",
+        "url"         : "/jimmy-the-greeks-maine-mall-5k-2013/",
+        "categories"  : "Races",
+        "tags"        : "5K,ME,South Portland",
+        "excerpt"     : "To put it mildly, this race was a mess. It started late because the police coverage wasn&#39;t squared away, the course was problematic, and an error from the lead vehicle made a wrong turn that cut a mile from the route. I&#39;ve never seen a race go this badly.",
+        "distance"   : "3K",
+        "date"        : "2013-04-28 14:07:51 -0400",
+        "dateString"        : "April 28, 2013"
+      },
+    
+      {
+        "title"       : "A Few Words About Boston",
+        "url"         : "/a-few-words-about-boston/",
+        "categories"  : "Blog",
+        "tags"        : "Boston,marathon",
+        "excerpt"     : "I lived in Boston for a while. During my time there I ran around town, participated in races and even stood near the Finish Line at the Boston Marathon. I still have friends there. So it was more than a little disturbing when I found out about the bombings.",
+        
+        "date"        : "2013-04-16 07:58:07 -0400",
+        "dateString"        : "April 16, 2013"
+      },
+    
+      {
+        "title"       : "Private Bridge Run with the Wife",
+        "url"         : "/private-bridge-run-with-the-wife/",
+        "categories"  : "Blog",
+        "tags"        : "Cooper River Bridge Run,ME,Portland",
+        "excerpt"     : "We couldn&#39;t make it to the Cooper River Bridge Run in Charleston this year, so we ran our own little 10K here in Portland. I was originally going to do this on my own, but Cara guessed my plan and volunteered to join me. She got a little more than she expected, though. The wind was murder.",
+        
+        "date"        : "2013-04-06 15:21:33 -0400",
+        "dateString"        : "April 6, 2013"
+      },
+    
+      {
+        "title"       : "Spring but Not Really",
+        "url"         : "/spring-but-not-really/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Spring,weather,winter",
+        "excerpt"     : "I&#39;ve done a little... okay, a &lt;strong&gt;lot&lt;/strong&gt; of complaining lately about the weather. It&#39;s cold, it&#39;s dark, I can&#39;t feel my fingers, my nostrils are frozen, blah, blah, blah. But now that we&#39;re officially into Spring, it&#39;s still cold, and will probably remain so forever.",
+        
+        "date"        : "2013-04-03 08:05:15 -0400",
+        "dateString"        : "April 3, 2013"
+      },
+    
+      {
+        "title"       : "CreateJS helps Flash Developers Move to Canvas",
+        "url"         : "/createjs-helps-flash-developers-move-to-canvas/",
+        "categories"  : "Webdev",
+        "tags"        : "canvas,Flash,JavaScript",
+        "excerpt"     : "For those of you who learned Flash before JavaScript, the HTML5 Canvas can seem a little weird. But don&#39;t worry, there&#39;s a framework available to help you make the transition. It&#39;s called CreateJS, it&#39;s backed by Adobe and it&#39;s completely open.",
+        
+        "date"        : "2013-03-25 08:00:38 -0400",
+        "dateString"        : "March 25, 2013"
+      },
+    
+      {
+        "title"       : "Weather Wimp Resurfaced",
+        "url"         : "/weather-wimp-resurfaced/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Portland,weather,winter",
+        "excerpt"     : "I&#39;ve been rather proud of myself lately, considering the harsh conditions I&#39;ve run in. I shivered, I shook, I wore spikes on my feet and a face cover on my... face. And for all that, I still have a bit of weather wimp in my personality. Case in point: this morning.",
+        
+        "date"        : "2013-03-15 08:11:41 -0400",
+        "dateString"        : "March 15, 2013"
+      },
+    
+      {
+        "title"       : "Floating Code for a Site Header or Something",
+        "url"         : "/floating-code-for-a-site-header-or-something/",
+        "categories"  : "Webdev",
+        "tags"        : "canvas,CSS,HTML5,jQuery",
+        "excerpt"     : "At the time of this writing, there&#39;s a bunch of floating code in the header of my website. It&#39;s brand new and kind of light, meaning that I tossed it together during the weekend. But it&#39;s still a nifty animation.",
+        
+        "date"        : "2013-03-11 08:35:18 -0400",
+        "dateString"        : "March 11, 2013"
+      },
+    
+      {
+        "title"       : "75. Irish Road Rover 5K, 2013",
+        "url"         : "/irish-road-rover-5k-2013/",
+        "categories"  : "Races",
+        "tags"        : "5K,ME,Portland",
+        "excerpt"     : "This 5K race was sponsored in part by our local Irish pub, Brian Boru. It started at the bar and did an out-and-back route through Portland, Maine. The weather was nicer than expected, and the people were great. Oh, and I took far too many pictures.",
+        "distance"   : "5K",
+        "date"        : "2013-03-04 06:56:12 -0500",
+        "dateString"        : "March 4, 2013"
+      },
+    
+      {
+        "title"       : "Showing the Frame Rate on Canvas Animations",
+        "url"         : "/showing-the-frame-rate-on-canvas-animations/",
+        "categories"  : "Webdev",
+        "tags"        : "animation,canvas,HTML5,JavaScript",
+        "excerpt"     : "A while back I built a silly little performance-testing animation that I called &amp;#8220;Bouncer&amp;#8221;. It&amp;#8217;s nice, but I noticed recently that it was missing a vital component: an indication of the frame rate. I added one this morning, and I thought I would share the code with you.",
+        
+        "date"        : "2013-03-01 08:33:49 -0500",
+        "dateString"        : "March 1, 2013"
+      },
+    
+      {
+        "title"       : "Nemo Distrupted My Running Schedule",
+        "url"         : "/nemo-distrupted-my-running-schedule/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Nemo,Portland,running,snow,winter",
+        "excerpt"     : "I had a pretty good plan, but it got messed up by a Historic Winter Storm. It wasn&#39;t just snow... this thing had a &lt;strong&gt;name&lt;/strong&gt;. They called it Nemo, and I found it on the home page of weather.com without entering my zip code. If I was going to run in that, I figured I should do it early.",
+        
+        "date"        : "2013-02-10 15:58:48 -0500",
+        "dateString"        : "February 10, 2013"
+      },
+    
+      {
+        "title"       : "Hulk Feet Split Shoes",
+        "url"         : "/hulk-feet-split-shoes/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Portland,running",
+        "excerpt"     : "Not only do I have the typically ugly feet of a runner, but mine are also exceptionally wide. It&#39;s been tough to find shoes that fit properly without leaving bunches of room in the toe, but I thought I had managed it. Until now.",
+        
+        "date"        : "2013-01-26 19:01:13 -0500",
+        "dateString"        : "January 26, 2013"
+      },
+    
+      {
+        "title"       : "New Years and Shoe Spikes",
+        "url"         : "/new-years-and-shoe-spikes/",
+        "categories"  : "Blog",
+        "tags"        : "running,snow,winter",
+        "excerpt"     : "I wanted to get out there for New Year&#39;s Day, but there was an awful lot of snow on the ground from recent storms. Rather than just blow it off, I decided to break out some nifty toys that I picked up in Freeport. They&#39;re shoe spikes like the ones I had before, but far more serious. In fact, I&#39;m sure I&#39;ll see them in an action movie at some point.",
+        
+        "date"        : "2013-01-01 15:47:43 -0500",
+        "dateString"        : "January 1, 2013"
+      },
+    
+      {
+        "title"       : "First Christmas in Maine",
+        "url"         : "/first-christmas-in-maine/",
+        "categories"  : "Blog",
+        "tags"        : "Christmas,ME,Portland,running",
+        "excerpt"     : "I try to make a point of running on special occasions. I could call it a tradition, but it&amp;#8217;s really just another way to get myself out of bed on a cold morning. Today, however, is special. Today is Christmas. And so far, it&amp;#8217;s been on of my favorites.",
+        
+        "date"        : "2012-12-25 11:05:19 -0500",
+        "dateString"        : "December 25, 2012"
+      },
+    
+      {
+        "title"       : "Mayans and Zombies",
+        "url"         : "/mayans-and-zombies/",
+        "categories"  : "Blog",
+        "tags"        : "doomsday,rain,running,zombies,ZombiesRunGame",
+        "excerpt"     : "Obviously, I can&amp;#8217;t let the World end without getting one last run in. And since the Mayans were a bit vague on the type of apocalypse we can look forward to, I sort of had to pick one. Once again, I fired up &lt;em&gt;Zombies, Run&lt;/em&gt; and hoped for the best.",
+        
+        "date"        : "2012-12-21 09:20:15 -0500",
+        "dateString"        : "December 21, 2012"
+      },
+    
+      {
+        "title"       : "First time around Back Cove",
+        "url"         : "/first-time-around-back-cove/",
+        "categories"  : "Blog",
+        "tags"        : "Back Cove,ME,Portland,running",
+        "excerpt"     : "Lately I&#39;ve been trying to learn the ways of new town and get back into a decent pattern, but I didn&#39;t really have any routes established. So when I heard about Back Cove from some other runners I met around town, I decided to look it up and see if I could get 10K out of it. A quick look at Google told me that I can, as long as I add some downtown running to the mix.",
+        
+        "date"        : "2012-12-15 10:51:26 -0500",
+        "dateString"        : "December 15, 2012"
+      },
+    
+      {
+        "title"       : "Dressing All Wrong for Cold and Wet",
+        "url"         : "/dressing-all-wrong-for-cold-and-wet/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Portland,running,weather",
+        "excerpt"     : "Winter running is a bit different in New England. The cold climate brings more than just discomfort and a chill. It brings a new set of rules and hazards, including how to dress. Today I screwed that last one up.",
+        
+        "date"        : "2012-12-08 13:51:10 -0500",
+        "dateString"        : "December 8, 2012"
+      },
+    
+      {
+        "title"       : "74. Portland Thanksgiving Day 4-Miler, 2012",
+        "url"         : "/portland-thanksgiving-day-4-miler-2012/",
+        "categories"  : "Races",
+        "tags"        : "4-mile,ME,Portland,Thanksgiving",
+        "excerpt"     : "Cara and I have officially run our very first race in Maine. Thanksgiving was coming up and there&#39;s usually a race everywhere that day, so we looked it up and registered. It seemed perfect... downtown, not too expensive, and not too far to run. We expected a fun, well-organized race, and we got most of what we wanted. Most, but not all.",
+        "distance"   : "4 miles",
+        "date"        : "2012-11-22 17:03:31 -0500",
+        "dateString"        : "November 22, 2012"
+      },
+    
+      {
+        "title"       : "Now We Live in Maine",
+        "url"         : "/now-we-live-in-maine/",
+        "categories"  : "Blog",
+        "tags"        : "ME,Portland,trail",
+        "excerpt"     : "It may come as a surprise to you, but we moved again. Yes, yes, I know. We had just gotten to Burlington this past January, so why a sudden move to Portland, Maine? More to the point, why do we move so much in the first place? Well, there are several reasons. But the main one is chasing a better job. I&amp;#8217;ve had lots of questions about this, so I&amp;#8217;ll try to explain why we&amp;#8217;ve been so many places in such a short time.",
+        
+        "date"        : "2012-11-11 09:27:46 -0500",
+        "dateString"        : "November 11, 2012"
+      },
+    
+      {
+        "title"       : "Bouncing Canvas Balls with Gravity and Friction",
+        "url"         : "/bouncing-canvas-balls-with-gravity-and-friction/",
+        "categories"  : "Webdev",
+        "tags"        : "animation,canvas,HTML5",
+        "excerpt"     : "I went a little crazy with this one. I know it doesn&#39;t look like much, but there&#39;s a lot going on inside that canvas thingy. If you click on the button or on the canvas, a bunch of black circles will bounce around with their own vectors, speeds, elasticity, and with a shared bit of gravity.",
+        
+        "date"        : "2012-10-10 11:53:47 -0400",
+        "dateString"        : "October 10, 2012"
+      },
+    
+      {
+        "title"       : "73. Chase Away 5K, 2012",
+        "url"         : "/chase-away-5k-2012/",
+        "categories"  : "Races",
+        "tags"        : "5K,Burlington,dogs,VT",
+        "excerpt"     : "This was a special race for us. The Chase Away 5K benefits an organization that fights canine cancer, so of course we thought of my in-laws&#39; dog Socrates. We lost him this year to cancer. This 5K was Cara&#39;s way of giving him a bit of a send-off.",
+        "distance"   : "5K",
+        "date"        : "2012-10-07 23:22:29 -0400",
+        "dateString"        : "October 7, 2012"
+      },
+    
+      {
+        "title"       : "Escaping the MOBs in Zombies, Run!",
+        "url"         : "/escaping-the-mobs-in-zombies-run/",
+        "categories"  : "Blog",
+        "tags"        : "iPhone,running,zombies,ZombiesRunGame",
+        "excerpt"     : "I have this friend named Theresa. When she&#39;s not texting all of her friends and family about how awesome I am, she writes her own stuff and runs around town. She&#39;s actually much faster than I am, but she typically gets caught by zombies. Today I&#39;d like to share my secret for not getting bitten by the undead.",
+        
+        "date"        : "2012-10-03 00:41:52 -0400",
+        "dateString"        : "October 3, 2012"
+      },
+    
+      {
+        "title"       : "72. Downtown 10K, 2012",
+        "url"         : "/downtown-10k-2012/",
+        "categories"  : "Races",
+        "tags"        : "10K,Burlington,Downtown 10K,VT",
+        "excerpt"     : "Haven&#39;t done this one since their first race in 2009. I was hoping that it had grown a bit since then, but it appears to be about the same size. One thing was different, though... this time the registration process seemed to be a little off. And by that, I mean &quot;extremely murky.&quot;",
+        "distance"   : "10K",
+        "date"        : "2012-09-23 20:35:33 -0400",
+        "dateString"        : "September 23, 2012"
+      },
+    
+      {
+        "title"       : "Irish 2000 Festival, 2012",
+        "url"         : "/irish-2000-festival-2012/",
+        "categories"  : "Blog",
+        "tags"        : "concert,festival,Irish,NY",
+        "excerpt"     : "We&#39;re back from the Irish 2000 Festival in Ballston Spa, New York. The good points were the hotel, the music a certain pub. Sadly, our enjoyment was diminished by smokers and idiots who acted like high school kids.",
+        
+        "date"        : "2012-09-16 21:19:49 -0400",
+        "dateString"        : "September 16, 2012"
+      },
+    
+      {
+        "title"       : "Heading to the Irish Festival",
+        "url"         : "/heading-to-the-irish-festival/",
+        "categories"  : "Blog",
+        "tags"        : "Irish,music,roadtrip",
+        "excerpt"     : "Well, here we go again. It&#39;s another Irish festival, this time in Ballston Spa, New York. It&#39;s the 16th  Annual Irish 2000 Festival, which doesn&#39;t make much sense since it&#39;s 2012... but we don&#39;t care because there are bunches of bands.",
+        
+        "date"        : "2012-09-14 17:55:46 -0400",
+        "dateString"        : "September 14, 2012"
+      },
+    
+      {
+        "title"       : "Early Morning Astronomy",
+        "url"         : "/early-morning-astronomy/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,running,weather",
+        "excerpt"     : "Lately I&#39;ve been a little better about my pattern, so I&#39;ve noticed the changes in the early morning light. Or rather, the lack of it. Each morning, 5am gets a little darker and a little colder. The temperatures have been mostly merciful, but the light has faded steadily.",
+        
+        "date"        : "2012-09-11 07:54:38 -0400",
+        "dateString"        : "September 11, 2012"
+      },
+    
+      {
+        "title"       : "71. Pirate 5k Run, 2012",
+        "url"         : "/pirate-5k-run-2012/",
+        "categories"  : "Races",
+        "tags"        : "5K,Burlington,Pirate 5K Run,VT,Waterfront Park",
+        "excerpt"     : "Any race at the Waterfront is an obvious choice for us, especially when there&#39;s a pirate theme. Our friend Misty parked at our place and we walked down there together. It was a fun race overall, but there were a few issues with how it was organized. Mainly the price and the shabby online registration process.",
+        "distance"   : "5K",
+        "date"        : "2012-08-12 12:27:02 -0400",
+        "dateString"        : "August 12, 2012"
+      },
+    
+      {
+        "title"       : "What&amp;#8217;s that next to the Curiosity rover?",
+        "url"         : "/whats-that-next-to-the-curiosity-rover/",
+        "categories"  : "Blog",
+        "tags"        : "curiosity",
+        "excerpt"     : "Sorry, I just couldn&amp;#8217;t resist tossing this in. The fine folks at NASA have brought a fantastic dreamy quality to the Red Planet, and I&amp;#8217;m sort of swept up in it. When &amp;#8220;dreamy&amp;#8221; and &amp;#8220;Mars&amp;#8221; come together, I think of our old buddy Tars Tarkas.",
+        
+        "date"        : "2012-08-08 17:38:06 -0400",
+        "dateString"        : "August 8, 2012"
+      },
+    
+      {
+        "title"       : "Saltwater Celtic Music Festival, 2012",
+        "url"         : "/saltwater-celtic-music-festival-2012/",
+        "categories"  : "Blog",
+        "tags"        : "concert,festival,ME,music,Portland",
+        "excerpt"     : "Cara and I are suckers for celtic music, so we couldn&#39;t resist a chance to see Searson and Enter the Haggis at an event in Maine. Of course, it didn&#39;t hurt that we would be introduced to the music of The Press Gang, Sprag Session, Chrissy Crowley and Carbon Leaf.",
+        
+        "date"        : "2012-07-16 23:37:24 -0400",
+        "dateString"        : "July 16, 2012"
+      },
+    
+      {
+        "title"       : "70. Run for Empowerment, 2012",
+        "url"         : "/run-for-empowerment-2012/",
+        "categories"  : "Races",
+        "tags"        : "10K,Burlington,VT,Waterfront Park",
+        "excerpt"     : "It&amp;#8217;s time for another Run for Empowerment! I did this one back in 2009 when I lived in Burlington the first time. It&amp;#8217;s a fun romp along the bike path, and it benefits [Women Helping Battered Women](http://www.whbw.org). And for the first time ever, I got to run as the Living Embodiment of Evil. Good times!",
+        "distance"   : "10K",
+        "date"        : "2012-06-17 08:50:35 -0400",
+        "dateString"        : "June 17, 2012"
+      },
+    
+      {
+        "title"       : "Wedding Day Photos",
+        "url"         : "/wedding-day-photos/",
+        "categories"  : "Blog",
+        "tags"        : "gallery",
+        "excerpt"     : "Things were mostly wonderful on June 9th. I went for a 5K run along the Waterfront to clear my head in the morning, the weather was perfect, the wedding ceremony was beautiful and Cara&#39;s cupcakes were a hit at the reception.",
+        
+        "date"        : "2012-06-14 13:28:53 -0400",
+        "dateString"        : "June 14, 2012"
+      },
+    
+      {
+        "title"       : "Wedding Day Run through Burlington",
+        "url"         : "/wedding-day-run-through-burlington/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,VT,Waterfront Park",
+        "excerpt"     : "For those of you who don&#39;t know yet, I&#39;m getting married in a few hours, right here in Burlington, Vermont. I&#39;ve been asked a few times if I&#39;m nervous or if I&#39;m getting cold feet or something. I&#39;m not and I haven&#39;t, but it makes me wonder. Am I supposed to be nervous? Is there something wrong with me?",
+        
+        "date"        : "2012-06-09 10:29:36 -0400",
+        "dateString"        : "June 9, 2012"
+      },
+    
+      {
+        "title"       : "69. GMAA Equinox Trail Race, 2012",
+        "url"         : "/gmaa-equinox-trail-race-2012/",
+        "categories"  : "Races",
+        "tags"        : "10K,trail,VT",
+        "excerpt"     : "This was race number 69. _heh heh_&amp;#8230;&amp;nbsp;Anyway, it was in Charlotte, VT. _(Pronounced Shar-LOT in Veromont.)_ It was a trail run out in the boonies, but it was a really nice day. There were only two problems. First, the previous day&amp;#8217;s rain created some muddy spots. Second, Cara hadn&amp;#8217;t trained up. Her job is pretty physical, so she was hoping that it would be enough to see her through.",
+        
+        "date"        : "2012-06-03 15:43:01 -0400",
+        "dateString"        : "June 3, 2012"
+      },
+    
+      {
+        "title"       : "KeyBank Vermont City Marathon, 2012 &amp;#8211; from the Sidelines",
+        "url"         : "/keybank-vermont-city-marathon-2012-from-the-sidelines/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,marathon,running,spectator",
+        "excerpt"     : "I had hoped to compete in &lt;em&gt;this marathon&lt;/em&gt;, but I have yet to master the art of [wearing spikes on my shoes and stomping through snow banks]({{site.baseurl}}all-kinds-of-weather/ &quot;All Kinds of Weather&quot;). Instead, I was a grateful spectator. How could I not be?",
+        
+        "date"        : "2012-05-28 17:12:25 -0400",
+        "dateString"        : "May 28, 2012"
+      },
+    
+      {
+        "title"       : "MVP Health Care YAM Scram, 2012 &amp;#8211; from the Sidelines",
+        "url"         : "/mvp-health-care-yam-scram-2012-from-the-sidelines/",
+        "categories"  : "Blog",
+        "tags"        : "kids,spectator",
+        "excerpt"     : "The folks at RunVermont asked me to get some video of this kids race, and of course I agreed. I guess I made myself into a resource after sharing all of my content from the Champ on Church Fun Run. Not that I&amp;#8217;m complaining. A youth event is perfect for me as a spectator, since I don&amp;#8217;t feel bad for not participating.",
+        
+        "date"        : "2012-05-26 17:58:09 -0400",
+        "dateString"        : "May 26, 2012"
+      },
+    
+      {
+        "title"       : "Animating a Solar System with the HTML5 Canvas",
+        "url"         : "/animating-solar-system-html5-canvas/",
+        "categories"  : "Webdev",
+        "tags"        : "animation,canvas",
+        "excerpt"     : "Here&#39;s a swanky little bit of animation from the HTML5 Canvas. If you don&#39;t see it, then your browser doesn&#39;t support canvas, which means that you&#39;re using an old version of Internet Explorer. (You should stop doing that.) The goal was to see what I could draw programmatically with the canvas API.",
+        
+        "date"        : "2012-05-23 01:59:24 -0400",
+        "dateString"        : "May 23, 2012"
+      },
+    
+      {
+        "title"       : "Sweaty Mornings of Summer",
+        "url"         : "/sweaty-mornings-of-summer/",
+        "categories"  : "Blog",
+        "tags"        : "",
+        "excerpt"     : "Well, it&amp;#8217;s happened. The days I was hoping for have finally arrived, with all their benefits and consequences. It&amp;#8217;s hot outside. Nice and hot. Just like back home, only there it was like this three months ago.",
+        
+        "date"        : "2012-05-22 08:07:38 -0400",
+        "dateString"        : "May 22, 2012"
+      },
+    
+      {
+        "title"       : "Channing and Quinn in Burlington",
+        "url"         : "/channing-and-quinn-in-burlington/",
+        "categories"  : "Blog",
+        "tags"        : "concert,music",
+        "excerpt"     : "Last night we walked downtown to see &lt;em&gt;Channing and Quinn&lt;/em&gt;, a band that we had last seen in Charlotte, NC. I&amp;#8217;m on their mailing list, so imagine my surprise when I found out they were coming to Burlington!",
+        
+        "date"        : "2012-05-20 12:03:47 -0400",
+        "dateString"        : "May 20, 2012"
+      },
+    
+      {
+        "title"       : "More Zombies for my iPhone",
+        "url"         : "/more-zombies-for-my-iphone/",
+        "categories"  : "Blog",
+        "tags"        : "iPhone,weather,zombies",
+        "excerpt"     : "I don&#39;t know what&#39;s been going on with me lately, but I&#39;ve had an eye for zombie products. I already have a running game about zombies, but now I have a nice compliment for it. A weather app.",
+        
+        "date"        : "2012-05-16 11:01:37 -0400",
+        "dateString"        : "May 16, 2012"
+      },
+    
+      {
+        "title"       : "Running from Zombies Every Morning",
+        "url"         : "/running-from-zombies-every-morning/",
+        "categories"  : "Blog",
+        "tags"        : "games,iPhone,training,zombies,ZombiesRunGame",
+        "excerpt"     : "Lately I&#39;ve been running from zombies every morning to gather supplies for a small settlement of post-apocalyptic survivors. I know, it sounds like more crazy talk. No surprises there, but I&#39;m serious about the zombies. They&#39;re virtually wheezing down my neck me every morning. And of course, like any reasonable person, I&#39;ve been running away.",
+        
+        "date"        : "2012-05-07 21:32:36 -0400",
+        "dateString"        : "May 7, 2012"
+      },
+    
+      {
+        "title"       : "Champ on Church Fun Run, 2012 &amp;#8211; from the Sidelines",
+        "url"         : "/champ-on-church-fun-run-2012-from-the-sidelines/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,champ,race,spectator",
+        "excerpt"     : "I was walking Cara to work when I saw a race registration table down the street. We had walked down to Church street and I had already run 10K that morning, so I had no illusions about participating. Still, I had to know what was going on.",
+        
+        "date"        : "2012-05-01 07:59:20 -0400",
+        "dateString"        : "May 1, 2012"
+      },
+    
+      {
+        "title"       : "68. 5K for Vermont HOBY, 2012",
+        "url"         : "/5k-for-vermont-hoby-2012/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,VT",
+        "excerpt"     : "Lately the weather has been easing up, so I started looking around for my first race of the season. Back in Charleston, the &amp;#8220;season&amp;#8221; is actually more like 11 months, but in Vermont its a bit shorter.",
+        "distance"   : "5K",
+        "date"        : "2012-04-14 15:15:45 -0400",
+        "dateString"        : "April 14, 2012"
+      },
+    
+      {
+        "title"       : "Burlington Winter Festival",
+        "url"         : "/burlington-winter-festival/",
+        "categories"  : "Blog",
+        "tags"        : "winter",
+        "excerpt"     : "There was a little festival this weekend down on Church Street. The action was going to happen later in the day, but I got there a bit early. Cara was asked to work on her day off, so I walked down with her. On the way back, I got to see some of the ice sculptures going up. It was neat! They bring in the pieces and blowtorch them so they&amp;#8217;ll stick. It&amp;#8217;s basically ice welding.",
+        
+        "date"        : "2012-02-05 15:34:23 -0500",
+        "dateString"        : "February 5, 2012"
+      },
+    
+      {
+        "title"       : "Uphill on Main Street",
+        "url"         : "/uphill-on-main-street/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,running,VT",
+        "excerpt"     : "The weather was too good to pass up, so I didn&amp;#8217;t. The temperature was 36F, so I didn&amp;#8217;t even need my tights or my gloves&amp;#8230; just my Space Jacket and a sport skully. A beautiful day like this just screams out for something special, so I decided to hit Main Street in downtown Burlington.",
+        
+        "date"        : "2012-01-28 11:42:23 -0500",
+        "dateString"        : "January 28, 2012"
+      },
+    
+      {
+        "title"       : "All Kinds of Weather",
+        "url"         : "/all-kinds-of-weather/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,VT,winter",
+        "excerpt"     : "It&amp;#8217;s been a couple of weeks since I moved back to Burlington, Vermont. It seems longer, of course. Since returning, I&amp;#8217;ve seen temperatures below zero. I&amp;#8217;ve had my handy Carhartt and some other gear, so I was prepared.",
+        
+        "date"        : "2012-01-24 23:51:15 -0500",
+        "dateString"        : "January 24, 2012"
+      },
+    
+      {
+        "title"       : "This Year&amp;#8217;s First Real Winter Run",
+        "url"         : "/this-years-first-real-winter-run/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,ice,VT,winter",
+        "excerpt"     : "I can&amp;#8217;t believe it&amp;#8217;s really been this long since I&amp;#8217;ve gone running, but there really has been a lot going on. We recently moved back up to Burlington, Vermont, so Winter is now spelled with a capital &amp;#8220;W&amp;#8221;.",
+        
+        "date"        : "2012-01-18 07:39:16 -0500",
+        "dateString"        : "January 18, 2012"
+      },
+    
+      {
+        "title"       : "67. Reindeer Run, 2011",
+        "url"         : "/reindeer-run-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Charleston,Reindeer Run,SC",
+        "excerpt"     : "The Reindeer run is a can&amp;#8217;t-miss event for the Holy City, with all sorts of costumes and decorations on people and dogs. &lt;em&gt;(Especially on dogs.)&lt;/em&gt; It starts downtown at Southend Brewery, sweeping through the city and along the Battery before returning. It might be the most enjoyable race in town.",
+        "distance"   : "5K",
+        "date"        : "2011-12-04 11:09:05 -0500",
+        "dateString"        : "December 4, 2011"
+      },
+    
+      {
+        "title"       : "Saints (and Band-Aids) Preserve Us!",
+        "url"         : "/saints-and-band-aids-preserve-us/",
+        "categories"  : "Blog",
+        "tags"        : "running",
+        "excerpt"     : "It was tough getting out there this morning. The cars were all frozen, and I still haven&amp;#8217;t adjusted to the proper sleep schedule since the holiday, but I got out there and did my thing. I wore a long-sleeve running shirt and my [yellow space jacket]({{site.baseurl}}old-navy-is-good-to-runners/ &quot;Old Navy is Good to Runners&quot;), as well as a little round Band-Aid on each nipple.",
+        
+        "date"        : "2011-12-01 08:29:12 -0500",
+        "dateString"        : "December 1, 2011"
+      },
+    
+      {
+        "title"       : "Energizer Hat Light Saves the Day",
+        "url"         : "/energizer-hat-light-saves-the-day/",
+        "categories"  : "Blog",
+        "tags"        : "Energizer,gadget,light,running",
+        "excerpt"     : "Recently I&amp;#8217;ve been &lt;s&gt;whining&lt;/s&gt; complaining about the traffic around my sister&amp;#8217;s place. Broad River Road is one of the most runner-unfriendly roads in the city, so running towards town is a good way to get killed by a hit-and-run driver.",
+        
+        "date"        : "2011-11-28 08:55:32 -0500",
+        "dateString"        : "November 28, 2011"
+      },
+    
+      {
+        "title"       : "The Mysterious Vanishing Wallet",
+        "url"         : "/the-mysterious-vanishing-wallet/",
+        "categories"  : "Blog",
+        "tags"        : "lost,Riverfront Park",
+        "excerpt"     : "Woke up after a late-night web coding binge, and gathered myself for my morning run. I decided to drive to the park this time, so I grabbed my keys, wallet, clothes, etc. and headed for the living room to get my shoes.",
+        
+        "date"        : "2011-11-27 12:59:32 -0500",
+        "dateString"        : "November 27, 2011"
+      },
+    
+      {
+        "title"       : "Thanksgiving: 12 Miles and 2 Nipples",
+        "url"         : "/thanksgiving-12-miles-and-2-nipples/",
+        "categories"  : "Blog",
+        "tags"        : "Riverfront Park,running,Thanksgiving",
+        "excerpt"     : "Since Cara is in Vermont, I had decided to drive down to Charleston and spend Thanksgiving with my brother. It was going to be a triple-threat: beer, movies and pizza. And just for a bit of nostalgia, I was going to do the Turkey Day Run again.",
+        
+        "date"        : "2011-11-24 14:42:50 -0500",
+        "dateString"        : "November 24, 2011"
+      },
+    
+      {
+        "title"       : "66. Governor&amp;#8217;s Cup Half Marathon, 2011",
+        "url"         : "/governors-cup-half-marathon-2011/",
+        "categories"  : "Races",
+        "tags"        : "Columbia,half-marathon,running,SC",
+        "excerpt"     : "Time once again for the Governor&amp;#8217;s Cup. It starts at the Statehouse and winds through Columbia. Cara and I have been really busy with the move up north coming up, so we didn&amp;#8217;t get a chance to train properly. Still, we had signed up for the half and we were determined to make a good day of it.",
+        "distance"   : "13.1 miles",
+        "date"        : "2011-11-05 22:01:05 -0400",
+        "dateString"        : "November 5, 2011"
+      },
+    
+      {
+        "title"       : "Old Navy is Good to Runners",
+        "url"         : "/old-navy-is-good-to-runners/",
+        "categories"  : "Blog",
+        "tags"        : "Old Navy,running",
+        "excerpt"     : "I went for a quick 4-miler this morning to see if I could somehow salvage an early-morning running route from around my sister&#39;s place. The bad news is that it didn&#39;t work. Before sunrise it&#39;s pitch black with few street lights and there are too many chances to turn an ankle. The good news is that I am now in love with Old Navy.",
+        
+        "date"        : "2011-11-02 08:50:10 -0400",
+        "dateString"        : "November 2, 2011"
+      },
+    
+      {
+        "title"       : "Cara&amp;#8217;s Goodbye Tour of Charleston",
+        "url"         : "/caras-goodbye-tour-of-charleston/",
+        "categories"  : "Blog",
+        "tags"        : "Charleston,Folly Beach",
+        "excerpt"     : "We&#39;ll be moving to New York after my contract is up, and Cara&#39;s going ahead. Before she left, I wanted to do another weekend in Charleston with her. I wanted to show her all the things she hadn&#39;t seen yet, and just generally show her a good time. As you can see from the photos, things went pretty well.   :-)",
+        
+        "date"        : "2011-10-31 08:41:33 -0400",
+        "dateString"        : "October 31, 2011"
+      },
+    
+      {
+        "title"       : "Long Runs are Longer When You&amp;#8217;re Lost.",
+        "url"         : "/long-runs-are-longer-when-youre-lost/",
+        "categories"  : "Blog",
+        "tags"        : "forest,Harbison State Forest,running,trail",
+        "excerpt"     : "Today&amp;#8217;s run was supposed to be a long one. I was shooting for 8 or 9 miles in the Harbison State Forest. The good news is that I succeeded in making the distance. The bad news is that my route was nothing like what I had planned. I was lost, several times, in the woods, alone.",
+        
+        "date"        : "2011-10-17 01:39:33 -0400",
+        "dateString"        : "October 17, 2011"
+      },
+    
+      {
+        "title"       : "65. Dash to the Vista 5K, 2011",
+        "url"         : "/dash-to-the-vista-5k-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Columbia,Dash to the Vista,running,SC",
+        "excerpt"     : "This was a small race before a small festival in the Vista. (The Vista is a little business area in Columbia, SC.) Thanks to this week&amp;#8217;s rain, the morning was filled with cool fog. When the sun came out, the fog started burning away, leaving behind about a half-hour of super-humid armpit air. That&amp;#8217;s when the race started.",
+        "distance"   : "5K",
+        "date"        : "2011-09-26 08:51:01 -0400",
+        "dateString"        : "September 26, 2011"
+      },
+    
+      {
+        "title"       : "Mr. Garmin, what are you Connecting to?",
+        "url"         : "/mr-garmin-what-are-you-connecting-to/",
+        "categories"  : "Blog",
+        "tags"        : "garmin",
+        "excerpt"     : "I&amp;#8217;ve become kind of dependent upon my Garmin Forerunner 305 since I&amp;#8217;ve had it. It&amp;#8217;s bulky compared to the newer models, but I can see my pace, my miles, and all sorts of information that I used to just guess at. I no longer have to figure out a strict route, because I can just turn around when the miles are right.",
+        
+        "date"        : "2011-08-09 09:02:29 -0400",
+        "dateString"        : "August 9, 2011"
+      },
+    
+      {
+        "title"       : "Running, Heatwaves and Being 38",
+        "url"         : "/running-heatwaves-and-being-38/",
+        "categories"  : "Blog",
+        "tags"        : "birthday",
+        "excerpt"     : "Well, it happened. I turned 38. Lots of famous and/or important people have done it. Scientists. Engineers. Strom Thurmond, at some point. (According to legend.)",
+        
+        "date"        : "2011-08-05 09:16:57 -0400",
+        "dateString"        : "August 5, 2011"
+      },
+    
+      {
+        "title"       : "July 4 Tourist Run through Charleston SC",
+        "url"         : "/july-4-tourist-run-through-charleston-sc/",
+        "categories"  : "Blog",
+        "tags"        : "Charleston,july4,running,SC",
+        "excerpt"     : "Cara&#39;s in Burlington VT, making plans for our wedding and visiting family. Since I would be down here alone, she suggested a trip to Charleston. What a fantastic idea!",
+        
+        "date"        : "2011-07-04 12:43:45 -0400",
+        "dateString"        : "July 4, 2011"
+      },
+    
+      {
+        "title"       : "Bachelor Week Begins",
+        "url"         : "/bachelor-week-begins/",
+        "categories"  : "Blog",
+        "tags"        : "Charleston,july4,SC,Starbucks",
+        "excerpt"     : "Well... I&#39;m alone. For almost a week. Yesterday I took Cara to the airport and Dublin to my sister&#39;s place. And now, I sit alone in a Starbucks. But not just any Starbucks. This is the on on King Street in Charleston, SC. I used to work here.",
+        
+        "date"        : "2011-07-04 09:37:55 -0400",
+        "dateString"        : "July 4, 2011"
+      },
+    
+      {
+        "title"       : "Brand New Chafe Point. Awesome.",
+        "url"         : "/brand-new-chafe-point-awesome/",
+        "categories"  : "Blog",
+        "tags"        : "10-Mile,Columbia,running,SC",
+        "excerpt"     : "I went out for my weekly 10-mile run today. I had big plans at first. I was going to zig-zag around town until I reached about 8 miles or so, then head back to the apartment. This takes quite a bit of willpower, because you&#39;re never more than two miles from home. If you get lazy after four miles, you can wimp out.",
+        
+        "date"        : "2011-06-18 12:32:32 -0400",
+        "dateString"        : "June 18, 2011"
+      },
+    
+      {
+        "title"       : "64. See Spot Run, 2011",
+        "url"         : "/see-spot-run-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Columbia,running,SC,See Spot Run",
+        "excerpt"     : "This was another 5K held in Columbia, this time to benefit the Humane Society. Dogs were welcome since pets were the focus of the event. Although Dublin can&#39;t run 5K yet, we were excited to check it out. After all, Cara is in favor of anything that helps dogs.",
+        "distance"   : "5K",
+        "date"        : "2011-06-06 22:46:35 -0400",
+        "dateString"        : "June 6, 2011"
+      },
+    
+      {
+        "title"       : "National Not-Running Day&amp;#8230; Almost",
+        "url"         : "/national-not-running-day/",
+        "categories"  : "Blog",
+        "tags"        : "iPhone,running",
+        "excerpt"     : "I was checking a friend&#39;s blog this morning and found out that today is National Running Day. Awesome. (Note: I used my lunch hour to zip home and crank out a quick 2-miler! I did celebrate the day!) ",
+        
+        "date"        : "2011-06-01 09:34:26 -0400",
+        "dateString"        : "June 1, 2011"
+      },
+    
+      {
+        "title"       : "63. Jailbreak 5K, 2011",
+        "url"         : "/jailbreak-5k-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Columbia,Jailbreak,running,SC",
+        "excerpt"     : "The Jailbreak 5K is a small 5K in Lexington SC, organized by the Sheriff&#39;s Department. Strictly Running handled the clock, so things were pretty organized. They were also pretty humid.",
+        "distance"   : "5K",
+        "date"        : "2011-05-28 16:33:05 -0400",
+        "dateString"        : "May 28, 2011"
+      },
+    
+      {
+        "title"       : "62. Crawdaddy Dash, 2011",
+        "url"         : "/crawdaddy-dash-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Columbia,Crawdaddy Dash,running,SC",
+        "excerpt"     : "You really can&#39;t beat an opportunity like this. The Rosewood Crawfish Festival took place about two blocks from our apartment, and admission was included with registration for this 5K race.",
+        "distance"   : "5K",
+        "date"        : "2011-05-01 12:11:18 -0400",
+        "dateString"        : "May 1, 2011"
+      },
+    
+      {
+        "title"       : "61. Cooper River Bridge Run, 2011",
+        "url"         : "/cooper-river-bridge-run-2011/",
+        "categories"  : "Races",
+        "tags"        : "10K,Charleston,running,SC",
+        "excerpt"     : "When I was in New England, one of the things I missed was the Cooper River Bridge Run. It&#39;s a 10K Race in Charleston, South Carolina which seems to get bigger and more popular each year. This year I was back, and I had Cara with me.",
+        "distance"   : "10k",
+        "date"        : "2011-04-03 18:53:23 -0400",
+        "dateString"        : "April 3, 2011"
+      },
+    
+      {
+        "title"       : "10K Run at Riverfront Park",
+        "url"         : "/10k-run-at-riverfront-park/",
+        "categories"  : "Blog",
+        "tags"        : "Columbia,Riverfront Park,running,SC",
+        "excerpt"     : "This one is a bit of an experiment. I wanted to track a 10K run through Riverfront Park, so the map locations are critical. If you see something you want to find, just check the map.",
+        
+        "date"        : "2011-03-22 00:17:33 -0400",
+        "dateString"        : "March 22, 2011"
+      },
+    
+      {
+        "title"       : "60. Get to the Green 5K, 2011",
+        "url"         : "/get-to-the-green-5k-2011/",
+        "categories"  : "Races",
+        "tags"        : "5K,Columbia,Get to the Green,running,SC,St. Patrick's Day",
+        "excerpt"     : "This race was fun for two reasons. First, it took place on the morning  of Columbia’s St. Pat’s festival. Second, (and most importantly) it was  just down the hill from our apartment.",
+        "distance"   : "5K",
+        "date"        : "2011-03-19 17:09:59 -0400",
+        "dateString"        : "March 19, 2011"
+      },
+    
+      {
+        "title"       : "59. Flowertown Festival Run, 2011",
+        "url"         : "/flowertown-festival-run-2011/",
+        "categories"  : "Races",
+        "tags"        : "10K,Folly Beach,running,SC,Summerville",
+        "excerpt"     : "This was the last race I did before moving to New England in 2009. In fact, I left that day. So now that I&#39;m back in the area, it was especially important not to miss it. Many of my Charleston peeps are regulars at the Flowertown race, so I was looking forward to a few reunions.",
+        "distance"   : "10K",
+        "date"        : "2011-03-12 17:47:42 -0500",
+        "dateString"        : "March 12, 2011"
+      },
+    
+      {
+        "title"       : "58. Make My Day 12K, 2011",
+        "url"         : "/make-my-day-12k-2011/",
+        "categories"  : "Races",
+        "tags"        : "12K,Columbia,running,SC,trail",
+        "excerpt"     : "I&#39;ve run quite a few races, so it&#39;s not often that I get to do something for the very first time. This one was held in Harbison State Forest, and it was my very first trail run... ever. I&#39;ve run through the woods, but it was always on flat ground. This one was an actual trail, with tree roots and everything.",
+        "distance"   : "12K",
+        "date"        : "2011-02-26 17:32:50 -0500",
+        "dateString"        : "February 26, 2011"
+      },
+    
+      {
+        "title"       : "57. Charleston Marathon, 2011",
+        "url"         : "/charleston-marathon-2011/",
+        "categories"  : "Races",
+        "tags"        : "Charleston,marathon,running,SC",
+        "excerpt"     : "Charleston had its first full marathon on Saturday. After all my time running races in that town, there was no way I was going to miss it. After all, I ran my very first registered event in Chucktown.",
+        "distance"   : "26.2 miles",
+        "date"        : "2011-01-15 16:33:18 -0500",
+        "dateString"        : "January 15, 2011"
+      },
+    
+      {
+        "title"       : "Tough Guy War Stories",
+        "url"         : "/tough-guy-war-stories/",
+        "categories"  : "Blog",
+        "tags"        : "running,SC,training,weather",
+        "excerpt"     : "As a runner, some of my proudest moments involve adverse conditions. Rain, wind, snow and other things that Mother Nature dishes out become prized trophies in the memory of any serious runner. Just as old soldiers compare scars, runners compare stories about going outside in horrible weather.",
+        
+        "date"        : "2010-12-13 18:40:00 -0500",
+        "dateString"        : "December 13, 2010"
+      },
+    
+      {
+        "title"       : "Preparation and Vigilance",
+        "url"         : "/preparation-and-vigilance/",
+        "categories"  : "Blog",
+        "tags"        : "Columbia,running,SC,training",
+        "excerpt"     : "I was up early this morning. I mean, really early. It was supposed to be 5am, but it sort of turned into 5:45am. Still, I was out the door a little after 6am. Everything seemed to be going just fine.",
+        
+        "date"        : "2010-12-06 10:19:29 -0500",
+        "dateString"        : "December 6, 2010"
+      },
+    
+      {
+        "title"       : "Thanksgiving Slouchery",
+        "url"         : "/thanksgiving-slouchery/",
+        "categories"  : "Blog",
+        "tags"        : "Columbia,running,Thanksgiving,training",
+        "excerpt"     : "I normally run a 5K on Thanksgiving, but Cara and I have already done a Turkey-themed race this month and we didn&#39;t want to shell out another $30 per person.  Instead, we just slept in a bit so we can be ready to host Thanksgiving.",
+        
+        "date"        : "2010-11-25 14:12:20 -0500",
+        "dateString"        : "November 25, 2010"
+      },
+    
+      {
+        "title"       : "56. Shandon Turkey Trot, 2010",
+        "url"         : "/shandon-turkey-trot-2010/",
+        "categories"  : "Races",
+        "tags"        : "8K,Columbia,running,SC,Shandon Turkey Trot",
+        "excerpt"     : "How&#39;s this for awesome? Not only was this race just a few blocks from the apartment, but Cara pre-registered before I did! It was her first 8K EVER!",
+        "distance"   : "8K",
+        "date"        : "2010-11-20 18:00:08 -0500",
+        "dateString"        : "November 20, 2010"
+      },
+    
+      {
+        "title"       : "55. Governor&amp;#8217;s Cup Road Race, 2010",
+        "url"         : "/governors-cup-road-race-2010/",
+        "categories"  : "Races",
+        "tags"        : "Columbia,Governor's Cup Road Race,half-marathon,running,SC",
+        "excerpt"     : "Columbia had a half marathon just a couple of miles from the house, and two of my high school buddies were going to be there. There&#39;s no way I was going to miss this one.",
+        "distance"   : "13.1 miles",
+        "date"        : "2010-11-13 18:42:09 -0500",
+        "dateString"        : "November 13, 2010"
+      },
+    
+      {
+        "title"       : "Test Run for the Governor&amp;#8217;s Cup",
+        "url"         : "/test-run-for-the-governors-cup/",
+        "categories"  : "Blog",
+        "tags"        : "running,training",
+        "excerpt"     : "moved back to South Carolina recently, and it threw a bit of a wrench into my training habits. I’m working from home now, so my “commute” is just from the kitchen to our office. That’s wonderful, of course, but it takes some of the sting out of getting up in the morning. There’s no time pressure anymore, and I need to adjust for that.",
+        
+        "date"        : "2010-10-24 12:05:58 -0400",
+        "dateString"        : "October 24, 2010"
+      },
+    
+      {
+        "title"       : "54. USMC Mud Run, 2010",
+        "url"         : "/usmc-mud-run-2010/",
+        "categories"  : "Races",
+        "tags"        : "running,SC,USMC Mud Run",
+        "excerpt"     : "This military obstacle course was my first race since moving back to South Carolina from New England. A friend couldn&#39;t make it, so I got a chance to fill in for her team. I was expecting a great day, but there were a few unhappy surprises in store for everyone.",
+        "distance"   : "4.5 miles",
+        "date"        : "2010-09-26 18:43:58 -0400",
+        "dateString"        : "September 26, 2010"
+      },
+    
+      {
+        "title"       : "From Quincy to Boston",
+        "url"         : "/from-quincy-to-boston/",
+        "categories"  : "Blog",
+        "tags"        : "Boston,MA,Quincy,running,training",
+        "excerpt"     : "On Saturday I did something I&amp;#8217;ve been planning for a good while. Whenever I do a long run, I wind up within spitting distance of Boston before I turn back towards home. For once, why not just run all the way into town? Ten miles could put me right in the middle of it, and I could just take the train home.",
+        
+        "date"        : "2010-08-29 23:57:11 -0400",
+        "dateString"        : "August 29, 2010"
+      },
+    
+      {
+        "title"       : "In the rain and on the beach",
+        "url"         : "/in-the-rain-and-on-the-beach/",
+        "categories"  : "Blog",
+        "tags"        : "beach,rain,running,training",
+        "excerpt"     : "Yesterday I opted for an afternoon run instead of my usual 5:30am routine. I&#39;d like to say that I was just changing things up a bit, but the truth is that it was my 37th birthday and I just didn&#39;t want to get up early.",
+        
+        "date"        : "2010-08-06 09:24:37 -0400",
+        "dateString"        : "August 6, 2010"
+      },
+    
+      {
+        "title"       : "14 miles and a pair of vampire bites",
+        "url"         : "/14-miles-and-a-pair-of-vampire-bites/",
+        "categories"  : "Blog",
+        "tags"        : "MA,running,training",
+        "excerpt"     : "My long run was moved up to this morning because our Sunday is filled up with a company cookout and a rock concert. Since I might have to skip tomorrow, I decided to crank the distance up a bit. The weather was pretty nice and I felt great, so I wasn&#39;t expecting any trouble.",
+        
+        "date"        : "2010-07-31 15:02:11 -0400",
+        "dateString"        : "July 31, 2010"
+      },
+    
+      {
+        "title"       : "53. Jim Kane Sugar Bowl Five Miler, 2010",
+        "url"         : "/jim-kane-sugar-bowl-five-miler-2010/",
+        "categories"  : "Races",
+        "tags"        : "5-mile,Jim Kane Sugar Bowl,MA,running",
+        "excerpt"     : "Today was my 53rd race. I&#39;ve been around the block a few times, and I pretty much have the routine figured out. That being said, imagine my surprise when something wonderful and awesome happened right in front of me.",
+        "distance"   : "5 miles",
+        "date"        : "2010-07-16 01:57:50 -0400",
+        "dateString"        : "July 16, 2010"
+      },
+    
+      {
+        "title"       : "This is my Private July 4 Event.",
+        "url"         : "/this-is-my-private-july-4-event/",
+        "categories"  : "Blog",
+        "tags"        : "july4,MA,Quincy,running,training",
+        "excerpt"     : "So today is normally one of those holidays where I do a running event, but this year I&#39;m not. It&#39;s kind of a bummer, so I decided to cheer myself up with my own little event.",
+        
+        "date"        : "2010-07-04 12:13:51 -0400",
+        "dateString"        : "July 4, 2010"
+      },
+    
+      {
+        "title"       : "52. Boston Run to Remember, 2010",
+        "url"         : "/boston-run-to-remember-2010/",
+        "categories"  : "Races",
+        "tags"        : "Boston,half-marathon,MA,running",
+        "excerpt"     : "I was having a hard time getting back into the swing of things after my first New England Winter, so I set a clear goal for myself. I would run another half-marathon in under two hours. At the very least, I would finish it without walking. At the most, I would train my way out of my Fatboy Jeans again, and this time I would burn them.",
+        "distance"   : "13.1 miles",
+        "date"        : "2010-05-30 19:36:05 -0400",
+        "dateString"        : "May 30, 2010"
+      },
+    
+      {
+        "title"       : "51. Marine Corps Honor Run, 2010",
+        "url"         : "/marine-corps-honor-run-2010/",
+        "categories"  : "Races",
+        "tags"        : "5K,Boston,MA,Marine Corps Honor Run",
+        "excerpt"     : "Okay, it’s time for Race 51: The Marine Core Honor Run. This one is is meant to recognize the contributions of peeps in the Marine Corps and in law enforcement. They give out scholarships and bonds to the children of said peeps, so it’s yet another run race for a warm and fuzzy cause.",
+        "distance"   : "5K",
+        "date"        : "2010-05-08 16:25:10 -0400",
+        "dateString"        : "May 8, 2010"
+      },
+    
+      {
+        "title"       : "50. Chasing the Cure 5K for PLGA and HIV, 2010",
+        "url"         : "/chasing-the-cure-plga-hiv-2010/",
+        "categories"  : "Races",
+        "tags"        : "5K,Boston,Chasing the Cure PLGA HIV,ichasethecure,MA",
+        "excerpt"     : "There were two races I could have chosen for my 50th race. One was at an elementary school two miles from my apartment, and the other was on the Esplanade along the Charles River. I chose the more scenic because I like running along the water and I thought it would be a larger, grander operation. As it turned out, I may have had that last part backwards.",
+        "distance"   : "5K",
+        "date"        : "2010-04-25 23:22:54 -0400",
+        "dateString"        : "April 25, 2010"
+      },
+    
+      {
+        "title"       : "Boston Marathon 2010: From the Sidelines",
+        "url"         : "/boston-marathon-2010-from-the-sidelines/",
+        "categories"  : "Blog",
+        "tags"        : "Boston,MA,marathon,running,spectator",
+        "excerpt"     : "My first Boston Marathon was just as I had expected... I was there as a spectator. Among other things, I discovered that my camera&#39;s battery is going south, I am still unable to dress for the unpredictable Boston weather, and I need a new digital camera with a better pixel-count.",
+        
+        "date"        : "2010-04-20 09:11:28 -0400",
+        "dateString"        : "April 20, 2010"
+      },
+    
+      {
+        "title"       : "49. For the Love of Sports 5 Mile Run, 2010",
+        "url"         : "/for-the-love-of-sports-5-mile-run-2010/",
+        "categories"  : "Races",
+        "tags"        : "5-mile,Boston,Good Sports 5-Mile Run,MA",
+        "excerpt"     : "I was going to do a simple 5K this weekend, but Sara let me know that there was a 5-mile race on the same day. I wanted to test my post-winter fitness, so of course I went for the longer race. My goal was a modest 50 minutes, but I was in for a bit of a surprise.",
+        "distance"   : "5 miles",
+        "date"        : "2010-04-11 19:09:36 -0400",
+        "dateString"        : "April 11, 2010"
+      },
+    
+      {
+        "title"       : "80 degrees and sunshine? Sounds just like home!",
+        "url"         : "/80-degrees-and-sunshine-sounds-just-like-home/",
+        "categories"  : "Blog",
+        "tags"        : "running",
+        "excerpt"     : "I was up and ready this morning for a quick 5K run before work&amp;#8230; and then I checked the weather again. I knew a warm day was coming, but 80 degrees is just too much to pass up. It&amp;#8217;s going to feel like South Carolina again!",
+        
+        "date"        : "2010-04-07 08:11:13 -0400",
+        "dateString"        : "April 7, 2010"
+      },
+    
+      {
+        "title"       : "Recovery Day",
+        "url"         : "/recovery-day/",
+        "categories"  : "Blog",
+        "tags"        : "running",
+        "excerpt"     : "So yesterday I went out on Sea Street again for another 10K run. After two consecutive days of it, I was pretty pooped. Lucky I took Cara&amp;#8217;s advice and applied some sunblock, though. Handy stuff.",
+        
+        "date"        : "2010-04-05 09:34:00 -0400",
+        "dateString"        : "April 5, 2010"
+      },
+    
+      {
+        "title"       : "Dublin in Boston, Running in Quincy",
+        "url"         : "/dublin-in-boston-running-in-quincy/",
+        "categories"  : "Blog",
+        "tags"        : "Dublin,running",
+        "excerpt"     : "I was planning to run along the Charles River again, but Cara wanted to take advantage of the sunny weather by taking Dublin out somewhere. I thought I could combine everything by taking them both to the park in the&amp;#8230; it&amp;#8217;s the Esplanade, right?",
+        
+        "date"        : "2010-04-03 17:45:31 -0400",
+        "dateString"        : "April 3, 2010"
+      },
+    
+      {
+        "title"       : "My first run along the Charles River",
+        "url"         : "/my-first-run-along-the-charles-river/",
+        "categories"  : "Blog",
+        "tags"        : "running",
+        "excerpt"     : "I&amp;#8217;ve been working up near Fenway and I kept hearing about the Charles River, so I decided to check it out. Thursday is a late day, so there would still be people around after my shift was over.",
+        
+        "date"        : "2010-04-01 20:54:56 -0400",
+        "dateString"        : "April 1, 2010"
+      },
+    
+      {
+        "title"       : "My own little Bridge Run",
+        "url"         : "/my-own-little-bridge-run/",
+        "categories"  : "Blog",
+        "tags"        : "running",
+        "excerpt"     : "The bad news: No bridge and my Nikon&amp;#8217;s batteries ran out just when I wanted to use it. The good news&amp;#58; I saw Quincy Bay as I ran on Sea Street, and I had taken my phone with me in case I needed the GPS. (New route.) Even better, my body held up better than I would have expected. I wasn&amp;#8217;t fast, but I wasn&amp;#8217;t sore either.",
+        
+        "date"        : "2010-03-27 16:35:39 -0400",
+        "dateString"        : "March 27, 2010"
+      },
+    
+      {
+        "title"       : "48. St. Patrick’s Day 5K Road Race, 2010",
+        "url"         : "/st-patricks-day-5k-road-race-2010/",
+        "categories"  : "Races",
+        "tags"        : "5K",
+        "excerpt"     : "My first race in Boston was also my first race of 2010. I was hoping for something a little less flooded, but I&#39;ll take what I can get after my first New England Winter. With the snow and ice and the refreezing ice and the dogs refusal to go out because the snow is taller than he is... well, the truth is that I haven&#39;t done much. Time to change that.",
+        "distance"   : "5K",
+        "date"        : "2010-03-17 00:01:31 -0400",
+        "dateString"        : "March 17, 2010"
+      },
+    
+      {
+        "title"       : "47. Downtown 10K, 2009",
+        "url"         : "/downtown-10k-2009/",
+        "categories"  : "Races",
+        "tags"        : "10K,Burlington,VT",
+        "excerpt"     : "There won&#39;t be many footraces after this point since Winter is on the way, so I was excited to find out about an event right here in downtown Burlington. The downtown 10K is less than a mile from my apartment, so how could I pass it up?",
+        "distance"   : "10K",
+        "date"        : "2009-09-28 17:00:40 -0400",
+        "dateString"        : "September 28, 2009"
+      },
+    
+      {
+        "title"       : "46. Montréal Marathon, 2009",
+        "url"         : "/montreal-marathon-2009/",
+        "categories"  : "Races",
+        "tags"        : "marathon",
+        "excerpt"     : "I recently completed my second marathon. A single marathon is plenty of accomplishment for anybody, of course. The sensible thing would be to declare victory and go back to your regular existence. It&#39;s just not that easy, though. Something about the experience draws a person back into the mix. This time the event was held in Montréal, and the weather was better than I could have hoped for.",
+        "distance"   : "26.2 miles",
+        "date"        : "2009-09-20 17:00:34 -0400",
+        "dateString"        : "September 20, 2009"
+      },
+    
+      {
+        "title"       : "Pennsic 38, 2009 – Glad I missed it",
+        "url"         : "/pennsic-38-2009-glad-i-missed-it/",
+        "categories"  : "Blog",
+        "tags"        : "Burlington,Pennsic,SCA,VT",
+        "excerpt"     : "For the second year in a row, I didn&#39;t go to Pennsic. I have a new job, so I couldn&#39;t take the time off. But that&#39;s okay, really. I didn&#39;t really need to drive all the way to Pennsylvania just to have a good time. In fact, I&#39;ve compiled a list of all the cool things I was doing while everyone else was at Pennsic.",
+        
+        "date"        : "2009-08-09 17:00:11 -0400",
+        "dateString"        : "August 9, 2009"
+      },
+    
+      {
+        "title"       : "Great Northeastern War, 2009",
+        "url"         : "/great-northeastern-war-2009/",
+        "categories"  : "Blog,SCA",
+        "tags"        : "GNE,GNEW,ME,SCA",
+        "excerpt"     : "Since I live in New England now, I decided to drive on over to Maine and have a go at my second Great Northeastern War. I flew last time, so I was able to pack up the car for a weekend and test out some new camping equipment. And by &quot;test&quot; I mean &quot;damage.&quot;",
+        
+        "date"        : "2009-07-13 17:00:03 -0400",
+        "dateString"        : "July 13, 2009"
+      },
+    
+      {
+        "title"       : "45. Run for Empowerment, 2009",
+        "url"         : "/run-for-empowerment-2009/",
+        "categories"  : "Races",
+        "tags"        : "10K,Burlington,Waterfront Park",
+        "excerpt"     : "I had forgotten about this one until the day before, when a customer at work mentioned it in passing. One advantage of leaving Starbucks is having Saturdays off, so I made quick plans to run in the event. I never suspected that I would score a sweet new personal record in the process!",
+        "distance"   : "10K",
+        "date"        : "2009-06-20 17:00:09 -0400",
+        "dateString"        : "June 20, 2009"
+      },
+    
+      {
+        "title"       : "44. Girls on the Run, 2009",
+        "url"         : "/girls-on-the-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "5K,Essex,Girls on the Run,VT",
+        "excerpt"     : "I&#39;ve done a few of these races, right? I mean, this is race 44, for crying out loud. You would think that I would have it all figured out by now. You would think that it&#39;s all a simple routine to me, and that I could do these things blindfolded. Certainly I should be well beyond all of the silly rookie mistakes, right? Well... um... I&#39;m afraid I&#39;ll have to disappoint you.",
+        "distance"   : "5K",
+        "date"        : "2009-06-07 17:00:08 -0400",
+        "dateString"        : "June 7, 2009"
+      },
+    
+      {
+        "title"       : "43. Mutt Strutt, 2009",
+        "url"         : "/mutt-strutt-2009/",
+        "categories"  : "Races",
+        "tags"        : "5K,Mutt Strutt,VT,Waterbury",
+        "excerpt"     : "It had to happen eventually. Things warmed up enough for me to try out a running event in Vermont. Oh, I&#39;ve seen people running around since I got here, but I&#39;m not frost-resistant yet, so I tend to think of them as crazy people.",
+        "distance"   : "5K",
+        "date"        : "2009-04-26 17:00:33 -0400",
+        "dateString"        : "April 26, 2009"
+      },
+    
+      {
+        "title"       : "42. Flowertown Festival Run, 2009",
+        "url"         : "/flowertown-festival-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "This race was special for a couple of reasons. First, it was the last one I would run in as a Charleston resident. Second, it was the first race Maurice Davis participated in since his stroke in December. He did the 1-mile Fun Run.",
+        "distance"   : "10K",
+        "date"        : "2009-03-14 17:00:56 -0400",
+        "dateString"        : "March 14, 2009"
+      },
+    
+      {
+        "title"       : "41. LifePoint Gift of Life Run, 2009",
+        "url"         : "/lifepoint-gift-of-life-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "5K",
+        "excerpt"     : "Never done this one before, but it&#39;s the last 5K I had access to before the big move to Vermont. I couldn&#39;t pass it up. This event promotes organ donation, and even had some people speaking about it at the award ceremony. A donor&#39;s mother and a recipient, to be specific. It was kind of cool.",
+        "distance"   : "5K",
+        "date"        : "2009-03-07 16:00:36 -0500",
+        "dateString"        : "March 7, 2009"
+      },
+    
+      {
+        "title"       : "40. We Heart Maurice Run, 2009",
+        "url"         : "/we-heart-maurice-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "3-mile,We Heart Maurice Run",
+        "excerpt"     : "This was a pretty special race. You can get the details at the official site, which I designed for the event. The short explanation is that a local athlete had a stroke in December, and has no medical insurance through his job. He&#39;s a really nice guy, and nobody likes to see people like that knocked down by the World, so the local Running Community put together a race to help him.",
+        "distance"   : "3 miles",
+        "date"        : "2009-02-14 16:00:24 -0500",
+        "dateString"        : "February 14, 2009"
+      },
+    
+      {
+        "title"       : "39. Save the Light Half-Marathon, 2009",
+        "url"         : "/2009-save-the-light-half-marathon-2009/",
+        "categories"  : "Races",
+        "tags"        : "half-marathon",
+        "excerpt"     : "As you can see from the photo on the left, I didn&#39;t get much sleep the night before. All my fault, I admit. I hadn&#39;t even really trained for this one, but I did okay at the Charlie Post, so I figured I would just cruise through it and enjoy myself.",
+        "distance"   : "13.1 miles",
+        "date"        : "2009-02-07 16:00:33 -0500",
+        "dateString"        : "February 7, 2009"
+      },
+    
+      {
+        "title"       : "38. Charlie Post Classic, 2009",
+        "url"         : "/charlie-post-classic-2009/",
+        "categories"  : "Races",
+        "tags"        : "15K,Charlie Post Classic",
+        "excerpt"     : "This was a new one for me. I&#39;ve never actually been to Sullivan&#39;s Island before. Well, not for a race, anyway. I ran onto the island during my marathon training, but I just turned around and came back to Charleston.",
+        "distance"   : "15K",
+        "date"        : "2009-01-31 16:00:42 -0500",
+        "dateString"        : "January 31, 2009"
+      },
+    
+      {
+        "title"       : "37. Laura Griffin Memorial Run, 2009",
+        "url"         : "/laura-griffin-memorial-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "5K,Laura Griffin Run",
+        "excerpt"     : "Another January rolls around without seeming to leave any space between it and the last one, and another cold morning finds me on George Street waiting for the Laura Griffin Memorial Run to start.",
+        "distance"   : "5K",
+        "date"        : "2009-01-20 16:00:43 -0500",
+        "dateString"        : "January 20, 2009"
+      },
+    
+      {
+        "title"       : "36. Resolution Run, 2009",
+        "url"         : "/resolution-run-2009/",
+        "categories"  : "Races",
+        "tags"        : "5K,Resolution Run",
+        "excerpt"     : "Once again I started the New Year with a running event: the Resolution Run at Joe Riley Stadium. It was held on the 3rd this time so that it would fall upon a Saturday.",
+        "distance"   : "5K",
+        "date"        : "2009-01-03 16:00:12 -0500",
+        "dateString"        : "January 3, 2009"
+      },
+    
+      {
+        "title"       : "35. Kiawah Island Marathon, 2008",
+        "url"         : "/kiawah-island-marathon-2008/",
+        "categories"  : "Races",
+        "tags"        : "marathon",
+        "excerpt"     : "Well, here it is. The Big One. My first marathon. I had been training for Kiawah for a while, but having two jobs can get in the way. After all, it&#39;s not easy to devote four hours to a long run when you have work at a Starbucks all night.",
+        "distance"   : "26.2 miles",
+        "date"        : "2008-12-06 16:00:03 -0500",
+        "dateString"        : "December 6, 2008"
+      },
+    
+      {
+        "title"       : "34. Turkey Day Run, 2008",
+        "url"         : "/turkey-day-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Turkey Day Run",
+        "excerpt"     : "Back again for the Turkey Day Run. This run is kind of special, because it happens on an actual holiday. Thanksgiving Day, every year.",
+        "distance"   : "5K",
+        "date"        : "2008-11-27 16:00:42 -0500",
+        "dateString"        : "November 27, 2008"
+      },
+    
+      {
+        "title"       : "33. Folly Beach 10 Mile Run, 2008",
+        "url"         : "/folly-beach-10-mile-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "10-Mile,Folly Beach 10-Mile Run",
+        "excerpt"     : "The course was pretty similar to the Folly Beach Save the Light Half-Marathon, but that&#39;s understandable since Folly Beach is only so big. I&#39;m in training for a marathon, so I didn&#39;t plan on breaking my neck out there. I just wanted to cruise a bit and enjoy a good run with some familiar faces.",
+        "distance"   : "10 Miles",
+        "date"        : "2008-11-15 16:00:06 -0500",
+        "dateString"        : "November 15, 2008"
+      },
+    
+      {
+        "title"       : "32. James Island Connector Run, 2008",
+        "url"         : "/james-island-connector-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "The James Island Connector, as I&#39;ve said before, is a pretty simple race. You just run up Calhoun Street for a couple of blocks and then you&#39;re on the bridge. There are three different hills on the Connector, ranging in horror from mild annoyance to some of us, to heartache for those who are a bit less experienced.",
+        "distance"   : "10K",
+        "date"        : "2008-11-01 17:00:11 -0400",
+        "dateString"        : "November 1, 2008"
+      },
+    
+      {
+        "title"       : "31. Race for the Cure, 2008",
+        "url"         : "/race-for-the-cure-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Race for the Cure",
+        "excerpt"     : "This was my third year in the Charleston, South Carolina Race for the Cure. I looked at my other two races before writing this article, and I&#39;m a little disappointed that this year&#39;s weather didn&#39;t match up with those.",
+        "distance"   : "5K",
+        "date"        : "2008-10-18 17:00:45 -0400",
+        "dateString"        : "October 18, 2008"
+      },
+    
+      {
+        "title"       : "30. USMC Mud Run, 2008",
+        "url"         : "/usmc-mud-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "USMC Mud Run",
+        "excerpt"     : "This race was a little different. It&#39;s not a simple 5K or 10K race. It&#39;s a military obstacle course, with all sorts of mud thrown in just to make it dirtier.",
+        "distance"   : "4.1 Miles",
+        "date"        : "2008-09-20 17:00:53 -0400",
+        "dateString"        : "September 20, 2008"
+      },
+    
+      {
+        "title"       : "29. Race for the ARK, 2008",
+        "url"         : "/race-for-the-ark-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Race for the Ark",
+        "excerpt"     : "Here we go, yet again. Another year, another cycle through these same old races. I&#39;ll miss them when I move away.",
+        "distance"   : "5K",
+        "date"        : "2008-08-23 17:00:03 -0400",
+        "dateString"        : "August 23, 2008"
+      },
+    
+      {
+        "title"       : "28. Daniel Island Twilight Series 2008, Part 4",
+        "url"         : "/daniel-island-twilight-series-2008-part-4/",
+        "categories"  : "Races",
+        "tags"        : "5K,Daniel Island Series",
+        "excerpt"     : "Finally, we&#39;ve reached the fourth and final race of the Daniel Island Series. I didn&#39;t have too many ambitions about this race. I wanted to finish strong, but I had pulled a muscle at the previous race. I worked on it, though. By the time of this race I was back into my longer runs.",
+        "distance"   : "5K",
+        "date"        : "2008-08-21 17:00:53 -0400",
+        "dateString"        : "August 21, 2008"
+      },
+    
+      {
+        "title"       : "Pennsic 37, 2008",
+        "url"         : "/pennsic-37-2008/",
+        "categories"  : "Blog,SCA",
+        "tags"        : "PA,Pennsic,SCA",
+        "excerpt"     : "As you know, for the past few years I&#39;ve been posting my Pennsic photos to this site. Well, I didn&#39;t go this year. I stayed home. Oh, there were reasons...",
+        
+        "date"        : "2008-08-10 17:00:21 -0400",
+        "dateString"        : "August 10, 2008"
+      },
+    
+      {
+        "title"       : "27. Daniel Island Twilight Series 2008, Part 3",
+        "url"         : "/daniel-island-twilight-series-2008-part-3/",
+        "categories"  : "Races",
+        "tags"        : "5K,Daniel Island Series",
+        "excerpt"     : "Time for the third race in the Daniel Island Series. I was concerned about this race much more than the others. I had been entertaining thoughts of beating my Personal Record at each race, since the first two went so well. However, the first race had rain and the second wasn&#39;t as hot as I had feared. Things like that tend to help a guy out.",
+        "distance"   : "5K",
+        "date"        : "2008-08-07 17:00:41 -0400",
+        "dateString"        : "August 7, 2008"
+      },
+    
+      {
+        "title"       : "26. Daniel Island Twilight Series 2008, Part 2",
+        "url"         : "/daniel-island-twilight-2008-part-2/",
+        "categories"  : "Races",
+        "tags"        : "5K,Daniel Island Series",
+        "excerpt"     : "Back to Daniel Island and back to Bishop England High School for the second race in the Daniel Island Twighlight Series.",
+        "distance"   : "5K",
+        "date"        : "2008-07-24 17:00:53 -0400",
+        "dateString"        : "July 24, 2008"
+      },
+    
+      {
+        "title"       : "25. Daniel Island Twilight Series 2008, Part 1",
+        "url"         : "/daniel-island-twilight-2008-part-1/",
+        "categories"  : "Races",
+        "tags"        : "5K,Daniel Island Series",
+        "excerpt"     : "This event was a bit impulsive on my part. When I was at the July 4th Cross-Country 5K Run  this year, several people mentioned this series of races. Since the folks at The Extra Mile organized both events, it was easy to get information.",
+        "distance"   : "5K",
+        "date"        : "2008-07-10 17:00:19 -0400",
+        "dateString"        : "July 10, 2008"
+      },
+    
+      {
+        "title"       : "24. July 4 Cross Country Run, 2008",
+        "url"         : "/july-4-cross-country-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,July 4 Cross Country Run",
+        "excerpt"     : "I&#39;ve wanted to move to another part of the country for a while now, but this year I actually have the means to do it. As a result, these races are just a little bit more special to me. I may not be here next year to run down the list again. With that in mind, I find myself searching for more than just another race or another clock-time.",
+        "distance"   : "5K",
+        "date"        : "2008-07-04 17:00:29 -0400",
+        "dateString"        : "July 4, 2008"
+      },
+    
+      {
+        "title"       : "23. Run Forrest Run, 2008",
+        "url"         : "/run-forrest-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Run Forrest Run",
+        "excerpt"     : "First of all, I seem to be guilty of not reading my own articles. I knew that I would see some of my former co-workers at this race because Coburg Dairy is one of the sponsors. Upon arrival I found Robert Garret at the Coburg table, and one of his first questions was why I didn&#39;t call him up for a free registration.",
+        "distance"   : "5K",
+        "date"        : "2008-04-26 17:00:22 -0400",
+        "dateString"        : "April 26, 2008"
+      },
+    
+      {
+        "title"       : "22. Cooper River Bridge Run, 2008",
+        "url"         : "/cooper-river-bridge-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "Another year, another Cooper River Bridge Run. This year was different because I wasn&#39;t running alone. My friend Ron drove down to Charleston for his very first 10K race, so I went a little slower so I could stick with him. After all, it would be kind of rude to invite him to Charleston and then leave him behind in a crowd of thousands.",
+        "distance"   : "10K",
+        "date"        : "2008-04-05 17:00:58 -0400",
+        "dateString"        : "April 5, 2008"
+      },
+    
+      {
+        "title"       : "21. Flowertown Festival Run, 2008",
+        "url"         : "/flowertown-festival-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "Another year, another Flowertown race. This one was pretty similar to the last one. The location was the same, the course was the same, and the crowd was light and easy to navigate through.",
+        "distance"   : "10K",
+        "date"        : "2008-03-15 17:00:33 -0400",
+        "dateString"        : "March 15, 2008"
+      },
+    
+      {
+        "title"       : "20. Save the Light Half-Marathon, 2008",
+        "url"         : "/save-the-light-half-marathon-2008/",
+        "categories"  : "Races",
+        "tags"        : "half-marathon",
+        "excerpt"     : "Recently I cranked up the standards a bit. I participated in the Save the Light Half-Marathon, running 13.1 miles back and forth through the neighborhood around Folly Beach, South Carolina. The goal of the event is to raise money for the local lighthouse. You can get more details at the official website for the event.",
+        "distance"   : "13.1 miles",
+        "date"        : "2008-02-02 16:00:54 -0500",
+        "dateString"        : "February 2, 2008"
+      },
+    
+      {
+        "title"       : "19. Laura Griffin Memorial Run, 2008",
+        "url"         : "/laura-griffin-memorial-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Laura Griffin Run",
+        "excerpt"     : "This is a special race for those of us who work at the College of Charleston. In the past year I&amp;#8217;ve become more involved with life on campus, and I&amp;#8217;ve gotten to know many staffers in many departments, from the School of Business to the Physical Plant. I wasn&amp;#8217;t around when we lost Laura, but I can imagine how I would feel if I lost one of my friends on campus. There are plenty of people who were around in 1996, and they still miss her.",
+        "distance"   : "5K",
+        "date"        : "2008-01-19 16:00:50 -0500",
+        "dateString"        : "January 19, 2008"
+      },
+    
+      {
+        "title"       : "18. Resolution Run, 2008",
+        "url"         : "/resolution-run-2008/",
+        "categories"  : "Races",
+        "tags"        : "5K,Resolution Run",
+        "excerpt"     : "Another year, another bunch of people promising to exercise. Right. Whatever. Some of us really do exercise, however. The familiar faces are starting to add up. For instance, I saw Monica again. She seems to be at all the races these days, although her husband John is recovering from knee surgery and can&#39;t participate for a while. (Must be driving him nuts!)",
+        "distance"   : "5K",
+        "date"        : "2008-01-01 16:00:16 -0500",
+        "dateString"        : "January 1, 2008"
+      },
+    
+      {
+        "title"       : "17. Reindeer Run, 2007",
+        "url"         : "/reindeer-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Reindeer Run",
+        "excerpt"     : "Time again for the Reindeer Run. You know, it&#39;s kind of strange going through the Charleston races for the second time. There are lots of little differences. First of all, everybody seems to want to start at 9am this year.",
+        "distance"   : "5K",
+        "date"        : "2007-12-01 16:00:49 -0500",
+        "dateString"        : "December 1, 2007"
+      },
+    
+      {
+        "title"       : "16. Turkey Day Run, 2007",
+        "url"         : "/turkey-day-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Turkey Day Run",
+        "excerpt"     : "Once again it was time for the Turkey Day Run  in Downtown Charleston. It was the first race of the season with a downtown course, so I had a chance to run part of my regular downtown course without having to worry about traffic.",
+        "distance"   : "5K",
+        "date"        : "2007-11-22 16:00:09 -0500",
+        "dateString"        : "November 22, 2007"
+      },
+    
+      {
+        "title"       : "15. James Island Connector Run, 2007",
+        "url"         : "/james-island-connector-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "This is the first time I&#39;ve done the Connector. It&#39;s a pretty simple race. You run over the James Island Connector Bridge, turn around and then come back. Ten kilometers altogether.",
+        "distance"   : "10K",
+        "date"        : "2007-11-03 17:00:18 -0400",
+        "dateString"        : "November 3, 2007"
+      },
+    
+      {
+        "title"       : "14. Race for the Cure, 2007",
+        "url"         : "/race-for-the-cure-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Race for the Cure",
+        "excerpt"     : "Once again I participated in the Charleston, South Carolina Race for the Cure. All of these running events are attached to some sort of good cause, but this one is a little different. The primary reason is the breast cancer survivors who are walking around the place. The second reason... well, that&#39;s a bit more personal.",
+        "distance"   : "5K",
+        "date"        : "2007-10-20 17:00:52 -0400",
+        "dateString"        : "October 20, 2007"
+      },
+    
+      {
+        "title"       : "13. Dam Run to Irmo, 2007",
+        "url"         : "/dam-run-to-irmo-2007/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "Well, it finally happened. I&#39;ve participated in a race that I would not suggest to anyone else. The aptly named &quot;Dam Run&quot; was a disorganized joke. Oh, I&#39;m sure that some of the locals would disagree, but trust me... it was a poorly organized race with an extremely crummy course.",
+        "distance"   : "10K",
+        "date"        : "2007-09-29 17:00:09 -0400",
+        "dateString"        : "September 29, 2007"
+      },
+    
+      {
+        "title"       : "12. Race for the ARK, 2007",
+        "url"         : "/race-for-the-ark-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Race for the Ark",
+        "excerpt"     : "Here it is, another race article. The cause this one is dedicated to is the ARK. It stands for Adult Respite... uh, Care. Yeah, I know. They wanted to spell it like the boat, so what can you do?",
+        "distance"   : "5K",
+        "date"        : "2007-08-25 17:00:42 -0400",
+        "dateString"        : "August 25, 2007"
+      },
+    
+      {
+        "title"       : "Pennsic 36, 2007",
+        "url"         : "/pennsic-36-2007/",
+        "categories"  : "Blog,SCA",
+        "tags"        : "PA,Pennsic,SCA",
+        "excerpt"     : "I just finished my 8th Pennsic. It was a pretty good event for the most part, but the weather made things difficult. There were several monsoons, and by the end of the event most of us were running out of clean clothes.",
+        
+        "date"        : "2007-08-15 17:00:21 -0400",
+        "dateString"        : "August 15, 2007"
+      },
+    
+      {
+        "title"       : "11. July 4 Cross Country Run, 2007",
+        "url"         : "/july-4-cross-country-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,July 4 Cross Country Run",
+        "excerpt"     : "I have this calendar from the 2006 Cooper River Bridge Run. It&#39;s wonderful, and I can&#39;t wait to receive the next one. It has all of the local running events in it. Everything from the Resolution Run to the Reindeer Run, all through the year. Usually there&#39;s the event name and maybe some other information. This time, it just said &quot;to be announced&quot; and had a phone number.",
+        "distance"   : "5K",
+        "date"        : "2007-07-04 17:00:21 -0400",
+        "dateString"        : "July 4, 2007"
+      },
+    
+      {
+        "title"       : "10. Run Forrest Run, 2007",
+        "url"         : "/run-forrest-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Run Forrest Run",
+        "excerpt"     : "I couldn&#39;t turn this one down. It was free. For those of you who don&#39;t know, I&#39;m a computer operator for the Accounting Department at Coburg Dairy. Our story began when Robert walked up to my desk with a registration form and told me that Coburg Dairy was sponsoring a local 5K race at the baseball stadium, of all places, along with the Bubba Gump Shrimp Company.",
+        "distance"   : "5K",
+        "date"        : "2007-05-19 17:00:13 -0400",
+        "dateString"        : "May 19, 2007"
+      },
+    
+      {
+        "title"       : "9. Cooper River Bridge Run, 2007",
+        "url"         : "/cooper-river-bridge-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Cooper River Bridge Run",
+        "excerpt"     : "March 31, 2007 was the day of the 30th Annual Cooper River Bridge Run, and I was right there in the middle of it. This year I had more trouble with the crowds, and it shows in my times when compared with last year. That&#39;s okay, though. Unless you&#39;re a professional runner, this event is more for fun than anything else.",
+        "distance"   : "10K",
+        "date"        : "2007-03-31 17:00:49 -0400",
+        "dateString"        : "March 31, 2007"
+      },
+    
+      {
+        "title"       : "8. Flowertown Festival Run, 2007",
+        "url"         : "/flowertown-festival-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "This article is a bit photo-heavy, but it&#39;s light on the chatter. I thought it would be fun to actually take my camera with me during a race. I have a project coming up in my Digital Photography class which requires a visual narrative, so I submitted the idea of documenting a race or two. (It&#39;s not as if I&#39;m really going out of my way.)",
+        "distance"   : "10K",
+        "date"        : "2007-03-17 17:00:06 -0400",
+        "dateString"        : "March 17, 2007"
+      },
+    
+      {
+        "title"       : "7. Laura Griffin Memorial Run, 2007",
+        "url"         : "/laura-griffin-memorial-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Laura Griffin Run",
+        "excerpt"     : "This race is a memorial for Laura Griffin, who used to work at the College of Charleston a few years back. She was the Director of the Office of Substance Abuse Prevention until she was killed in a hit-and-run on the Battery in January of 1996. Laura was apparently a big proponent of healthy living, So the folks at the college decided to honor her memory with a 5K race.",
+        "distance"   : "5K",
+        "date"        : "2007-01-13 16:00:33 -0500",
+        "dateString"        : "January 13, 2007"
+      },
+    
+      {
+        "title"       : "6. Resolution Run, 2007",
+        "url"         : "/resolution-run-2007/",
+        "categories"  : "Races",
+        "tags"        : "5K,Resolution Run",
+        "excerpt"     : "Happy New Year, everyone. I&#39;ve done enough of these races to become part of the local running community. Information just sort of floats to me now about where and when the races are. It&#39;s pretty cool. As with the other races, there are many different kinds of people involved, and people have individual goals for their times and performance.",
+        "distance"   : "5K",
+        "date"        : "2007-01-01 16:00:32 -0500",
+        "dateString"        : "January 1, 2007"
+      },
+    
+      {
+        "title"       : "5. Reindeer Run, 2006",
+        "url"         : "/reindeer-run-2006/",
+        "categories"  : "Races",
+        "tags"        : "5K,Reindeer Run",
+        "excerpt"     : "Yet another 5K race in Charleston, just two weeks after the Turkey Day run! I found out about it on Thanksgiving morning on my walk from the parking garage to registration. Someone had posted a few signs with the dates and information.",
+        "distance"   : "5K",
+        "date"        : "2006-12-02 16:00:39 -0500",
+        "dateString"        : "December 2, 2006"
+      },
+    
+      {
+        "title"       : "4. Turkey Day Run, 2006",
+        "url"         : "/turkey-day-run-2006/",
+        "categories"  : "Races",
+        "tags"        : "5K,Turkey Day Run",
+        "excerpt"     : "Happy American Thanksgiving Everyone! (It&#39;s a late wish, but it&#39;s better than nothing.) While most of you were sleeping soundly on Thanksgiving morning, I was awake and dressed for a race. Since I overtaxed my ankle during the Race for the Cure I&#39;ve been gradually training it up, and at this point I&#39;m finally ready for anything.",
+        "distance"   : "5K",
+        "date"        : "2006-11-23 16:00:35 -0500",
+        "dateString"        : "November 23, 2006"
+      },
+    
+      {
+        "title"       : "3. Race for the Cure, 2006",
+        "url"         : "/race-for-the-cure-2006/",
+        "categories"  : "Races",
+        "tags"        : "5K,Race for the Cure",
+        "excerpt"     : "This year I participated in the Charleston, South Carolina Race for the Cure. It&#39;s a 5K (3.1 mile) benefit race which promotes breast cancer research. It&#39;s the first race I&#39;ve participated in besides the Cooper River Bridge Run, so I was pretty excited. The only snag is that I haven&#39;t fully regained the level of fitness which I had before the accident.",
+        "distance"   : "5K",
+        "date"        : "2006-10-21 17:00:37 -0400",
+        "dateString"        : "October 21, 2006"
+      },
+    
+      {
+        "title"       : "2. Cooper River Bridge Run, 2006",
+        "url"         : "/cooper-river-bridge-run-2006/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "Another year has gone by, and I&#39;ve participated in my second Cooper River Bridge Run. This year was much nicer for me than last year, and the weather was rather cooperative as well.",
+        "distance"   : "10K",
+        "date"        : "2006-04-01 16:00:53 -0500",
+        "dateString"        : "April 1, 2006"
+      },
+    
+      {
+        "title"       : "1. Cooper River Bridge Run, 2005",
+        "url"         : "/cooper-river-bridge-run-2005/",
+        "categories"  : "Races",
+        "tags"        : "10K",
+        "excerpt"     : "I was looking over the list of my articles, and I noticed that I was exactly one race short of a complete race history. I was missing my first official race: The 2005 Cooper River Bridge Run. So here I am, writing this article in October of 2007. Better late than never, I suppose.",
+        "distance"   : "10K",
+        "date"        : "2005-04-02 16:00:26 -0500",
+        "dateString"        : "April 2, 2005"
+      }
+    
+  ],
+  "tags" : [
+    
+    
+      
+      
+    
+      
+      
+        {
+          "label": "10K",
+          "count": "20"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "5K",
+          "count": "56"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Bath",
+          "count": "12"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "Boston",
+          "count": "7"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "Burlington",
+          "count": "14"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Charleston",
+          "count": "6"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Columbia",
+          "count": "13"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Daniel Island Series",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "HTML5",
+          "count": "5"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "JavaScript",
+          "count": "12"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Laura Griffin Run",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "MA",
+          "count": "9"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "ME",
+          "count": "35"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Pennsic",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Portland",
+          "count": "15"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Race for the Cure",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Reindeer Run",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "Resolution Run",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "Riverfront Park",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "SC",
+          "count": "20"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "SCA",
+          "count": "5"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "South Portland",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Thanksgiving",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "Turkey Day Run",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "VT",
+          "count": "14"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "Waterfront Park",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "ZombiesRunGame",
+          "count": "17"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "animation",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "birthday",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "canvas",
+          "count": "8"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "concert",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "half-marathon",
+          "count": "5"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "iPhone",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "july4",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "marathon",
+          "count": "6"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "music",
+          "count": "3"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "race",
+          "count": "6"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "running",
+          "count": "53"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "snow",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "spectator",
+          "count": "5"
+        } ,
+      
+    
+      
+      
+    
+      
+      
+        {
+          "label": "trail",
+          "count": "4"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "training",
+          "count": "9"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "virtual race",
+          "count": "10"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "weather",
+          "count": "6"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "winter",
+          "count": "7"
+        } ,
+      
+    
+      
+      
+        {
+          "label": "zombies",
+          "count": "19"
+        } 
+      
+    
+  ]
+}
+
+
+
+

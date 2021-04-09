@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-04-09T05:42:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">The Mighty Cribb</title><subtitle>Web developer and runner, posting mostly about webdev stuff these days.</subtitle><entry><title type="html">PoliticianList: Playing with Congressional Data</title><link href="http://localhost:4000/politicianlist-playing-with-congressional-data/" rel="alternate" type="text/html" title="PoliticianList: Playing with Congressional Data" /><published>2020-07-01T08:34:05-04:00</published><updated>2020-07-01T08:34:05-04:00</updated><id>http://localhost:4000/politilist-playing-with-congressional-data</id><content type="html" xml:base="http://localhost:4000/politicianlist-playing-with-congressional-data/">&lt;p&gt;I’ve often found myself wondering when a particular senator is up for re-election, or what party an obscure member of the House is from. Sometimes a quick Google search tells you everything, but sometimes I find myself hitting Control-F to find out if “Republican” or “Democrat” appears on the page. So I looked around and found an &lt;a href=&quot;https://projects.propublica.org/api-docs/congress-api/&quot; target=&quot;_blank&quot; aria-label=&quot;undefined (opens in a new tab)&quot; rel=&quot;noreferrer noopener&quot;&gt;API from ProPublica&lt;/a&gt;. Then I made a list. You can see the repo here and the app itself at &lt;a href=&quot;https://http://politicianlist.com/&quot;&gt;politicianlist.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter max-width-medium&quot;&gt;
+	&lt;img alt=&quot;Logo for the React JavaScript framework&quot; src=&quot;/generated/assets/img/posts/2020/react-logo-800-f82aadeb9.png&quot; srcset=&quot;/generated/assets/img/posts/2020/react-logo-400-f82aadeb9.png 400w, /generated/assets/img/posts/2020/react-logo-800-f82aadeb9.png 800w, /generated/assets/img/posts/2020/react-logo-1000-f82aadeb9.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;It was a nice opportunity for me to play with a data API and work on my &lt;a href=&quot;https://reactjs.org/&quot; target=&quot;_blank&quot; aria-label=&quot;undefined (opens in a new tab)&quot; rel=&quot;noreferrer noopener&quot;&gt;React&lt;/a&gt; skills. I didn’t want to mess with branding so I just used Bootstrap. I might try to make it look prettier down the road, but the goal was to get a list of members of Congress that can be sorted and filtered.&lt;/p&gt;
+
+&lt;p&gt;Things went pretty well for the most part, but I had a few snags with the data. The API lists everybody, even if they’re no longer in Congress. Anyone who left because of health issues or got caught doing normal politician things without hiding them properly remains on the list, but with the property &lt;code class=&quot;highlighter-rouge&quot;&gt;in_office&lt;/code&gt; set to false. So it’s possible to have three senators for a state if one of them recently came in through a special election.&lt;/p&gt;
+
+&lt;p&gt;I filtered out anyone who isn’t currently in office and then found myself with a new problem. Members of Congress have an ID number in the data that I use as a key in my React lists, and suddenly I wound up with duplicates. Turns out that ProPublica updated the data and left a few people in there twice. The only difference between the entries was the last time they were updated. This blew up my app, so I had to filter things down again to search for duplicates and keep the most recent one.&lt;/p&gt;
+
+&lt;p&gt;The next thing to try out was pointing a domain name to my GitHub account. You’re allowed to have one organizational site with your account, so I learned how to get things set up to send &lt;a href=&quot;https://politicianlist.com/&quot;&gt;politicianlist.com&lt;/a&gt; to my new app. Just one problem: every time I update the code, the page would disappear behind a 404 error until the repo had rebuilt and the domain name had caught up with the changes. It took 20-30 minutes each time. No bueno, especially since I plan to tinker with this quite a bit in the near future.&lt;/p&gt;
+
+&lt;p&gt;I could have just hosted it on my own web host, but… nah. I decided to switch it back to a regular project page and just use the domain name as a forward. Now I can play around with the code and people will still get the current version until the new stuff shows up in a few minutes.&lt;/p&gt;
+
+&lt;p&gt;This is an ongoing project, so I’ll continue to make changes, Many of them will be under the hood, but you can expect the appearance to change as well. For example, I have plans to add photos to the list, but there are hundreds of members of Congress and the one public domain image provider I could find is missing a few. I’ll need to sort out some error handling and maybe get those images from somewhere else.&lt;/p&gt;
+
+&lt;p&gt;In the meantime, &lt;a href=&quot;https://politicianlist.com/&quot;&gt;PoliticianList&lt;/a&gt; is up and running.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Webdev" /><category term="politics" /><category term="React" /><summary type="html">I've often found myself wondering when a particular senator is up for re-election, or what party an obscure member of the House is from. So I looked around and found an API from ProPublica. Then I made a list.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2020/react-logo.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2020/react-logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">95. ZombiesRun Virtual Race, Spring 2020, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-spring-2020-5k/" rel="alternate" type="text/html" title="95. ZombiesRun Virtual Race, Spring 2020, 5K" /><published>2020-05-04T15:51:49-04:00</published><updated>2020-05-04T15:51:49-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-spring-2020-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-spring-2020-5k/">&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img alt=&quot;Zombies Run Virtual Race Spring 2020&quot; src=&quot;/generated/assets/img/posts/2020/VR10_Banner_Spring_2020-800-c8a9cef43.png&quot; srcset=&quot;/generated/assets/img/posts/2020/VR10_Banner_Spring_2020-400-c8a9cef43.png 400w, /generated/assets/img/posts/2020/VR10_Banner_Spring_2020-800-c8a9cef43.png 800w, /generated/assets/img/posts/2020/VR10_Banner_Spring_2020-1000-c8a9cef43.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;If you can believe it, this is the tenth &lt;a href=&quot;https://zombiesvirtualrace.com/&quot; target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot;&gt;virtual race for “Zombies, Run!”&lt;/a&gt; and the quality has been consistent all the way. With COVID-19 locking us down, this format is far better than having a bunch of people gather in one place and send their perspiration everywhere.&lt;/p&gt;
+
+&lt;p&gt;I remember when I was skeptical about virtual races, but I wanted to support Six to Start as a company and I couldn’t resist new content for Zombies, Run. Now I’m grateful for the change of pace, and the game gives me a chance to hit the forums if I want to chat with other runners.&lt;/p&gt;
+
+&lt;p&gt;This one is a murder mystery, and like all of Six to Start’s virtual races it takes place in the first season to avoid spoilers. It’s good stuff.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img alt=&quot;Brian outside wearing a skully hat&quot; src=&quot;/generated/assets/img/posts/2020/IMG_1230-800-24cb9d094.jpg&quot; srcset=&quot;/generated/assets/img/posts/2020/IMG_1230-400-24cb9d094.jpg 400w, /generated/assets/img/posts/2020/IMG_1230-800-24cb9d094.jpg 800w, /generated/assets/img/posts/2020/IMG_1230-1000-24cb9d094.jpg 1000w&quot; /&gt;
+
+	&lt;figcaption&gt;Above 50 degrees Farenhoot means just one layer!&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The temperature has been getting higher in the mornings and the light is coming earlier, so I was able to wear just one shirt layer and go without the headlamp. Finnea was ready to go, as usual, and neglected to do all of her business in the back yard before we headed out. I lost a few minutes to business breaks and her continuing desire to Sniff the World.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img alt=&quot;Finnea the puggle on the sidewalk&quot; src=&quot;/generated/assets/img/posts/2020/IMG_1233-800-01b2d726f.jpg&quot; srcset=&quot;/generated/assets/img/posts/2020/IMG_1233-400-01b2d726f.jpg 400w, /generated/assets/img/posts/2020/IMG_1233-800-01b2d726f.jpg 800w, /generated/assets/img/posts/2020/IMG_1233-1000-01b2d726f.jpg 1000w&quot; /&gt;
+
+	&lt;figcaption&gt;I can&amp;#8217;t believe I got Finnea to look directly into the camera.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We had just sold our house before the lockdowns and we hadn’t bought the next one yet, so we’re stuck at my wife’s parents’ place. This means an unfamiliar route for Finnea and she still wants to smell every blade of grass in the state. But hey, I’m out of shape right now so I’m not going for a personal record. Five kilometers is about all I’m good for right now. 🙂&lt;/p&gt;
+
+&lt;p&gt;There are other reasons for keeping it short, though. People in this town let their dogs just wander outside during the day and I can’t risk a dog twice Finnea’s size running up on her while she’s tethered to a waist leash. Even if the other dog has good intentions, it’s scary for my girl and it can cause trouble. By the way, these people would all refer to themselves as responsible dog owners. Don’t even get me started…&lt;/p&gt;
+
+&lt;p&gt;So anyway, we go super-early to avoid contact with anyone other than the one or two dedicated runners in the area. As always, other runners are fantastic. We stay on opposite sides of the street for each other and maintain proper distance, so all has been well in the social distancing department.&lt;/p&gt;
+
+&lt;p&gt;So once again, Six to Start has knocked it out of the park and added yet another set of missions to “&lt;a rel=&quot;noreferrer noopener&quot; href=&quot;https://zombiesrungame.com/&quot; target=&quot;_blank&quot;&gt;Zombies, Run!&lt;/a&gt;” that you can run if you decide to start over from Season One.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">If you can believe it, this is the tenth virtual race for &quot;Zombies, Run!&quot; and the quality has been consistent all the way. With COVID-19 locking us down, this format is far better than having a bunch of people gather in one place and send their perspiration everywhere.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2020/VR10_Banner_Spring_2020.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2020/VR10_Banner_Spring_2020.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">94. ZombiesRun Virtual Race, Halloween 2019, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-halloween-2019-5k/" rel="alternate" type="text/html" title="94. ZombiesRun Virtual Race, Halloween 2019, 5K" /><published>2019-11-03T18:00:44-05:00</published><updated>2019-11-03T18:00:44-05:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-halloween-2019-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-halloween-2019-5k/">&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img alt=&quot;Zombies Run Halloween 2019 Virtual Race banner.&quot; src=&quot;/generated/assets/img/posts/2019/vr7-banner-halloween-2019-800-e66858beb.png&quot; srcset=&quot;/generated/assets/img/posts/2019/vr7-banner-halloween-2019-400-e66858beb.png 400w, /generated/assets/img/posts/2019/vr7-banner-halloween-2019-800-e66858beb.png 800w, /generated/assets/img/posts/2019/vr7-banner-halloween-2019-1000-e66858beb.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Another hit from Six to Start and their Zombies Run app. This time, Runner 5 goes into a cursed carnival. Acting and writing are fantastic, as always.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img data-flickr-album=&quot;72157711631128068&quot; data-flickr-id=&quot;49008874913&quot; src=&quot;https://live.staticflickr.com/65535/49008874913_2fd2af7610_c.jpg&quot; alt=&quot;Race packet contents on a table, including tarot cards with character portraits&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The race packet had an extra-special set of goodies this time. Since there’s a fortune teller in the story, you get tarot cards with character portraits. The photo above links to my Flickr set for this race, and lets you see more of the cards.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img data-flickr-album=&quot;72157711631128068&quot; data-flickr-id=&quot;49008875103&quot; src=&quot;https://live.staticflickr.com/65535/49008875103_43a3aba745_c.jpg&quot; alt=&quot;Puggle wearing a harness and leash, standing in leaves.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Since we live really close to a Snyder Park, daylight runs can easily take us away from traffic and onto a bike trail. Finnea greatly prefers it to our regular route. We run pretty early during the week, so we have to stick to places with street lights.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+	&lt;img data-flickr-album=&quot;72157711631128068&quot; data-flickr-id=&quot;49009406621&quot; src=&quot;https://live.staticflickr.com/65535/49009406621_fd388095fe_c.jpg&quot; alt=&quot;Puggle licking Brian's sweaty face after a run.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After the race I stopped to sit on the front steps and get a picture of us like I used to do in Maine. Finnea is six years old now, but hasn’t slowed down at all. Of course, I’m a lot slower than her so I really have no way of knowing if her top speed has changed. Anyway, Happy Halloween everybody!&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">Another hit from Six to Start and their Zombies Run app. This time, Runner 5 goes into a cursed carnival. Acting and writing are fantastic, as always.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-halloween-2019.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-halloween-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">93. ZombiesRun Virtual Race, Spring 2019, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-spring-2019-5k/" rel="alternate" type="text/html" title="93. ZombiesRun Virtual Race, Spring 2019, 5K" /><published>2019-05-05T19:00:50-04:00</published><updated>2019-05-05T19:00:50-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-spring-2019-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-spring-2019-5k/">&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;Zombies Run Spring 2018 Virtual Race banner.&quot; src=&quot;/generated/assets/img/posts/2019/vr7-banner-spring-2019-800-ab19335a8.png&quot; srcset=&quot;/generated/assets/img/posts/2019/vr7-banner-spring-2019-400-ab19335a8.png 400w, /generated/assets/img/posts/2019/vr7-banner-spring-2019-800-ab19335a8.png 800w, /generated/assets/img/posts/2019/vr7-banner-spring-2019-1000-ab19335a8.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;How can you not love zombies on a train? This one is about a fancy new super-fast train that was taking its first batch of passengers as the Zombie Apocalypse begins. It’s a bit of a bummer in a way, because it shows a society that was making some really cool advances in science and sustainability just before it was snuffed out.&lt;/p&gt;
+
+&lt;p&gt;The weird bit is that I don’t show up on the Leader Boards for this one. I have the race in my run log and I did it within the timeframe, but my name doesn’t appear. Not a biggie since I still have a record of the race, but it’s a bit weird.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;note&quot;&gt;
+  Full disclosure: I&amp;#8217;m writing these in November of 2019, but I&amp;#8217;m back-dating the next few race posts to match them up to the day that they happened. It&amp;#8217;s been an insane year. We got into a house in Rhode Island and I have a train commute to Boston. I bicycle to the train station so I only drive on the weekends now. We&amp;#8217;ve landed.
+&lt;/div&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;49005835766&quot; src=&quot;https://live.staticflickr.com/65535/49005835766_4332182ea1_c.jpg&quot; alt=&quot;Wet black puggle in a green raincoat on the sidewalk with puddles in the background.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This time we got rained on, but the temp was okay and it was just 5K. Finnea doesn’t seem to care about getting wet, or dirty, or cold. She just wants to be outside. The downside is that she kicks every possible particle of grit and dirt onto her belly as she runs along the wet sidewalk. Avoiding puddles does not prevent this.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;49006044432&quot; src=&quot;https://live.staticflickr.com/65535/49006044432_c0d7c58d4c_c.jpg&quot; alt=&quot;Wet black puggle in a green raincoat on the sidewalk with head lowered to sniff.&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The route was a simple out-and-back, so there’s nothing unusual about the run aside from having to take Finnea into the shower with me. As usual, she got post-shower zoomies to go along with her post-run zoomies.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">How can you not love zombies on a train? This one is about a fancy new super-fast train that was taking its first batch of passengers as the Zombie Apocalypse begins. It&amp;#8217;s a bit of a bummer in a way, because it shows a society that was making some really cool advances in science and sustainability just before it was snuffed out.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-spring-2019.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-spring-2019.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">92. ZombiesRun Virtual Race, Halloween 2018, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-halloween-2018-5k/" rel="alternate" type="text/html" title="92. ZombiesRun Virtual Race, Halloween 2018, 5K" /><published>2018-10-26T19:00:54-04:00</published><updated>2018-10-26T19:00:54-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-halloween-2018-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-halloween-2018-5k/">&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;Zombies Run Halloween 2018 Virtual Race banner.&quot; src=&quot;/generated/assets/img/posts/2019/vr7-banner-halloween-2018-800-56e6e99f5.png&quot; srcset=&quot;/generated/assets/img/posts/2019/vr7-banner-halloween-2018-400-56e6e99f5.png 400w, /generated/assets/img/posts/2019/vr7-banner-halloween-2018-800-56e6e99f5.png 800w, /generated/assets/img/posts/2019/vr7-banner-halloween-2018-1000-56e6e99f5.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;This one takes place on Tomorrow Island, and it’s kind of a sci-fi twist on &lt;a rel=&quot;noreferrer noopener&quot; aria-label=&quot;The Most Dangerous Game (opens in a new tab)&quot; href=&quot;https://en.wikipedia.org/wiki/The_Most_Dangerous_Game&quot; target=&quot;_blank&quot;&gt;The Most Dangerous Game&lt;/a&gt;, which I think every series needs to do at least once. As usual, the acting and writing are fantastic. The whole thing is well worth the entry fee.&lt;/p&gt;
+
+&lt;div class=&quot;alert alert-primary&quot; role=&quot;note&quot;&gt;  Full disclosure: I&amp;#8217;m writing these in November of 2019, but I&amp;#8217;m back-dating the next few race posts to match them up to the day that they happened. It&amp;#8217;s been an insane year. We got into a house in Rhode Island and I have a train commute to Boston. I bicycle to the train station so I only drive on the weekends now. We&amp;#8217;ve landed.
+&lt;/div&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;49005273738&quot; src=&quot;https://live.staticflickr.com/65535/49005273738_a7b3c1d7db_c.jpg&quot; alt=&quot;Puggle in a red hoodie&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Anyhoo, there’s not much to say about the actual race. We just did a loop around Bath and Finnea (above) ran her usual best and I was the slower partner.&lt;/p&gt;
+
+&lt;p&gt;I also took a picture of the rest of our crew, who were using Race Time to lounge about on a big pillow. That’s Dublin on the left, and Casla on the right.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;49005273738&quot; src=&quot;https://live.staticflickr.com/65535/49005811421_71a0b1c4b4_c.jpg&quot; alt=&quot;Two dogs on a pillow&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The next few posts will be a bit light as I catch up, mostly because this is where I document my race history and I don’t want to leave stuff out. After that, things should roll forward a bit better. 🙂&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">This one takes place on Tomorrow Island, and it&amp;#8217;s kind of a sci-fi twist on The Most Dangerous Game, which I think every series needs to do at least once. As usual, the acting and writing are fantastic. The whole thing is well worth the entry fee.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-halloween-2018.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2019/vr7-banner-halloween-2018.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Making a Promise Chain</title><link href="http://localhost:4000/making-a-promise-chain/" rel="alternate" type="text/html" title="Making a Promise Chain" /><published>2018-09-06T21:14:27-04:00</published><updated>2018-09-06T21:14:27-04:00</updated><id>http://localhost:4000/making-a-promise-chain</id><content type="html" xml:base="http://localhost:4000/making-a-promise-chain/">&lt;p&gt;Promises, promises. Nowadays it’s all the rage in JavaScript, but I found myself late to the game because I spent almost five years at a place that still had to support Internet Explorer 8, the abacus and chalk drawings on cave walls. When everybody around me started talking about “returning a promise”, it was hard for me to avoid being skeptical. I mean, people make promises all the time, right?&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+    &lt;img loading=&quot;lazy&quot; src=&quot;/assets/img/posts/2018/womack-got-my-word.gif&quot; alt=&quot;The character Womack in a movie called The Rock&quot; /&gt;
+    &lt;figcaption&gt;I know you &lt;a href=&quot;https://www.imdb.com/title/tt0117500/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;tore up my pardon&lt;/a&gt;, Womack.&lt;/figcaption&gt;
+  &lt;/figure&gt;
+
+&lt;p&gt;But now I’m working at a much better place and I’m not chained to a giant pile of legacy spaghetti. I can now do things that other people have been doing for a couple of years, and I’m really excited about it. There are no jQuery Deferred objects this time. We’re going to make some honest-to-goodness promises, and we’re going to chain them together.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-the-chain-for&quot;&gt;What’s the Chain For?&lt;/h2&gt;
+
+&lt;p&gt;The most common use for a promise is to make your code wait until the back-end responds to an AJAX call. You might even have &lt;strong&gt;several&lt;/strong&gt; AJAX calls that have to return before you can do your stuff. It’s a jungle out there, folks. Legacy code threatens us all.&lt;/p&gt;
+
+&lt;p&gt;I have an example set up in a &lt;a href=&quot;https://jsfiddle.net/briancribb/4qbzcygv/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;fiddle&lt;/a&gt;, but I used a &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Mozilla page on promises&lt;/a&gt; to wrap my head around chaining. I’m going to add some snippets from the fiddle and explain them. It’s good to share this stuff, and to be honest it allows me to come back here and use this page as a reference when I forget everything.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;myText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;my-text&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arrResults&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
+ 
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Promise&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;cm&quot;&gt;/*
+    This Math.random stuff is just being used to simulate
+    hitting some kind of API and coming back with
+    success or failure.
+    */&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;Math&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;random&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;resolve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;SUCCESS&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;reject&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;FAILURE&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;First I initialized an empty array that I’m going to toss crap into, and then I set up my promise. It’s a function that returns a promise, which has all sorts of magical properties. The main things that you can do with a promise is resolve or reject them.&lt;/p&gt;
+
+&lt;p&gt;In this case, we’re pretending that we’re sending a call to the worst server in the world, which fails half the time. If it comes back large, it resolves and returns some data. In this case, the data is the string “SUCCESS”. If we get a low result, then we reject the promise. &lt;em&gt;In real life we would get some kind of server response and we could use that to make our decisions.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A good real-world example of using a chain would be to get some data from the server and then use that as part of another request for the server. Maybe you look up a client record and then use something in the client’s data to ask for some other thing. Obviously you can’t make that second call until the first one comes back successfully.&lt;/p&gt;
+
+&lt;p&gt;So when we call &lt;code class=&quot;highlighter-rouge&quot;&gt;doSomething()&lt;/code&gt; we’ll end up with a string that’s either “SUCCESS” or “FAILURE”. In real life these would be JSON objects with stuff in them, but this is just a simple example so we’re using strings. If the call works out, we run another funtion. If not, we just stop and run the &lt;code class=&quot;highlighter-rouge&quot;&gt;catch&lt;/code&gt; function. Here’s the code for that.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;doSomething&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//console.log('1st Success callback: ', result);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;arrResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//console.log('2nd Success callback: ', result);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;arrResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Second Thing&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;catch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//console.log('*** Failure callback: ', result);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;arrResults&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;finally&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;amp;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;//console.log('*** Finally callback: ', result);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;myText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;arrResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;, &lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;result&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;First we run &lt;code class=&quot;highlighter-rouge&quot;&gt;doSomething()&lt;/code&gt; which returns a promise that has cool methods on it. To see them, run a function like this in the console and just take a look at what comes back. Anyway, the result of the promise is included as an argument.&lt;/p&gt;
+
+&lt;p&gt;Remember when we resolved things with “SUCCESS” as an argument? Well, here’s where it comes out of the pipe. After that, the &lt;code class=&quot;highlighter-rouge&quot;&gt;then()&lt;/code&gt; kicks in, returning a brand-new promise. Remember that, every one of the links in this chain returns &lt;em&gt;its own promise&lt;/em&gt;. That allows all of them to run in sequence, with nobody jumping ahead.&lt;/p&gt;
+
+&lt;p&gt;We could do just about anything with our first &lt;code class=&quot;highlighter-rouge&quot;&gt;then()&lt;/code&gt;, but we’re just going to push a value to that array that we prepared earlier. Now we have an array with two things in it, and we immediately write all of it to a DOM node that we grabbed in the first line of our example. So you end up with a paragraph tag that contains “SUCCESS, Second Thing”.&lt;/p&gt;
+
+&lt;p&gt;If our fake server barfs, then the whole thing is skipped and none of our precious chain links will run. We wind up in the &lt;code class=&quot;highlighter-rouge&quot;&gt;catch()&lt;/code&gt; method with our data, which in this case is just the string “FAILURE”. We’re sad and we have no data, so we just stuff our failure into the paragraph tag and try to move on with our lives.&lt;/p&gt;
+
+&lt;p&gt;After everything is over one way or another, we run the &lt;code class=&quot;highlighter-rouge&quot;&gt;finally()&lt;/code&gt; method on our promise chain. This method runs no matter what, so it’s a good place to put our join statement and toss whatever results we have into our paragraph tag. This allows us to run those lines once and keep our code as &lt;a href=&quot;https://en.wikipedia.org/wiki/Don%27t_repeat_yourself&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;DRY&lt;/a&gt; as we can. So even if we fail, at least one method is going to be reasonably happy.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img loading=&quot;lazy&quot; src=&quot;/assets/img/posts/2018/sadfleck-and-cavill.jpg&quot; alt=&quot;Ben Affleck and Henry Cavill discuss BvS&quot; /&gt;
+  &lt;figcaption&gt;The &lt;strong&gt;Catch&lt;/strong&gt; and &lt;strong&gt;Finally&lt;/strong&gt; methods discuss the results of our AJAX call.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So this is a basic example of a promise chain. The idea is to have things arranged in a nice, readable format instead of having the crazy nesting vortex that we used to write with jQuery. This isn’t intended as a deep dive into promises, but I hope this can serve as a reference for how this stuff can be put together. I know I’ll need it later, especially if I’m coding without coffee.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Webdev" /><category term="JavaScript" /><category term="promises" /><summary type="html">I was late to the game with JavaScript promises, but I'm onboard now. Let's talk about promises a little bit and see if we can make things clearer for future reference.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2018/womack-got-my-word.gif" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2018/womack-got-my-word.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">91. ZombiesRun Virtual Race, Spring 2018, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-spring-2018-5k/" rel="alternate" type="text/html" title="91. ZombiesRun Virtual Race, Spring 2018, 5K" /><published>2018-08-27T19:44:56-04:00</published><updated>2018-08-27T19:44:56-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-spring-2018-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-spring-2018-5k/">&lt;p class=&quot;lead&quot;&gt;
+  Hoo boy, I&amp;#8217;ve been absent for a &lt;strong&gt;while&lt;/strong&gt; now. There&amp;#8217;s a suitably stupid reason, which of course I will share with you.
+&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;ZombiesRun Virtual Race Spring 2018&quot; src=&quot;/generated/assets/img/posts/2018/ZR-virtual-spring2018-poster-800-76efe0d55.png&quot; srcset=&quot;/generated/assets/img/posts/2018/ZR-virtual-spring2018-poster-400-76efe0d55.png 400w, /generated/assets/img/posts/2018/ZR-virtual-spring2018-poster-800-76efe0d55.png 800w, /generated/assets/img/posts/2018/ZR-virtual-spring2018-poster-1000-76efe0d55.png 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;I try to write these just after a race, but lately we’ve been trying to sell our house and that’s been a hell of a ride which will require its own book one day. The end result has been me on a commuter train without much free time, and I’ve only just got a decent laptop that I can use on the train to catch up with this stuff. Like all bloggers, I plan to do better in the future.&lt;/p&gt;
+
+&lt;p&gt;So, about the race. I hadn’t been running in any particular pattern, and my winter was pretty much time off. Even worse, I only had one window of opportunity to fit this in during daylight hours. With that in mind, I had a really simple goal: I wanted to run the 5K version in under 30 minutes. I was confident that I could do it if I pushed a bit, but I was a bit worried that Finnea would eat up some time with Business Stops or just generalized sniffing requirements.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;Still Not Tired after 5K&quot; src=&quot;/generated/assets/img/posts/2018/IMG_9867-800-b90425e47.jpg&quot; srcset=&quot;/generated/assets/img/posts/2018/IMG_9867-400-b90425e47.jpg 400w, /generated/assets/img/posts/2018/IMG_9867-800-b90425e47.jpg 800w, /generated/assets/img/posts/2018/IMG_9867-1000-b90425e47.jpg 1000w&quot; /&gt;
+
+  &lt;figcaption&gt;Finnea can run 10K and still have leftover zoomies, so 5K for her just takes the edge off.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Turns out, she didn’t. She had been walked earlier so Business was minimal, and we did one of our normal routes so she didn’t have all sorts of unfamiliar stuff to inspect. I pushed a bit, and she kept up easily because she’s in way better shape than I am. I’m happy to report that we met our goal.   🙂&lt;/p&gt;
+
+&lt;p&gt;Overall, I’m still madly in love with these virtual races from the &lt;a href=&quot;https://zombiesrungame.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;ZombiesRun&lt;/a&gt; team. It’s not just running by yourself and then claiming a time. It’s a special story mission that takes place in the first season (to allow brand new runners to participate without spoilers) and it marks the end of your race when you hit the target distance. You don’t have to turn off the app or do anything special to get an accurate time. You just run, and the results are logged into your account. That’s why my app time is a bit shorter than my Garmin time. It took me an extra moment to actually hit the stop button on my watch.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;Post-run Dog Selfie&quot; src=&quot;/generated/assets/img/posts/2018/IMG_9862-800-a8725ffc9.jpg&quot; srcset=&quot;/generated/assets/img/posts/2018/IMG_9862-400-a8725ffc9.jpg 400w, /generated/assets/img/posts/2018/IMG_9862-800-a8725ffc9.jpg 800w, /generated/assets/img/posts/2018/IMG_9862-1000-a8725ffc9.jpg 1000w&quot; /&gt;
+
+  &lt;figcaption&gt;It&amp;#8217;s kind of tough to get a good selfie with Finnea because she keeps looking back at me instead of the weird little box in my hand. But I get lucky sometimes.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My life had been topsy-turvy lately, so these virtual races have been a big help. I can even hit the forums if I like, and share stuff with the ZombiesRun community. I’ll try to take better advantage of that going forward.&lt;/p&gt;
+
+&lt;p&gt;I would love to get back into a regular race schedule, but for now these virtual races will give me something to train for. And as always, it’s worth it just for the story that ZombiesRun provides.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="Bath" /><category term="ME" /><category term="virtual race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">I try to write these just after a race, but lately we&amp;#8217;ve been trying to sell our house and that&amp;#8217;s been a hell of a ride which will require its own book one day. The end result has been me on a commuter train without much free time.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2018/ZR-virtual-spring2018-poster.png" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2018/ZR-virtual-spring2018-poster.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">90. ZombiesRun Virtual Race, Halloween 2017, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-halloween-2017-5k/" rel="alternate" type="text/html" title="90. ZombiesRun Virtual Race, Halloween 2017, 5K" /><published>2017-10-29T09:25:50-04:00</published><updated>2017-10-29T09:25:50-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-halloween-2017-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-halloween-2017-5k/">&lt;p class=&quot;lead&quot;&gt;
+  Okay, so&amp;#8230; it&amp;#8217;s been a while since I&amp;#8217;ve written anything. That&amp;#8217;s a cliche and I&amp;#8217;m sorry to the four of you who still read these posts, but I gots reasons. We live in a place where there aren&amp;#8217;t many races and we have a food truck, so my ability to be somewhere on a weekend has been pretty limited.
+&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;ZombiesRun Halloween VR 2017 poster&quot; src=&quot;/generated/assets/img/posts/2017/ZR-virtual-halloween2017-poster-800-db8f0d4bc.gif&quot; srcset=&quot;/generated/assets/img/posts/2017/ZR-virtual-halloween2017-poster-400-db8f0d4bc.gif 400w, /generated/assets/img/posts/2017/ZR-virtual-halloween2017-poster-800-db8f0d4bc.gif 800w, /generated/assets/img/posts/2017/ZR-virtual-halloween2017-poster-1000-db8f0d4bc.gif 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Between that and work, I haven’t been able to participate as much as I would like, and to be honest I’m conflicted regarding what I’m supposed to write about on this site. I’m from a place that has races every single month, but now I live in a place where people switch to winter sports for half the year. Do I still write about running? Do I switch to tech? Do I tackle something else entirely?&lt;/p&gt;
+
+&lt;p&gt;But I’ll handle this stuff later. For now let’s talk about running.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-race-itself&quot;&gt;The Race Itself&lt;/h3&gt;
+
+&lt;p&gt;We had lots of fog during my race window, and it’s a bit of a bummer that I slept in. I wanted to wait for daylight so I could take pictures, but that fog in the dark would have made a run along the streetlights into a really spooky affair.&lt;/p&gt;
+
+&lt;p&gt;I decided on a simple out-and-back without any crazy hills, because I wanted to see if we could get our time down. I run with my puggle, so we normaly just cruise along and we stop whenever she needs to do her business. It can take us 36 minutes to run 5K, and it’s even longer if I take any sunrise photos. I’m not in top form, and I wasn’t sure how fast we’d be. Good news though… I walked her before the race and kept up our speed, and we finished in under 30 minutes!&lt;/p&gt;
+
+&lt;h3 id=&quot;old-shoes&quot;&gt;Old Shoes&lt;/h3&gt;
+
+&lt;p&gt;Yeah, my shoes are way old. They’re minimals, because I don’t heel-strike and I just need a strip of leather to protect me from sharp things on the road. They do that pretty well, so I haven’t dropped a hundred bucks to replace them yet.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;37979459802&quot; src=&quot;https://farm5.staticflickr.com/4479/37979459802_0d8ae7d452_c.jpg&quot; alt=&quot;Old Beat-up Shoes&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The only problem I have is stepping on stuff as if I’m wearing boots. I managed to put a bruise on my right foot, just next to the ball of my foot, and I’ve been aggravating it ever since. Just when it’s almost good, I step on something else. Well, I did it again. I stepped on a stick, and now my foot is &lt;strong&gt;really&lt;/strong&gt; angry with me. I won’t be able to do the 10K virtual race within the window provided, so this time I’m just sticking to the 5K.&lt;/p&gt;
+
+&lt;h3 id=&quot;race-packet-and-final-thoughts&quot;&gt;Race Packet and Final Thoughts&lt;/h3&gt;
+
+&lt;p&gt;There’s normally a pretty sweet packet with these Zombies Run events, and this was no exception. In addition to the medal, we got a pretty funny Halloween party invite and a couple of other things that are tied to the story. I don’t want to post spoilers, so I’m leaving that alone. Trust me, though… it’s worth the money to get involved with the ZombiesRun app. These days, I can’t imagine running without it.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="Bath" /><category term="ME" /><category term="virtual race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">Okay, so... it's been a while since I've written anything. That's a cliche and I'm sorry to the four of you who still read these posts, but I gots reasons.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2017/ZR-virtual-halloween2017-poster.gif" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2017/ZR-virtual-halloween2017-poster.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">89. ZombiesRun Virtual Race, Spring 2017, 10K</title><link href="http://localhost:4000/zombiesrun-virtual-race-spring-2017-10k/" rel="alternate" type="text/html" title="89. ZombiesRun Virtual Race, Spring 2017, 10K" /><published>2017-04-17T08:00:53-04:00</published><updated>2017-04-17T08:00:53-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-spring-2017-10k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-spring-2017-10k/">&lt;p&gt;This ZombiesRun event was tough. I haven’t done much over the winter, so 10K is a large number for me right now. Still, I have enough leftover fitness to knock it out, even though it’ll cost me later.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;ZombiesRun Virtual Race Spring 2017&quot; src=&quot;/generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-800-32384dfb8.gif&quot; srcset=&quot;/generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-400-32384dfb8.gif 400w, /generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-800-32384dfb8.gif 800w, /generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-1000-32384dfb8.gif 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;We’re getting warm spells at this time of year, and my opportunity to run the 10K event landed on one. Easter Sunday morning didn’t work out and the middle of the day was way too hot for a puggle with thick black fur, so I opted for a super-early &lt;a href=&quot;https://zombiesrungame.com/zombielink/runs-detailed/11766354/public/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Monday morning run&lt;/a&gt;. We left just before 5am, in the hope that the sun would rise before we ran out of street lights. As you can see below, that worked out just fine.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;33296057693&quot; src=&quot;https://c1.staticflickr.com/3/2828/33296057693_8853549122_c.jpg&quot; alt=&quot;Sunrise over the river&quot; /&gt;
+  &lt;figcaption&gt;It&amp;#8217;s all about the puggle. Seriously, I get bummed in the winter when I have to run without her.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I don’t leave for work until about 7:30am, so we had plenty of time to enjoy ourselves. I had completely given up on any sort of competitive time, so I focused on the route itself and the condition of my dog. I even brought a hydropack filled with ice-water in case she got overheated. We stopped a few times for Finnea to do her business (it was apparently a &lt;strong&gt;very&lt;/strong&gt; good day for business) and to take some pictures, but the water never really worked out. Finnea stayed at a comfy temperature due to the early morning chill and her own incredible endurance, so she refused water when I offered. I brought that hydropack for nothing, basically.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;33296056593&quot; src=&quot;https://c1.staticflickr.com/3/2834/33296056593_97d47f3bea_c.jpg&quot; alt=&quot;Brian and Finnea&quot; /&gt;
+  &lt;figcaption&gt;After about 6 or 7K, I was tired and she was mildly curious about the newer parts of our route.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;She had a great time, though. When the light was good enough I was able to get some decent shots of us. Finnea was dragging a bit when we went past our usual turn-around point, but she picked it up quite a bit when we came back to it. Once she recognized her normal morning scenery, she knew exactly how far away her breakfast was. It was kind of like cheating, really, because I was being pulled by a one dog-power engine after that.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-virtual-race-itself&quot;&gt;The Virtual Race Itself&lt;/h3&gt;
+
+&lt;p&gt;Without going into any spoilers, the mission was another hit from &lt;a href=&quot;http://www.sixtostart.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Six to Start&lt;/a&gt;. I planned for the two-minute cool down clip at the end, so there was no pacing around the yard this time. The game developers will be happy to know that I actually did use that time for use to cool down and walk the remaining two blocks to the house.&lt;/p&gt;
+
+&lt;p&gt;This was mostly like the other races in terms of structure, but it sets itself apart by including extra goodies in the race packet. The race bib and intro card are standard, as well as the medal and post-race card in the your-eyes-only envelope. The comic book, however, is new.&lt;/p&gt;
+
+&lt;p&gt;It’s a ZombiesRun comic book based upon the first mission, which you can probably tell from the visible portions of the cover. It’s pretty sweet, but I do have a mild complaint or two. The only one worth mentioning is the way they costumed Runner 5.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;33324313133&quot; src=&quot;https://c1.staticflickr.com/3/2873/33324313133_53cce3881e_c.jpg&quot; alt=&quot;Zombies Run VR race packet contents&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The outfit is meant to obscure gender and identity, which sort of works I guess, but I would have liked a commitment here. Just go ahead and make Runner 5 a woman. There are dude protagonists everywhere, so there are no worries about me being represented. I already know that Runner 5 has a different identity for every person using the app, so it’s no biggie if the person in the comic doesn’t look like me personally. In fact, it would be more interesting to read if she was nothing like me, with a Venn diagram that barely overlaps.&lt;/p&gt;
+
+&lt;p&gt;There’s absolutely no way to personify every single runner using the app, because we each have our own version of Runner 5. With a comic like this, the best you can do is to find out who isn’t represented as well as they could be and put them at the center of things. It’s a way for us to remind them that they’re part of our family. And for me personally, it would reveal someone else’s version of Runner 5, just like when I read someone else’s post on the RoffleNet.&lt;/p&gt;
+
+&lt;p&gt;Thanks again to the folks who make the ZombiesRun app, from the developers to the writers to the voice actors. I’m looking forward to the next one, even though I’m going to be really sore from this one.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="10K" /><category term="Bath" /><category term="ME" /><category term="virtual race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">This one was tough. I haven't done much over the winter, so 10K is a large number for me right now. Still, I have enough leftover fitness to knock it out, even though it'll cost me later.</summary></entry><entry><title type="html">88. ZombiesRun Virtual Race, Spring 2017, 5K</title><link href="http://localhost:4000/zombiesrun-virtual-race-spring-2017-5k/" rel="alternate" type="text/html" title="88. ZombiesRun Virtual Race, Spring 2017, 5K" /><published>2017-04-15T16:56:27-04:00</published><updated>2017-04-15T16:56:27-04:00</updated><id>http://localhost:4000/zombiesrun-virtual-race-spring-2017-5k</id><content type="html" xml:base="http://localhost:4000/zombiesrun-virtual-race-spring-2017-5k/">&lt;p&gt;I’m tempted to just count these as one event now, but I run them on different days in different weather, so I suppose I’ll keep going with separate posts. This one will be a bit short, though. And if you’re wondering what the hell a virtual race is, then &lt;a href=&quot;/zombiesrun-virtual-race-fall-2015-5k/&quot;&gt;try this post&lt;/a&gt; from my first one.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img alt=&quot;ZombiesRun Virtual Race Spring 2017&quot; src=&quot;/generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-800-32384dfb8.gif&quot; srcset=&quot;/generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-400-32384dfb8.gif 400w, /generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-800-32384dfb8.gif 800w, /generated/assets/img/posts/2017/ZR-virtual-spring2017-poster-1000-32384dfb8.gif 1000w&quot; /&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;Finnea and I ran our &lt;a href=&quot;https://zombiesrungame.com/zombielink/runs-detailed/11759111/public/&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;basic out-and-back route&lt;/a&gt;, with one major difference: we ran in the middle of the day. This is helpful in colder weather, but the days are getting warmer and we found ourselves getting a little heated. Finnea actually started panting a bit, which I haven’t seen since last summer.&lt;/p&gt;
+
+&lt;p&gt;It wasn’t a problem this time, but it’s an indicator that we’ll soon be limited to early mornings for our exercise. That black fur coat is pretty good for winter, but it’s a bit much under a hot spring sun.&lt;/p&gt;
+
+&lt;figure class=&quot;aligncenter&quot;&gt;
+  &lt;img data-flickr-id=&quot;34066647976&quot; src=&quot;https://c1.staticflickr.com/4/3942/34066647976_b4287e11d0_c.jpg&quot; alt=&quot;Finnea the puggle runs along&quot; /&gt;
+  &lt;figcaption&gt;It&amp;#8217;s all about the puggle. Seriously, I get bummed in the winter when I have to run without her.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The race itself was excellent once again, renewing my affection and admiration for the folks who make the ZombiesRun app. My only critique would be the two-minute clip at the end, after the race is finished. I suppose it’s meant as a cool-down period, but I kind of like to stop the app when I stop running. I can walk around and cool off on my own.&lt;/p&gt;
+
+&lt;p&gt;I paced in front of my house waiting for the ending clip to end, and made a mental note to work it into my plan for the 10K event. On the bright side, it was a pretty sweet clip with a nice ending to the mission’s storyline.&lt;/p&gt;
+
+&lt;p&gt;We had fun, but I think I might need to change up some things for the next virtual race. Maybe drive to a special location or something. Hopefully by the time Fall rolls around, Finnea will be trained up enough to do our route without so many business breaks.&lt;/p&gt;</content><author><name>Brian</name></author><category term="Races" /><category term="5K" /><category term="Bath" /><category term="ME" /><category term="virtual race" /><category term="zombies" /><category term="ZombiesRunGame" /><summary type="html">I'm tempted to just count these as one event now, but I run them on different days in different weather, so I suppose I'll keep going with separate posts. This one will be a bit short, though.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/posts/2017/ZR-virtual-spring2017-poster.gif" /><media:content medium="image" url="http://localhost:4000/assets/img/posts/2017/ZR-virtual-spring2017-poster.gif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

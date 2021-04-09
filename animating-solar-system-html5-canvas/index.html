@@ -1,0 +1,227 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Animating a Solar System with the HTML5 Canvas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+    <meta name="author" content="Brian Cribb">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  </head>
+  <body class="position-relative">
+    <div class="skippy visually-hidden-focusable overflow-hidden">
+      <div class="container">
+        <a class="d-inline-flex p-2 m-1" href="#main-content">Skip to main content</a>
+      </div>
+    </div>
+    <div id="content" class="content mb-0">
+      <header class="main-header sticky-top">
+  <nav class="navbar-wrap bg-primary">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="/">The Mighty Cribb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/webdev/">
+                  Webdev
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/races/">
+                  Races
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">
+                  Blog
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">
+                  Contact
+                </a>
+              </li>
+            
+          
+        </ul>
+        <div class="d-flex navbar-search-form ps-sm-3">
+          <div class="input-group">
+            <input disabled id="tmc-search-input" type="text" class="form-control tmc-search" placeholder="Search..." aria-label="Search input" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+              <button disabled id="tmc-search-button" class="tmc-search btn btn-outline-light my-sm-0 btn-top-search" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+
+      <main id="main-content" role="main">
+        <div class="container py-3">
+	<h1>Animating a Solar System with the HTML5 Canvas</h1>
+
+
+	<div class="d-sm-flex">
+
+		<small class="d-block flex-sm-grow-1 mb-3">
+			<time class="d-block text-muted" datetime="">May 23, 2012</time>
+
+			
+
+			
+
+		</small>
+
+		
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+
+
+<div class="flex-sm-shrink-0">
+  <div class="btn-group btn-group mb-3">
+    
+
+    
+      <a title="Bouncing Canvas Balls with Gravity and Friction" class="btn btn-primary text-white border border-white" rel="next" href="/bouncing-canvas-balls-with-gravity-and-friction/">
+        <span class="d-md-none">Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+	</div>
+	<div class="codepen" data-height="413" data-theme-id="dark" data-default-tab="result" data-user="briancribb" data-slug-hash="JwBEjw" style="height: 413px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Canvas Solar System">
+  <span>See the Pen <a href="https://codepen.io/briancribb/pen/JwBEjw">
+  Canvas Solar System</a> by Brian Cribb (<a href="https://codepen.io/briancribb">@briancribb</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</div>
+
+<p>Here’s a swanky little bit of animation from the HTML5 Canvas. If you don’t see it, then your browser doesn’t support canvas, which means that you’re using an old version of Internet Explorer. <em>(You should stop doing that.)</em> The goal was to see what I could draw programmatically with the canvas API.</p>
+
+<p>It started with just the sun, but then I wanted some planets, then a moon, and finally I added a starfield. The neat thing is the complete lack of canvas rotation. Instead of using the rotation method of the canvas, the sun is being drawn a little differently upon each interval.</p>
+
+<p>Another neat thing is the use of classes. Well, object prototypes, really. But they’re similar. Kind of. Anyway, there are two different prototypes for this animation. There’s a Sun and a Planet. (That little moon is just a planet which is targeted on another planet instead of the sun.) They have their own methods and properties, so a simple loop can tell them all to adjust their positions before the next redraw. Run that every few milliseconds, and you have a smooth animation.</p>
+
+<p>Another cool bit is the way I change up for mobile devices. The starfield tends to be a bit much for my iPhone, so I check the size of the browser window before the application starts. If you’re on a desktop, it runs normally at any size. If you start with a smaller window (like a mobile device) then an image-based starfield is loaded instead. You can try it from a desktop if you shrink the window first and then refresh. Not bad.</p>
+
+
+	
+	
+
+	<div class="btn-group btn-group mb-3 d-flex">
+		
+
+		
+		<a title="Bouncing Canvas Balls with Gravity and Friction" class="btn btn-primary text-white border border-white w-50" rel="next" href="/bouncing-canvas-balls-with-gravity-and-friction/">
+			<div class="d-flex justify-content-end">
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Bouncing Canvas Balls with Gravity and Friction</span>
+					<span class="d-md-none">Next</span>
+				</div>
+				<div class="align-self-center">
+					<i class="fas fa-chevron-right ms-2 d-md-none"></i>
+					<i class="fas fa-chevron-right ms-2 d-none d-md-inline fa-2x"></i>
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+    <footer id="main-footer" class="main-footer py-3 bg-primary text-white">
+      <div class="container">
+        <p class="mb-0"><small><em>&copy; Brian Cribb 2020</em></small></p>
+      </div>
+    </footer>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/javascript" src="/assets/js/scripts.js" charset="utf-8"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" ></script>
+  </body>
+</html>

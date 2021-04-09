@@ -1,0 +1,279 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Making a Promise Chain</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+    <meta name="author" content="Brian Cribb">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  </head>
+  <body class="position-relative">
+    <div class="skippy visually-hidden-focusable overflow-hidden">
+      <div class="container">
+        <a class="d-inline-flex p-2 m-1" href="#main-content">Skip to main content</a>
+      </div>
+    </div>
+    <div id="content" class="content mb-0">
+      <header class="main-header sticky-top">
+  <nav class="navbar-wrap bg-primary">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="/">The Mighty Cribb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/webdev/">
+                  Webdev
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/races/">
+                  Races
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">
+                  Blog
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">
+                  Contact
+                </a>
+              </li>
+            
+          
+        </ul>
+        <div class="d-flex navbar-search-form ps-sm-3">
+          <div class="input-group">
+            <input disabled id="tmc-search-input" type="text" class="form-control tmc-search" placeholder="Search..." aria-label="Search input" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+              <button disabled id="tmc-search-button" class="tmc-search btn btn-outline-light my-sm-0 btn-top-search" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+
+      <main id="main-content" role="main">
+        <div class="container py-3">
+	<h1>Making a Promise Chain</h1>
+
+
+	<div class="d-sm-flex">
+
+		<small class="d-block flex-sm-grow-1 mb-3">
+			<time class="d-block text-muted" datetime="">September 6, 2018</time>
+
+			
+
+			
+
+		</small>
+
+		
+
+
+
+
+  
+
+  
+    
+    
+    
+    
+    
+
+
+<div class="flex-sm-shrink-0">
+  <div class="btn-group btn-group mb-3">
+    
+      <a title="Using Deferred Objects to Counter Threading Problems" class="btn btn-primary text-white border border-white" rel="prev" href="/using-deferred-objects-to-counter-threading-problems/">
+        <i class="fas fa-chevron-left"></i>
+        <span class="d-md-none">Previous</span>
+      </a>
+    
+
+    
+      <a title="PoliticianList: Playing with Congressional Data" class="btn btn-primary text-white border border-white" rel="next" href="/politicianlist-playing-with-congressional-data/">
+        <span class="d-md-none">Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+	</div>
+	<p>Promises, promises. Nowadays it’s all the rage in JavaScript, but I found myself late to the game because I spent almost five years at a place that still had to support Internet Explorer 8, the abacus and chalk drawings on cave walls. When everybody around me started talking about “returning a promise”, it was hard for me to avoid being skeptical. I mean, people make promises all the time, right?</p>
+
+<figure class="aligncenter">
+    <img loading="lazy" src="/assets/img/posts/2018/womack-got-my-word.gif" alt="The character Womack in a movie called The Rock" />
+    <figcaption>I know you <a href="https://www.imdb.com/title/tt0117500/" target="_blank" rel="noopener">tore up my pardon</a>, Womack.</figcaption>
+  </figure>
+
+<p>But now I’m working at a much better place and I’m not chained to a giant pile of legacy spaghetti. I can now do things that other people have been doing for a couple of years, and I’m really excited about it. There are no jQuery Deferred objects this time. We’re going to make some honest-to-goodness promises, and we’re going to chain them together.</p>
+
+<h2 id="whats-the-chain-for">What’s the Chain For?</h2>
+
+<p>The most common use for a promise is to make your code wait until the back-end responds to an AJAX call. You might even have <strong>several</strong> AJAX calls that have to return before you can do your stuff. It’s a jungle out there, folks. Legacy code threatens us all.</p>
+
+<p>I have an example set up in a <a href="https://jsfiddle.net/briancribb/4qbzcygv/" target="_blank" rel="noopener">fiddle</a>, but I used a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises" target="_blank" rel="noopener">Mozilla page on promises</a> to wrap my head around chaining. I’m going to add some snippets from the fiddle and explain them. It’s good to share this stuff, and to be honest it allows me to come back here and use this page as a reference when I forget everything.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="kd">let</span> <span class="nx">myText</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="dl">'</span><span class="s1">my-text</span><span class="dl">'</span><span class="p">);</span>
+<span class="kd">let</span> <span class="nx">arrResults</span> <span class="o">=</span> <span class="p">[];</span>
+ 
+<span class="kd">function</span> <span class="nx">doSomething</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">(</span> <span class="p">(</span><span class="nx">resolve</span><span class="p">,</span> <span class="nx">reject</span><span class="p">)</span> <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">{</span>
+    <span class="cm">/*
+    This Math.random stuff is just being used to simulate
+    hitting some kind of API and coming back with
+    success or failure.
+    */</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nb">Math</span><span class="p">.</span><span class="nx">random</span><span class="p">()</span> <span class="o">&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">.</span><span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">resolve</span><span class="p">(</span><span class="dl">"</span><span class="s2">SUCCESS</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">reject</span><span class="p">(</span><span class="dl">"</span><span class="s2">FAILURE</span><span class="dl">"</span><span class="p">)</span>
+    <span class="p">}</span>
+  <span class="p">});</span>
+<span class="p">}</span></code></pre></figure>
+
+<p>First I initialized an empty array that I’m going to toss crap into, and then I set up my promise. It’s a function that returns a promise, which has all sorts of magical properties. The main things that you can do with a promise is resolve or reject them.</p>
+
+<p>In this case, we’re pretending that we’re sending a call to the worst server in the world, which fails half the time. If it comes back large, it resolves and returns some data. In this case, the data is the string “SUCCESS”. If we get a low result, then we reject the promise. <em>In real life we would get some kind of server response and we could use that to make our decisions.</em></p>
+
+<p>A good real-world example of using a chain would be to get some data from the server and then use that as part of another request for the server. Maybe you look up a client record and then use something in the client’s data to ask for some other thing. Obviously you can’t make that second call until the first one comes back successfully.</p>
+
+<p>So when we call <code class="highlighter-rouge">doSomething()</code> we’ll end up with a string that’s either “SUCCESS” or “FAILURE”. In real life these would be JSON objects with stuff in them, but this is just a simple example so we’re using strings. If the call works out, we run another funtion. If not, we just stop and run the <code class="highlighter-rouge">catch</code> function. Here’s the code for that.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">doSomething</span><span class="p">()</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span> <span class="nx">result</span> <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">{</span>
+    <span class="c1">//console.log('1st Success callback: ', result);</span>
+    <span class="nx">arrResults</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="nx">result</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="nx">then</span><span class="p">(</span> <span class="nx">result</span> <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">{</span>
+    <span class="c1">//console.log('2nd Success callback: ', result);</span>
+    <span class="nx">arrResults</span><span class="p">.</span><span class="nx">push</span><span class="p">(</span><span class="dl">'</span><span class="s1">Second Thing</span><span class="dl">'</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="k">catch</span><span class="p">(</span> <span class="nx">result</span> <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">{</span>
+    <span class="c1">//console.log('*** Failure callback: ', result);</span>
+    <span class="nx">arrResults</span> <span class="o">=</span> <span class="p">[</span><span class="nx">result</span><span class="p">];</span>
+    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+  <span class="p">})</span>
+  <span class="p">.</span><span class="k">finally</span><span class="p">(</span> <span class="nx">result</span> <span class="o">=&amp;</span><span class="nx">gt</span><span class="p">;</span> <span class="p">{</span>
+    <span class="c1">//console.log('*** Finally callback: ', result);</span>
+    <span class="nx">myText</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="nx">arrResults</span><span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="dl">'</span><span class="s1">, </span><span class="dl">'</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nx">result</span><span class="p">;</span>
+  <span class="p">});</span></code></pre></figure>
+
+<p>First we run <code class="highlighter-rouge">doSomething()</code> which returns a promise that has cool methods on it. To see them, run a function like this in the console and just take a look at what comes back. Anyway, the result of the promise is included as an argument.</p>
+
+<p>Remember when we resolved things with “SUCCESS” as an argument? Well, here’s where it comes out of the pipe. After that, the <code class="highlighter-rouge">then()</code> kicks in, returning a brand-new promise. Remember that, every one of the links in this chain returns <em>its own promise</em>. That allows all of them to run in sequence, with nobody jumping ahead.</p>
+
+<p>We could do just about anything with our first <code class="highlighter-rouge">then()</code>, but we’re just going to push a value to that array that we prepared earlier. Now we have an array with two things in it, and we immediately write all of it to a DOM node that we grabbed in the first line of our example. So you end up with a paragraph tag that contains “SUCCESS, Second Thing”.</p>
+
+<p>If our fake server barfs, then the whole thing is skipped and none of our precious chain links will run. We wind up in the <code class="highlighter-rouge">catch()</code> method with our data, which in this case is just the string “FAILURE”. We’re sad and we have no data, so we just stuff our failure into the paragraph tag and try to move on with our lives.</p>
+
+<p>After everything is over one way or another, we run the <code class="highlighter-rouge">finally()</code> method on our promise chain. This method runs no matter what, so it’s a good place to put our join statement and toss whatever results we have into our paragraph tag. This allows us to run those lines once and keep our code as <a href="https://en.wikipedia.org/wiki/Don%27t_repeat_yourself" target="_blank" rel="noopener">DRY</a> as we can. So even if we fail, at least one method is going to be reasonably happy.</p>
+
+<figure class="aligncenter">
+  <img loading="lazy" src="/assets/img/posts/2018/sadfleck-and-cavill.jpg" alt="Ben Affleck and Henry Cavill discuss BvS" />
+  <figcaption>The <strong>Catch</strong> and <strong>Finally</strong> methods discuss the results of our AJAX call.</figcaption>
+</figure>
+
+<p>So this is a basic example of a promise chain. The idea is to have things arranged in a nice, readable format instead of having the crazy nesting vortex that we used to write with jQuery. This isn’t intended as a deep dive into promises, but I hope this can serve as a reference for how this stuff can be put together. I know I’ll need it later, especially if I’m coding without coffee.</p>
+
+
+	
+	
+
+	<div class="btn-group btn-group mb-3 d-flex">
+		
+		<a title="Using Deferred Objects to Counter Threading Problems" class="btn btn-primary text-white border border-white w-50" rel="prev" href="/using-deferred-objects-to-counter-threading-problems/">
+			<div class="d-flex">
+				<div class="align-self-center">
+					<i class="fas fa-chevron-left me-2 d-md-none"></i>
+					<i class="fas fa-chevron-left me-2 d-none d-md-inline fa-2x"></i>
+				</div>
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Using Deferred Objects to Counter Threading Problems</span>
+					<span class="d-md-none">Previous</span>
+				</div>
+			</div>
+		</a>
+		
+
+		
+		<a title="PoliticianList: Playing with Congressional Data" class="btn btn-primary text-white border border-white w-50" rel="next" href="/politicianlist-playing-with-congressional-data/">
+			<div class="d-flex justify-content-end">
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">PoliticianList: Playing with Congressional Data</span>
+					<span class="d-md-none">Next</span>
+				</div>
+				<div class="align-self-center">
+					<i class="fas fa-chevron-right ms-2 d-md-none"></i>
+					<i class="fas fa-chevron-right ms-2 d-none d-md-inline fa-2x"></i>
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+    <footer id="main-footer" class="main-footer py-3 bg-primary text-white">
+      <div class="container">
+        <p class="mb-0"><small><em>&copy; Brian Cribb 2020</em></small></p>
+      </div>
+    </footer>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/javascript" src="/assets/js/scripts.js" charset="utf-8"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" ></script>
+  </body>
+</html>

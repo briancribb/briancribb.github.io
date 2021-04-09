@@ -1,0 +1,257 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Document Fragments and jQuery and Star Trek</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <meta name="description" content="A fan-made timeline using content from the FASA Star Trek RPG">
+    <meta name="author" content="Brian Cribb">
+    <link rel="icon" href="/assets/img/favicon.ico">
+  </head>
+  <body class="position-relative">
+    <div class="skippy visually-hidden-focusable overflow-hidden">
+      <div class="container">
+        <a class="d-inline-flex p-2 m-1" href="#main-content">Skip to main content</a>
+      </div>
+    </div>
+    <div id="content" class="content mb-0">
+      <header class="main-header sticky-top">
+  <nav class="navbar-wrap bg-primary">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="/">The Mighty Cribb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/webdev/">
+                  Webdev
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/races/">
+                  Races
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/blog/">
+                  Blog
+                </a>
+              </li>
+            
+          
+            
+              <li class="nav-item">
+                <a class="nav-link" href="/contact/">
+                  Contact
+                </a>
+              </li>
+            
+          
+        </ul>
+        <div class="d-flex navbar-search-form ps-sm-3">
+          <div class="input-group">
+            <input disabled id="tmc-search-input" type="text" class="form-control tmc-search" placeholder="Search..." aria-label="Search input" aria-describedby="btnGroupAddon">
+            <div class="input-group-append">
+              <button disabled id="tmc-search-button" class="tmc-search btn btn-outline-light my-sm-0 btn-top-search" type="button"><i class="fas fa-search"></i></button>
+            </div>
+          </div>
+        </div>
+        </div>
+      </nav>
+    </div>
+  </nav>
+</header>
+
+
+      <main id="main-content" role="main">
+        <div class="container py-3">
+	<h1>Document Fragments and jQuery and Star Trek</h1>
+
+
+	<div class="d-sm-flex">
+
+		<small class="d-block flex-sm-grow-1 mb-3">
+			<time class="d-block text-muted" datetime="">May 14, 2016</time>
+
+			
+
+			
+
+		</small>
+
+		
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    
+    
+    
+
+
+<div class="flex-sm-shrink-0">
+  <div class="btn-group btn-group mb-3">
+    
+      <a title="Multiple JSON Data Sources for AngularJS" class="btn btn-primary text-white border border-white" rel="prev" href="/multiple-json-data-sources-for-angularjs/">
+        <i class="fas fa-chevron-left"></i>
+        <span class="d-md-none">Previous</span>
+      </a>
+    
+
+    
+      <a title="How I Got Started with Gulp" class="btn btn-primary text-white border border-white" rel="next" href="/how-i-got-started-with-gulp/">
+        <span class="d-md-none">Next</span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+    
+  </div>
+</div>
+
+
+
+
+
+
+	</div>
+	<p>For those of you who don’t already know, I’m a big-time Star Trek fan. I’m especially interested in the original series, and some of my favorite content comes from an old role-playing game from a company called FASA in the 1980’s. The game had an extensive timeline of events, and I’ve always wanted an easier way to read through it. Since I grew up to be a web developer, the obvious choice is to build <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://github.com/briancribb/STRPG-timeline" target="_blank">an app</a> and give it <a href="http://briancribb.github.io/strpg-timeline/tl-react/" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">a project page</a>!</p>
+
+<figure class="aligncenter">
+	<img alt="Scotty in The Naked Time" src="/generated/assets/img/posts/2016/scotty-naked-time-800-a1c044c11.jpg" srcset="/generated/assets/img/posts/2016/scotty-naked-time-400-a1c044c11.jpg 400w, /generated/assets/img/posts/2016/scotty-naked-time-800-a1c044c11.jpg 800w, /generated/assets/img/posts/2016/scotty-naked-time-1000-a1c044c11.jpg 1000w" />
+
+	<figcaption>Here I go again. Will I finish this one or just wave a tuning fork at it for the rest of my life?</figcaption>
+</figure>
+
+<p>The idea was to gather up all of the timelines from all of the books into something that I could easily navigate without digging through my embarrassingly extensive collection of nerdy things. It would need to sort events by stardate and filter by the source of the events.</p>
+
+<p>For example, you may want to look at Romulan history but not Klingon history. The app would need some toggles too, because there’s are sometimes multiple timelines for the same source. For Klingons, there’s a timeline for their full history and another one for what the Federation knows about them. It’s a detailed bunch of information. The folks at FASA took their writing assignments very seriously.</p>
+
+<h3 id="starting-materials">Starting Materials</h3>
+
+<p>I wanted to get right to the data, so I wasn’t interested in building a fancy-pants UI from scratch. I started with <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>, and then did a bit of searching for a responsive timeline design. Lucky for me there’s a guy out there named <a href="https://twitter.com/luisrudge" target="_blank">Luis Rudge</a> who was nice enough to post <a href="http://bootsnipp.com/snippets/featured/timeline-responsive" target="_blank">this example on Bootsnip</a>. These gave me a starting point to work from so I could get right to the data.</p>
+
+<figure class="aligncenter">
+	<img alt="Geordi working on Data" src="/generated/assets/img/posts/2016/geordi-working-on-data-694-c8d419aef.jpg" srcset="/generated/assets/img/posts/2016/geordi-working-on-data-400-c8d419aef.jpg 400w, /generated/assets/img/posts/2016/geordi-working-on-data-694-c8d419aef.jpg 694w" />
+
+	<figcaption>No, not this guy. I mean &#8220;data&#8221; in lowercase.</figcaption>
+</figure>
+
+<p>These are role-playing books from the 1980’s, and they’re all out of print. To get them into an app, they would have to be OCR scanned and edited. Holy crap. I was lucky enough to find some of it online, but much of it had to be scanned and some of the rough stuff had enough errors that I wound up typing it. Lucky for me I took a typing class back in the day.</p>
+
+<p>By the way, you should tell your kids to take a typing class. It’s the most useful course I have ever taken in my entire life. Seriously. I use it <em>all the time</em>.</p>
+
+<p>But I digress. After lots of work in small increments over an amount of time that I refuse to calculate, I finally wound up with a Google Sheet filled with all sorts of Trekkie goodness. Typos were corrected, content was sorted and everything was in some kind of order. From there, I could finally start building my app.</p>
+
+<h2 id="the-javascripty-part">The JavaScripty Part</h2>
+
+<p>I was originally going to pull the data via an AJAX call from a Google Sheet with a timeline on each worksheet. That works, but it’s a lot of calls to Google, and I had a slight worry that I would suddenly get super-Internet famous and everybody would look at it and then I would get a frightening bill from Google… or something. Since the data isn’t going to change at all, I decided to just copy the results of the Google call to some JSON files and use those locally. (This would also allow me to work on this thing offline if necessary.)</p>
+
+<p>You can see the code in <a rel="noreferrer noopener" aria-label=" (opens in a new tab)" href="https://github.com/briancribb/STRPG-timeline" target="_blank">my GitHub repo</a>, but the basic workflow is to grab the various JSON files and then loop through them with some jQuery Deferred magic. We loop through the array of sources with the jQuery each() method, adding a Deferred Object to each one as we go. We could do something when each one comes in, but in this case we only care about what happens when they’re all finished. Once that happens, we use <a href="http://stackoverflow.com/questions/5627284/pass-in-an-array-of-deferreds-to-when" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">a neat trick</a> I found on Stack Overflow to attach a <code class="highlighter-rouge">when()</code> to the endgame of the array. When everything is available, we sort the events by year and build the timeline.</p>
+
+<figure class="aligncenter">
+	<img alt="Guardian of Forever" src="/generated/assets/img/posts/2016/thecityontheedgeofforever_guardian-800-092dce4b9.jpg" srcset="/generated/assets/img/posts/2016/thecityontheedgeofforever_guardian-400-092dce4b9.jpg 400w, /generated/assets/img/posts/2016/thecityontheedgeofforever_guardian-800-092dce4b9.jpg 800w, /generated/assets/img/posts/2016/thecityontheedgeofforever_guardian-1000-092dce4b9.jpg 1000w" />
+
+</figure>
+
+<p>The timeline is built using document fragments. I normally make these with vanilla JavaScript, but in this case I made them with jQuery since it was already loaded and sitting right there, bored, hoping for something to do. That looks like this:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="nx">$body</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="dl">"</span><span class="s2">&lt;div/&gt;</span><span class="dl">"</span><span class="p">,</span> <span class="p">{</span> <span class="na">class</span><span class="p">:</span> <span class="dl">"</span><span class="s2">timeline-body</span><span class="dl">"</span> <span class="p">});</span></code></pre></figure>
+
+<p>The elements for the event are built into a list item, and that’s appended to the main document fragment. When they’re all in, the final, finished fragment is appended to the DOM inside a <code class="highlighter-rouge">ul</code>. That results in just one reflow of the page, even though the app is creating all of these crazy elements. Document fragments rock.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- The document fragment will be appended to this list. --&gt;</span>
+<span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"timeline"</span> <span class="na">class=</span><span class="s">"timeline"</span><span class="nt">&gt;&lt;/ul&gt;</span></code></pre></figure>
+
+<p>The code is documented pretty well, but my favorite trick is alternating which side the events are on. Whenever the filters change, classes are added and subtracted to make sure that you don’t end up with two consecutive events on one side. It reads “left-right-left” all the way down. I was surprised at how fast that works, even with so many events in the markup.</p>
+
+<p>And that’s it. Mostly. I got to tinker with document fragments while playing around with some nerdy Star Trek content. Good nerdy fun.</p>
+
+
+	
+	
+
+	<div class="btn-group btn-group mb-3 d-flex">
+		
+		<a title="Multiple JSON Data Sources for AngularJS" class="btn btn-primary text-white border border-white w-50" rel="prev" href="/multiple-json-data-sources-for-angularjs/">
+			<div class="d-flex">
+				<div class="align-self-center">
+					<i class="fas fa-chevron-left me-2 d-md-none"></i>
+					<i class="fas fa-chevron-left me-2 d-none d-md-inline fa-2x"></i>
+				</div>
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">Multiple JSON Data Sources for AngularJS</span>
+					<span class="d-md-none">Previous</span>
+				</div>
+			</div>
+		</a>
+		
+
+		
+		<a title="How I Got Started with Gulp" class="btn btn-primary text-white border border-white w-50" rel="next" href="/how-i-got-started-with-gulp/">
+			<div class="d-flex justify-content-end">
+				<div class="align-self-center flex-grow-1">
+					<span class="d-none d-md-inline">How I Got Started with Gulp</span>
+					<span class="d-md-none">Next</span>
+				</div>
+				<div class="align-self-center">
+					<i class="fas fa-chevron-right ms-2 d-md-none"></i>
+					<i class="fas fa-chevron-right ms-2 d-none d-md-inline fa-2x"></i>
+				</div>
+			</div>
+		</a>
+		
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </main>
+    </div>
+    <footer id="main-footer" class="main-footer py-3 bg-primary text-white">
+      <div class="container">
+        <p class="mb-0"><small><em>&copy; Brian Cribb 2020</em></small></p>
+      </div>
+    </footer>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/javascript" src="/assets/js/scripts.js" charset="utf-8"></script>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js" ></script>
+  </body>
+</html>
