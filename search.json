@@ -2,6 +2,17 @@
   "posts" : [
     
       {
+        "title"       : "96. ZombiesRun Virtual Race, Halloween 2020, 5K",
+        "url"         : "/zombiesrun-virtual-race-halloween-2020-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "I&#39;ve been a bit bummed out about not running in regular races these days, but COVID-19 has me sold on virtual races. It&#39;s going to be a long time before I&#39;m comfortable in a crowd again, so I&#39;m glad to have the ZombiesRun app available.",
+        "distance"   : "5K",
+        "date"        : "2020-11-02 17:52:00 -0500",
+        "dateString"        : "November 2, 2020"
+      },
+    
+      {
         "title"       : "PoliticianList: Playing with Congressional Data",
         "url"         : "/politicianlist-playing-with-congressional-data/",
         "categories"  : "Webdev",
@@ -2114,7 +2125,7 @@
       
         {
           "label": "5K",
-          "count": "56"
+          "count": "57"
         } ,
       
     
@@ -2488,7 +2499,7 @@
       
         {
           "label": "ZombiesRunGame",
-          "count": "17"
+          "count": "18"
         } ,
       
     
@@ -2643,7 +2654,7 @@
       
         {
           "label": "race",
-          "count": "6"
+          "count": "7"
         } ,
       
     
@@ -2724,7 +2735,7 @@
       
         {
           "label": "zombies",
-          "count": "19"
+          "count": "20"
         } 
       
     
