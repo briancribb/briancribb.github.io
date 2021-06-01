@@ -121,7 +121,7 @@ var search = {
         Parameters should be one query string parameter called "terms" with a string separated by a 
         plus sign. But just in case, for come crazy reason, the query string parameters end up as 
         "?terms=stuff+things&terms=blah" then we need to prepare for it. Such a string would come 
-        out as ["stuff+things", "blah"] so we joing that on the plus to make "stuff+things+blah".
+        out as ["stuff+things", "blah"] so we join that on the plus to make "stuff+things+blah".
         Then we can split the whole thing on the plus and we're good to go.
 
         NOTE: the plus sign in a query string signifies a space, so URLSearchParams will turn any 

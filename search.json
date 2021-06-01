@@ -2,6 +2,17 @@
   "posts" : [
     
       {
+        "title"       : "97. ZombiesRun Virtual Race 12, 5K",
+        "url"         : "/zombiesrun-virtual-race-12-2021-5k/",
+        "categories"  : "Races",
+        "tags"        : "5K,race,zombies,ZombiesRunGame",
+        "excerpt"     : "I&#39;ve been running outside again in an attempt to drop my COVID weight, and it was just in time for the latest ZombiesRun virtual race. Just a straight out-and-back on a wet day.",
+        "distance"   : "5K",
+        "date"        : "2021-05-31 09:42:00 -0400",
+        "dateString"        : "May 31, 2021"
+      },
+    
+      {
         "title"       : "96. ZombiesRun Virtual Race, Halloween 2020, 5K",
         "url"         : "/zombiesrun-virtual-race-halloween-2020-5k/",
         "categories"  : "Races",
@@ -2125,7 +2136,7 @@
       
         {
           "label": "5K",
-          "count": "57"
+          "count": "58"
         } ,
       
     
@@ -2499,7 +2510,7 @@
       
         {
           "label": "ZombiesRunGame",
-          "count": "18"
+          "count": "19"
         } ,
       
     
@@ -2654,7 +2665,7 @@
       
         {
           "label": "race",
-          "count": "7"
+          "count": "8"
         } ,
       
     
@@ -2735,7 +2746,7 @@
       
         {
           "label": "zombies",
-          "count": "20"
+          "count": "21"
         } 
       
     
